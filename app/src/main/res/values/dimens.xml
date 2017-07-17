@@ -1,0 +1,38 @@
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="header_left_padding">16dp</dimen>
+    <dimen name="header_height">192dp</dimen>
+
+    <dimen name="perfil_image_size">64dp</dimen>
+    <dimen name="espacio_norma_1">16dp</dimen>
+    <dimen name="espacio_norma_2">8dp</dimen>
+    <dimen name="altura_imagen">192dp</dimen>
+
+    <dimen name="norma_1">16dp</dimen>
+    <dimen name="norma_2">8dp</dimen>
+    <dimen name="norma_3">24dp</dimen>
+
+    <dimen name="dimension_fab">56dp</dimen>
+
+    <dimen name="dimension_avatar_detalle">48dp</dimen>
+    <dimen name="dimension_avatar_home">24dp</dimen>
+
+    <dimen name="margen_superior_toolbar">24dp</dimen>
+    <dimen name="padding_izquierdo_cabecera">16dp</dimen>
+
+    <dimen name="altura_miniatura_comida">250dp</dimen>
+
+    <dimen name="ancho_logo">200dp</dimen>
+
+
+    <dimen name="margen_superior_lista">8dp</dimen>
+    <dimen name="altura_imagen_item">192dp</dimen>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nachox.faunasegura">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegistraMascota" />
+        <activity android:name=".PerfilActivity" />
+        <activity
+            android:name=".ActividadPrincipal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuRegistro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistroInstitucion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActividadDetalle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActividadDetalleDomestica"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActividadDetalleExtinta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActividadDetallePeligro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActividadDetalleTips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistroPersona"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".denuncia" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1761090100584889"
+            android:exported="true" />
+
+        <application android:label="@string/app_name">
+            ...
+            <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="@string/facebook_app_id" />
+            ...
+        </application>
+
+        <activity
+            android:name=".GuardianesDelaFauna"
+            android:label="@string/title_activity_guardianes_dela_fauna"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

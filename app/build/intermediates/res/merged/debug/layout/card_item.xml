@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_margin="10dp"
+        card_view:cardCornerRadius="4dp"
+        card_view:elevation="14dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/noticia2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="178dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:id="@+id/tv_blah"
+                    android:layout_width="281dp"
+                    android:layout_height="93dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="13dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_toEndOf="@+id/iv_image"
+                    android:gravity="center"
+                    android:text="noticia"
+                    android:textSize="14sp"
+                    android:layout_weight="0.09" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    style="@style/shared"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_weight="1"
+                    android:text="Me Gusta" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="  " />
+
+                <Button
+                    android:id="@+id/button4"
+                    style="@style/shared"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_weight="1"
+                    android:text="Compartir" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

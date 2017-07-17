@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_inicio"
+            android:checked="true"
+            android:icon="@drawable/ic_action_action_home"
+            android:title="@string/item_inicio" />
+        <item
+            android:id="@+id/wiki"
+            android:icon="@drawable/ic_wiki"
+            android:title="WikiSpace" />
+
+        <item
+            android:id="@+id/tips"
+            android:icon="@drawable/ic_wiki"
+            android:title="Fauna Tips" />
+
+        <item
+            android:id="@+id/denuncia"
+            android:icon="@drawable/ic_action_noticias"
+
+            android:title="Denuncia   " />
+        <item
+            android:id="@+id/registra"
+            android:icon="@drawable/ic_registra"
+            android:title="Registra a tu Mascota   " />
+        <item
+            android:id="@+id/adopta"
+            android:icon="@drawable/ic_action_adopta2"
+            android:title="Adopta" />
+        <item
+            android:id="@+id/club"
+            android:icon="@drawable/ic_action_guardianes_fauna"
+            android:title="Club Guadianes de la Fauna" />
+        <item
+            android:id="@+id/micuenta"
+            android:icon="@drawable/cuenta"
+            android:title="Tu Cuenta" />
+        <item
+            android:id="@+id/cerrar"
+            android:icon="@drawable/ic_salir"
+            android:title="Cerrar Sesion" />
+    </group>
+
+</menu>

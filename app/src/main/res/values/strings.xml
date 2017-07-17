@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">"Fauna Segura "</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_carrito">Añadir al carrito</string>
+    <string name="facebook_app_id">1761090100584889</string>
+
+    <string name="item_inicio">Inicio</string>
+    <string name="item_cuenta">Mi Cuenta</string>
+    <string name="item_categorias">Categorías</string>
+    <string name="item_configuracion">Configuración</string>
+
+    <string name="titulo_comidas_populares">Lo más pedido</string>
+
+    <string name="titulo_tab_noticas">NOTICIAS</string>
+    <string name="titulo_tab_notiFICA">NOTIFICACIONES</string>
+    <string name="titulo_tab_tip">FAUNA TIPS</string>
+    <string name="titulo_tab_QUINES">QUIENES SOMOS</string>
+
+    <string name="titulo_tab_animales_peligro">FAUNA EN PELIGRO</string>
+    <string name="titulo_tab_animales">FAUNA DOMESTICA</string>
+    <string name="titulo_tab_animales_caseros">FAUNA EXTINTA</string>
+
+    <string name="titulo_tab_perfil">PERFIL</string>
+    <string name="titulo_tab_direcciones">DIRECCIONES</string>
+    <string name="titulo_tab_tarjetas">TARJETAS</string>
+
+    <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
+
+    <string name="etiqueta_carrito">Carrito</string>
+
+    <string name="texto_cambiar_contrasena">Cambia tu contraseña</string>
+    <string name="etiqueta_contrasena">Contraseña</string>
+    <string name="etiqueta_info_usuario">Información del usuario</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_guardianes_dela_fauna">Guardianes De la Fauna</string>
+
+</resources>

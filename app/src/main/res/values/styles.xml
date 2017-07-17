@@ -1,0 +1,112 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="editText_style">
+
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+
+    </style>
+
+
+    <style name="button_style" parent="Base.Widget.AppCompat.Button.Borderless">
+
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#FDFDFE</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <style name="buttonregistro">
+        <item name="android:background">@drawable/button_regvarios</item>
+        <item name="android:layout_margin">10dp</item>
+
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">#FDFDFE</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text_style">
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">#6F7A8B</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+
+
+    </style>
+
+    <style name="scrollbar_bitmap_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarSize">12dp</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="popupTheme">@style/Theme.AppCompat.Light</item>
+    </style>
+
+    <style name="shared" parent="com_facebook_button">
+        <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
+        <item name="android:text">@string/com_facebook_share_button_text</item>
+    </style>
+
+    <style name="like" parent="com_facebook_button">
+        <item name="android:drawableLeft">@drawable/like2</item>
+        <item name="android:text">@string/com_facebook_share_button_text</item>
+    </style>
+
+    <style name="Theme.RicoPaRico.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.RicoPaRico.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

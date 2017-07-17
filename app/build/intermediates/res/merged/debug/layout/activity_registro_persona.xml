@@ -1,0 +1,261 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.nachox.faunasegura.RegistroPersona">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarpersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="132dp">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Nombres:" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Nick:" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Sexo:" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Edad:" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Correo:" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Verificar Correo:" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Contraseña:" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Verificar Contraseña:" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Lugar:" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/linearLayout"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1"
+                tools:layout_editor_absoluteX="163dp"
+                tools:layout_editor_absoluteY="132dp">
+
+                <EditText
+                    android:id="@+id/nombres"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+                <EditText
+                    android:id="@+id/nick"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    >
+
+                    <RadioGroup
+                        android:checkedButton="@+id/gruop"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/sexom"
+                            android:layout_width="58dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:layout_row="0"
+                            android:layout_weight="1"
+                            android:padding="5dp"
+                            android:text="M" />
+
+                        <RadioButton
+                            android:id="@+id/sexof"
+                            android:layout_width="57dp"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:text="F" />
+
+
+                    </RadioGroup>
+
+                </GridLayout>
+
+                <EditText
+                    android:id="@+id/edad"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+                <EditText
+                    android:id="@+id/correo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+                <EditText
+                    android:id="@+id/vcorreo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+                <EditText
+                    android:id="@+id/contracen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+                <EditText
+                    android:id="@+id/vcontracen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+                <EditText
+                    android:id="@+id/direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.38" />
+
+                <Button
+                    android:id="@+id/RegPersona"
+                    android:layout_width="161dp"
+                    android:layout_height="61dp"
+                    android:text="Siguiente" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+

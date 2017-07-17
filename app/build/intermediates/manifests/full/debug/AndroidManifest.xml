@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nachox.faunasegura"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar" >
+        <activity
+            android:name="com.example.nachox.faunasegura.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nachox.faunasegura.RegistraMascota" />
+        <activity android:name="com.example.nachox.faunasegura.PerfilActivity" />
+        <activity
+            android:name="com.example.nachox.faunasegura.ActividadPrincipal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.MenuRegistro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.RegistroInstitucion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.ActividadDetalle"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.ActividadDetalleDomestica"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.ActividadDetalleExtinta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.ActividadDetallePeligro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.ActividadDetalleTips"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.RegistroPersona"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.nachox.faunasegura.denuncia" />
+
+        <provider
+            android:name="com.facebook.FacebookContentProvider"
+            android:authorities="com.facebook.app.FacebookContentProvider1761090100584889"
+            android:exported="true" />
+
+        <application android:label="@string/app_name" >
+            ...
+            <meta-data
+                android:name="com.facebook.sdk.ApplicationId"
+                android:value="@string/facebook_app_id" />
+            ...
+        </application>
+
+        <activity
+            android:name="com.example.nachox.faunasegura.GuardianesDelaFauna"
+            android:label="@string/title_activity_guardianes_dela_fauna"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.example.nachox.faunasegura.FacebookInitProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:foregroundGravity="center"
+    app:layout_gravity="center"
+
+    android:gravity="center"
+    android:padding="20dp"
+    app:layout_anchorGravity="center"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:context="com.example.nachox.faunasegura.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:gravity="center_vertical|center_horizontal|center"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="84dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_weight="0.26"
+            android:padding="5dp"
+            app:srcCompat="@drawable/logoo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="0.19">
+
+            <EditText
+                android:id="@+id/editTextusuario"
+                style="@style/editText_style"
+                android:layout_width="301dp"
+                android:layout_height="58dp"
+                android:background="@android:drawable/editbox_background_normal"
+                android:hint="Nick"
+                android:inputType="textPersonName" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/paord"
+                android:layout_width="301dp"
+
+                android:layout_height="81dp"
+
+                app:passwordToggleEnabled="true">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:padding="20dp"
+                    android:background="@android:drawable/editbox_background_normal"/>
+
+            </android.support.design.widget.TextInputLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:id="@+id/boton_inicio"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="223dp"
+                    android:background="@drawable/button_background"
+            android:textColor="@color/color_light"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_height="50dp"
+            android:text="Iniciar Sesion"
+            />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.04" />
+
+        <Button
+            android:id="@+id/buttonre"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_regbackground"
+            android:text="Registrate" />
+
+
+    </LinearLayout>
+</RelativeLayout>
