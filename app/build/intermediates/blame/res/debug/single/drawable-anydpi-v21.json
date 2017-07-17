@@ -6,5 +6,13 @@
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
         "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
     }
 ]

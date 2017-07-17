@@ -1,59 +1,35 @@
 [
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_icon.xml"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/noticia.png",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/noticia.png"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notifauna.png",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/notifauna.png"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_snackbar_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/tarjeta_credito.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/tarjeta_credito.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
         "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_white_bg_round.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_vector_test.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_bg.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
@@ -72,16 +48,16 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/vaca.jpg"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_blue_bg_selector.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_favicon_blue.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/tips.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/tips.png"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
@@ -92,44 +68,52 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/noticia2.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/camera.png",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/camera.png"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/tortuga.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/tortuga.jpg"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/perro.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/perro.jpg"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/prox2.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/prox2.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/likeback.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/likeback.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/button_background.xml",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/button_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/lap.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/lap.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/pajaro_carpinter.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/pajaro_carpinter.jpg"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_white_bg_selector.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/linea_divisoria.xml",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/linea_divisoria.xml"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/tuercas.png",
@@ -140,52 +124,56 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/like2.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/tigre_blanco.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/tigre_blanco.jpg"
-    },
-    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/adopta.jpg",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/adopta.jpg"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/proximamente.png",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/proximamente.png"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/casa.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/casa.png"
     },
     {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/adopta.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/adopta.jpg"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
         "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/logo.jpeg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/logo.jpeg"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/logo22.png",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/logo22.png"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_favicon_blue.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/notifauna.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/notifauna.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/progr.jpg",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/progr.jpg"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/button_regvarios.xml",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/button_regvarios.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
         "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/progr.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/progr.jpg"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/pajaro_carpinter.jpg",
@@ -196,16 +184,12 @@
         "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_login_background.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/guacamayaroja.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/guacamayaroja.jpg"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/semana_antirabica.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/semana_antirabica.jpg"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notivias.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/notivias.jpg"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/likeback.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/likeback.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/user.png",
@@ -216,28 +200,40 @@
         "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_fab_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_edit_text_material.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/tuercas.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/tuercas.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_login_silver_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/tucan_amarillo.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/tucan_amarillo.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/prevencion_rabia.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/prevencion_rabia.jpg"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/prox2.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/prox2.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_like_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/mono_aullador.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/mono_aullador.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/pato.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/pato.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/casa.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/casa.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/images.jpg",
@@ -252,16 +248,16 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/noticias.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_dialog_material_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_icon.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_login_logo.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
@@ -284,12 +280,16 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/edittext_background.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/button_regvarios.xml",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/button_regvarios.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/gallinas.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/gallinas.jpg"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/gato.jpg",
@@ -320,12 +320,20 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/guardianes_fauna.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/empresa.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/empresa.jpg"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/proximamente.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/proximamente.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/tigre_blanco.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/tigre_blanco.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
@@ -336,52 +344,472 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/like.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/pato.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/pato.jpg"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_bg.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/adopta2.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/adopta2.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/noticias.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/noticias.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/prevencion_rabia.jpg",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/prevencion_rabia.jpg"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/denuncia.png",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/denuncia.png"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/cabra.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/cabra.jpg"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/tucan_amarillo.jpg",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/tucan_amarillo.jpg"
     },
     {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/perro.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/perro.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/riniceronte.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/riniceronte.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/edittext_background.xml",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/edittext_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/tortuga.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/tortuga.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/guacamayaroja.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/guacamayaroja.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/noticia.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/noticia.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notifauna.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/notifauna.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/semana_antirabica.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/semana_antirabica.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/notivias.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/notivias.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/guardianes_fauna.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/guardianes_fauna.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/jaguar.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/jaguar.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/gato.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/gato.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/camera.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/camera.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/camera.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/camera.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/perro.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/perro.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/button_background.xml",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/button_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/button_background.xml",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/button_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/adopta2.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/adopta2.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/noticia.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/noticia.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/tigre_blanco.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/tigre_blanco.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/proximamente.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/proximamente.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/logo.jpeg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/logo.jpeg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/tips.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/tips.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/logo22.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/logo22.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/user.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/user.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/guacamaya.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/guacamaya.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/button_regvarios.xml",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/button_regvarios.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/logo.jpeg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/logo.jpeg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/guacamayaroja.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/guacamayaroja.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/semana_antirabica.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/semana_antirabica.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notivias.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/notivias.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/logo22.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/logo22.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_login_logo.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/vaca.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/vaca.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/lap.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/lap.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/empresa.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/empresa.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/panda.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/panda.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/tigre.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/tigre.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/images.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/images.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_login_logo.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/button_regbackground.xml",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/button_regbackground.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/linea_divisoria.xml",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/linea_divisoria.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/empresa.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/empresa.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/noticia2.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/noticia2.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/pato.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/pato.jpg"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/denuncia.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/denuncia.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_auth_dialog_background.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/logo2.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/logo2.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/riniceronte.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/riniceronte.jpg"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/like2.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/like2.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
@@ -392,24 +820,36 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/logoo.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/like.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/like.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/denuncia.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/denuncia.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/messenger_button_white_bg_round.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/jaguar.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/jaguar.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/navigation_empty_icon.xml"
-    },
-    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/guacamaya.jpg",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/guacamaya.jpg"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/tortuga.jpg",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/tortuga.jpg"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_login_background.xml"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/mono_aullador.png",
@@ -428,19 +868,23 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable/panda.jpg"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
-        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_background.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/alejandra/.android/build-cache/3abcc6d8544f228461b8332e2c703922393995a4/output/res/drawable/com_facebook_button_send_background.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable/design_password_eye.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/logoo.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/logoo.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable/abc_btn_colored_material.xml"
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/logo2.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/logo2.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable/riniceronte.jpg",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable/riniceronte.jpg"
     }
 ]

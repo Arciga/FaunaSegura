@@ -4,7 +4,15 @@
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

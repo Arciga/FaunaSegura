@@ -2,5 +2,9 @@
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/xml/preferencias.xml",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/xml/preferencias.xml"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/xml/preferencias.xml",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/xml/preferencias.xml"
     }
 ]
