@@ -4,6 +4,10 @@
         "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/animator-v21/design_appbar_state_list_animator.xml"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/ivette/.android/build-cache/aac3c656627d9951d0b827d911a39c43eb4a67ab/output/res/animator-v21/design_appbar_state_list_animator.xml"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
         "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/animator-v21/design_appbar_state_list_animator.xml"
     }

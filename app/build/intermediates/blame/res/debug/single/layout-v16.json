@@ -6,5 +6,9 @@
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/home/ivette/.android/build-cache/022d28e22c1aa3867f13639673b17470fb0192a4/output/res/layout-v16/notification_template_custom_big.xml"
     }
 ]

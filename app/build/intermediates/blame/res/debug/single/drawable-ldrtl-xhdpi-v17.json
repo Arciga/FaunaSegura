@@ -1,11 +1,23 @@
 [
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/home/ivette/.android/build-cache/022d28e22c1aa3867f13639673b17470fb0192a4/output/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/home/ivette/.android/build-cache/022d28e22c1aa3867f13639673b17470fb0192a4/output/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",
         "source": "/Users/alejandra/.android/build-cache/289a9267c46471970b991efa88181a4ea547f146/output/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/home/ivette/.android/build-cache/022d28e22c1aa3867f13639673b17470fb0192a4/output/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png",

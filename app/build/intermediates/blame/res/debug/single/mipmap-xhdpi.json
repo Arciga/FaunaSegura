@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },

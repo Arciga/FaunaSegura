@@ -12,12 +12,20 @@
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/usuario.png"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/email.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/email.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_wiki.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_wiki.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/busqueda.png",
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/busqueda.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_guardianes_fauna.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_action_guardianes_fauna.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/configuracion.png",
@@ -28,8 +36,28 @@
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_action_name.png"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_name.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_action_name.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/drawer_toggle.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/drawer_toggle.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_den.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_den.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_noticias.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_action_noticias.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/configuracion.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/configuracion.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_denuncia.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_action_denuncia.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/configuracion.png",
@@ -48,20 +76,36 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable-xxhdpi/busqueda.png"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_guardianes_fauna.png",
-        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_action_guardianes_fauna.png"
-    },
-    {
-        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_den.png",
-        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_den.png"
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_adopta2.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_action_adopta2.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_denuncia.png",
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_action_denuncia.png"
     },
     {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_den.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_den.png"
+    },
+    {
+        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_guardianes_fauna.png",
+        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_action_guardianes_fauna.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_salir.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_salir.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_registra.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_registra.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/inicio.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/inicio.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/busqueda.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/busqueda.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_name.png",
@@ -76,8 +120,16 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable-xxhdpi/inicio.png"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_wiki.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_wiki.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_noticias.png",
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_action_noticias.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/usuario.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/usuario.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/indicador_derecho.png",
@@ -90,6 +142,10 @@
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/indicador_derecho.png",
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/indicador_derecho.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/indicador_derecho.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/indicador_derecho.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_registra.png",
@@ -120,6 +176,10 @@
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/email.png"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_den.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_den.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_adopta2.png",
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_action_adopta2.png"
     },
@@ -132,8 +192,20 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable-xxhdpi/usuario.png"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_acsopta.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_acsopta.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_registra.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_registra.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_camara.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_camara.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_denuncia.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_denuncia.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/email.png",
@@ -148,12 +220,28 @@
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/ic_camara.png"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/cuenta.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/cuenta.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_action_home.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_action_action_home.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/categorias.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/categorias.png"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_noticias.png",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_action_noticias.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/carrito_compras.png",
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/carrito_compras.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/carrito_compras.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/carrito_compras.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/cuenta.png",
@@ -182,6 +270,14 @@
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/categorias.png",
         "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/drawable-xxhdpi/categorias.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_camara.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/ic_camara.png"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-xxhdpi/contrasena.png",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/drawable-xxhdpi/contrasena.png"
     },
     {
         "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-xxhdpi/cuenta.png",

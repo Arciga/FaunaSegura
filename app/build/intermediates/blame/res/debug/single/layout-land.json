@@ -4,6 +4,14 @@
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/layout-land/content_main.xml"
     },
     {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/layout-land/item.xml",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/layout-land/item.xml"
+    },
+    {
+        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/layout-land/content_main.xml",
+        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/layout-land/content_main.xml"
+    },
+    {
         "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/layout-land/item.xml",
         "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/layout-land/item.xml"
     },
