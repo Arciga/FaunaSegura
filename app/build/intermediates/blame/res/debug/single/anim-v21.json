@@ -1,26 +1,34 @@
 [
     {
-        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/home/ivette/.android/build-cache/aac3c656627d9951d0b827d911a39c43eb4a67ab/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura2\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\alejandra\\.android\\build-cache\\dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\home\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\home\\ivette\\.android\\build-cache\\aac3c656627d9951d0b827d911a39c43eb4a67ab\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\home\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\home\\ivette\\.android\\build-cache\\aac3c656627d9951d0b827d911a39c43eb4a67ab\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/home/ivette/.android/build-cache/aac3c656627d9951d0b827d911a39c43eb4a67ab/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura2\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\alejandra\\.android\\build-cache\\dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\alejandra\\.android\\build-cache\\dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\alejandra\\.android\\build-cache\\dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]

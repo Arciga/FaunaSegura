@@ -1,14 +1,18 @@
 [
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/xml/preferencias.xml",
-        "source": "/Users/alejandra/Documents/FaunaSegura/app/src/main/res/xml/preferencias.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferencias.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\xml\\preferencias.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/xml/preferencias.xml",
-        "source": "/Users/alejandra/Documents/FaunaSegura2/app/src/main/res/xml/preferencias.xml"
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferencias.xml",
+        "source": "C:\\Users\\alejandra\\Documents\\FaunaSegura\\app\\src\\main\\res\\xml\\preferencias.xml"
     },
     {
-        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/xml/preferencias.xml",
-        "source": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/src/main/res/xml/preferencias.xml"
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura2\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferencias.xml",
+        "source": "C:\\Users\\alejandra\\Documents\\FaunaSegura2\\app\\src\\main\\res\\xml\\preferencias.xml"
+    },
+    {
+        "merged": "C:\\home\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preferencias.xml",
+        "source": "C:\\home\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\xml\\preferencias.xml"
     }
 ]

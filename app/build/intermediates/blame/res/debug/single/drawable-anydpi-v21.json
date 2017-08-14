@@ -1,26 +1,34 @@
 [
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\alejandra\\.android\\build-cache\\dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\alejandra\\.android\\build-cache\\dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
-        "source": "/home/ivette/.android/build-cache/aac3c656627d9951d0b827d911a39c43eb4a67ab/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\alejandra\\.android\\build-cache\\dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
-        "merged": "/home/ivette/AndroidStudioProjects/FaunaSegura/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/home/ivette/.android/build-cache/aac3c656627d9951d0b827d911a39c43eb4a67ab/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "C:\\home\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\home\\ivette\\.android\\build-cache\\aac3c656627d9951d0b827d911a39c43eb4a67ab\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "/Users/alejandra/Documents/FaunaSegura2/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
-        "source": "/Users/alejandra/.android/build-cache/dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\alejandra\\Documents\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\alejandra\\.android\\build-cache\\dc4e96c98cb0205b79d0812a21c3a972fb7ef8f8\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "C:\\home\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\home\\ivette\\.android\\build-cache\\aac3c656627d9951d0b827d911a39c43eb4a67ab\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     }
 ]
