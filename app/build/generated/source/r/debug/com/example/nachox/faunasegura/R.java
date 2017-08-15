@@ -4038,7 +4038,7 @@ containing a value of this type.
         public static final int actividad_configuracion=0x7f04001b;
         public static final int actividad_detalle=0x7f04001c;
         public static final int actividad_principal=0x7f04001d;
-        public static final int activity_denuncia=0x7f04001e;
+        public static final int actividad_denuncias =0x7f04001e;
         public static final int activity_guardianes_dela_fauna=0x7f04001f;
         public static final int activity_main=0x7f040020;
         public static final int activity_registro_institucion=0x7f040021;

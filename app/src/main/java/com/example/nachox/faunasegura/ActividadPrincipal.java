@@ -111,7 +111,7 @@ public class ActividadPrincipal extends AppCompatActivity {
                 break;
 
             case R.id.denuncia:
-                startActivity(new Intent(this, denuncia.class));
+                startActivity(new Intent(this, Denuncias.class));
                 break;
             case R.id.registra:
                 startActivity(new Intent(this, RegistraMascota.class));

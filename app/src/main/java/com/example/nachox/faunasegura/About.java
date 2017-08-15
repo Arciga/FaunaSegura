@@ -22,7 +22,7 @@ public class About {
 
     public static final List<About> ABOUT = new ArrayList<About>();
     static {
-        ABOUT.add(new About( "Brindamos apoyo para la correcta denuncia del maltrato animal" +
+        ABOUT.add(new About( "Brindamos apoyo para la correcta Denuncias del maltrato animal" +
                 "Fomentamos vínculos entre la sociedad civil y organizaciones gubernamentales" +
                 "Ayudamos a crear conciencia del cuidado y protección a las especies." +
                 "Aportamos datos confiables sobre la propiedad responsable" +
