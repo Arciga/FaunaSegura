@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Aug 15 13:11:26 CDT 2017
+#Tue Aug 15 13:26:10 CDT 2017
 20.base=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\resources-debug.ap_
 340.file=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xxhdpi-v4\\ic_action_name.png

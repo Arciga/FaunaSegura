@@ -63,8 +63,8 @@ String especiee;
         agregarToolbar();
 
 
-        nombre =(EditText)findViewById(R.id.nombres);
-        edad =(EditText)findViewById(R.id.edad);
+        nombre =(EditText)findViewById(R.id.non);
+        edad =(EditText)findViewById(R.id.ed);
         especie =(EditText)findViewById(R.id.especietext);
         raza =(EditText)findViewById(R.id.razatext);
         fechanacimiento =(EditText)findViewById(R.id.fechanacimietoo);
