@@ -111,7 +111,7 @@ public class ActividadPrincipal extends AppCompatActivity {
                 break;
 
             case R.id.denuncia:
-                Toast.makeText(ActividadPrincipal.this, "No Disponible :c", Toast.LENGTH_LONG).show();
+                startActivity(new Intent(this, denuncia.class));
                 break;
             case R.id.registra:
                 startActivity(new Intent(this, RegistraMascota.class));

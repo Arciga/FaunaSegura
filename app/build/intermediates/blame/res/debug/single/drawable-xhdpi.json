@@ -1,98 +1,194 @@
 [
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_toggle.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\drawer_toggle.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_name.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\carrito_compras.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\carrito_compras.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\carrito_compras.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\carrito_compras.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\email.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\email.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\email.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\email.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_den.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_den.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_denuncia.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_denuncia.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_denuncia.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_denuncia.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_wiki.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_wiki.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\usuario.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\usuario.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_den.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_den.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contrasena.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\contrasena.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_denuncia.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_denuncia.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_wiki.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_wiki.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_camara.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_camara.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_denuncia.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_denuncia.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_denuncia.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_action_denuncia.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_noticias.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_noticias.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_noticias.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_action_noticias.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_camara.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_camara.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_salir.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_salir.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_guardianes_fauna.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_guardianes_fauna.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/email.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/email.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_adopta2.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_adopta2.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\indicador_derecho.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\indicador_derecho.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_salir.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_salir.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\busqueda.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\busqueda.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_registra.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_registra.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_acsopta.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_acsopta.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\indicador_derecho.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\indicador_derecho.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cuenta.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\cuenta.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\busqueda.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\busqueda.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\categorias.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\categorias.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_acsopta.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_acsopta.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/busqueda.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/busqueda.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\cuenta.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\cuenta.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_salir.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_salir.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\categorias.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\categorias.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\configuracion.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\configuracion.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\inicio.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\inicio.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/cuenta.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/cuenta.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_action_home.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_action_home.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_name.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\configuracion.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\configuracion.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_adopta2.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_action_adopta2.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_name.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_name.png"
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_wiki.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_wiki.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_toggle.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\drawer_toggle.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/usuario.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/usuario.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_den.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_den.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/configuracion.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/configuracion.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/carrito_compras.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/carrito_compras.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\usuario.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\usuario.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\contrasena.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\contrasena.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_action_home.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_action_action_home.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_camara.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_camara.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_noticias.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_noticias.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/indicador_derecho.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/indicador_derecho.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_guardianes_fauna.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_action_guardianes_fauna.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_guardianes_fauna.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_guardianes_fauna.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/drawer_toggle.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/drawer_toggle.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_adopta2.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_adopta2.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_registra.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_registra.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_registra.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_registra.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_denuncia.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_denuncia.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_acsopta.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/ic_acsopta.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/inicio.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/inicio.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\inicio.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\inicio.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_action_home.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_action_home.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/categorias.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/categorias.png"
+    },
+    {
+        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/drawable-xhdpi/contrasena.png",
+        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/drawable-xhdpi/contrasena.png"
     }
 ]
