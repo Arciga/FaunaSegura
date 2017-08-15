@@ -53,7 +53,8 @@
             android:name=".RegistroPersona"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Denuncias" />
-
+        <activity android:name=".consultardenuncia" />
+        <activity android:name=".denunciaciudadana" />
         <provider
             android:name="com.facebook.FacebookContentProvider"
             android:authorities="com.facebook.app.FacebookContentProvider1761090100584889"

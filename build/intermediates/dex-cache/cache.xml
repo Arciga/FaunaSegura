@@ -2,12 +2,102 @@
 <items version="2" >
 
     <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\glide-3.6.1_b828781506ba9a4a714796e33176fa7d3a3ac741.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4504ae3ec47953f3d0c324dc66996aecfb7fbb5c">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_64472f8611cdce0aaf405b0b4354d33fa02f0166.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\36ca0a2fba56377419e573dac9c2e728dcf2fddf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_50266bab6bccb295840311e46da069a2c8dbf33a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_ff4039a76f83d619f1d27bf00f36fbfbaa8d0ae8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\37f07a44fae0e933a3473ac74b70517bf7edaa12\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_a493354ae4759a438593d3c121219c99b0d632c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\bca361120964636f8b8564b6aca62d6942c38b22\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_43a23f7e11845d2f9792f53c31aa0808e5065c8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\3e87c05e1cbb1e6c29fd44eca86df2283e9fcf79\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_276fa8da56997693e2dd588b892b67135a16940a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\843f8ab3ff511d64038d0bd0adb82190a1343762\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_5e80e2930fa58a6f7efa67aab95d3c809e8c4ffb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_234c9373bf136eb1f8cda03794a2d72aa386a9c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\aa7e4e243075a270d41ef32c5dbfd6b8bb2ff6b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_fe713d5963b745f36e4871415aae44d07a9e5834.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="f12e650b183cd53a41abb7ad02088eea869d423c">
+        sha1="cc701ca21dd456dc0f8cb999191ca7fd7b003f36">
         <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e93df67227d4a3f3d57d525d33b647cd4cc5c43f\classes.dex" />
     </item>
     <item
@@ -18,6 +108,132 @@
         revision="25.0.3"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ac17c7b23bc90753e565d8e554ac96d16acff845\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\204d8213724efb08b7e0250564a927eace465c93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_5cc296cbf120a30662766fe75932bcc59a00eabd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\6f1e33051cb7dda7d5011e95618600e6c56e6bfd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_f9d4dc8262a3f344c93859be728aff74a1d3c79c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_f98a8e07ac0d5202553549fbca7d03354d48e193.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\4789f5138f038ea660181699b6a9f0369ff4ea82\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_221df1368b196d382c29bcf941d456e44c226d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\6c790de8917ad40ebad8be67bf2915ce20d162af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_6aff2bb161d95df2e10dd7e039b3830723a14c48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\5964ccefcef909472bdf54defb603e1eb8ca511b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_4eab00806d6edb72fbc0671a460649bfb5c8ae20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\8908f17ebbc1bc10523062963718a17629bd34f2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f4d1321eac98b237f7df36aadcbaefa1fe662551">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_fd3ea3ed22f574470ed02c2845faf0948090e800.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\1a4db6d5ce9738c2eed6c878bb459a7355cdf066\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_aff6d1ed1e947b67d83ac5a0a962236b7c33bd91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_14598b72913dc5e87e1570186fbec430269be71f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_bfb011fec0fc55c152c8f30e9243612f202a3a2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\c77d914d6388a988c96b63b0ca7774057d40e021\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3a1bac2cc31df44dbf1f9bbf2c675319503c9271">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_2e9ebda929aea3b8474f2ae85db2361b6494b1c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\69a0e59ba9422194469e31ac9ef7a0b66d9106fe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_c95d5b38dc411fd1b9c1b10ee1fc62af1c55a1b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_541d11cd1bd252692653aa0cc0bdfa03db59d34f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\nacho\.android\build-cache\a4c2f8f93c640c9a501ae4dfe03bd2f4ac281575\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\pre-dexed\debug\classes_4b2a8c446aff5101ede0b9cd80d0786ee79ec5a4.jar" />
     </item>
 
 </items>

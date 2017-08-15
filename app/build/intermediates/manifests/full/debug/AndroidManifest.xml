@@ -62,7 +62,9 @@
         <activity
             android:name="com.example.nachox.faunasegura.RegistroPersona"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.example.nachox.faunasegura.denuncia" />
+        <activity android:name="com.example.nachox.faunasegura.Denuncias" />
+        <activity android:name="com.example.nachox.faunasegura.consultardenuncia" />
+        <activity android:name="com.example.nachox.faunasegura.denunciaciudadana" />
 
         <provider
             android:name="com.facebook.FacebookContentProvider"
