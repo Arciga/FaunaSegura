@@ -6,22 +6,22 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1502820896456"
+    timestamp="1502821310169"
     token="4748352496734235313"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="578" />
+        duration="459" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="26" />
+        duration="20" />
     <task
         name="verifier"
-        duration="5" />
+        duration="3" />
 
     <artifact
         location="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1502820896456"
+        timestamp="1502821310169"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\nacho\Documents\GitHub\FaunaSegura\app\build\intermediates\split-apk\debug\slices\slice_8.apk"

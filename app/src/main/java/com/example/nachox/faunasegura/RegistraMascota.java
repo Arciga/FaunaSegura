@@ -47,10 +47,10 @@ public class RegistraMascota extends ActionBarActivity {
 String nombres;
 String especiee;
     String razaa;
-    TextView textouser;
+    //TextView textouser;
     String edadd;
     String generoo;
-    String usuaio;
+    String usuaio="nacho";
     String fecha="12/12/12";
 
     public  String Sexofinal="M";
@@ -71,7 +71,7 @@ String especiee;
 
         genero =(EditText)findViewById(R.id.generotext);
 
-        Button signUpButton = (Button)findViewById(R.id.RegPersona);
+        Button signUpButton = (Button)findViewById(R.id.Guardarmascota);
 
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -81,7 +81,7 @@ String especiee;
                 generoo= fechanacimiento.getText().toString();
                 razaa = raza.getText().toString();
                 nombres= nombre.getText().toString();
-                 usuaio=textouser.getText().toString();
+                // usuaio=textouser.getText().toString();
 
                 // request authentication with remote server4
 
