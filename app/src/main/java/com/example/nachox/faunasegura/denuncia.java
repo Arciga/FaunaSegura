@@ -15,4 +15,4 @@ public class denuncia extends AppCompatActivity {
         browser.setWebViewClient(new WebViewClient() {
             @Override public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 view.loadUrl(url); return true; } });
-         browser.loadUrl("http://www.movilzona.es");} }
+         browser.loadUrl("http://www.semarnatcam.campeche.gob.mx/procuraduria/sitio/denunciaenlinea");} }
