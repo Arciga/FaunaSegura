@@ -1,34 +1,50 @@
 [
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/root/.android/build-cache/ee7875b7c14be39082d49fa55c712360642c6006/output/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/root/.android/build-cache/ee7875b7c14be39082d49fa55c712360642c6006/output/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/root/.android/build-cache/ee7875b7c14be39082d49fa55c712360642c6006/output/res/layout-v21/notification_action.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/root/.android/build-cache/ee7875b7c14be39082d49fa55c712360642c6006/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\.android\\build-cache\\229f0da0e3dd6051d46ed127475bb3d2263bc7dc\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\nacho\\.android\\build-cache\\229f0da0e3dd6051d46ed127475bb3d2263bc7dc\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/root/.android/build-cache/caad9eb474a09f184e13614c76eecca70871e856/output/res/values/values.xml",
+                    "file": "C:\\root\\.android\\build-cache\\caad9eb474a09f184e13614c76eecca70871e856\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\229f0da0e3dd6051d46ed127475bb3d2263bc7dc\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

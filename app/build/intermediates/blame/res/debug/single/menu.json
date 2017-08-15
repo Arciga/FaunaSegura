@@ -1,34 +1,50 @@
 [
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_categorias.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_categorias.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_categorias.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_categorias.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_principal.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_principal.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_categorias.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_categorias.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/menu/menu_actividad_lista_alquileres.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/menu/menu_actividad_lista_alquileres.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_drawer.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_lista_alquileres.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_lista_alquileres.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_principal.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\menu\\menu_actividad_principal.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/menu/menu_categorias.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/menu/menu_categorias.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_principal.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_principal.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_drawer.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\menu\\menu_drawer.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/menu/menu_actividad_principal.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/menu/menu_actividad_principal.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_lista_alquileres.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_lista_alquileres.xml"
     },
     {
-        "merged": "/root/AndroidStudioProjects/FaunaSegura3/app/build/intermediates/res/merged/debug/menu/menu_drawer.xml",
-        "source": "/root/AndroidStudioProjects/FaunaSegura3/app/src/main/res/menu/menu_drawer.xml"
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_lista_alquileres.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\menu\\menu_actividad_lista_alquileres.xml"
+    },
+    {
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_principal.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_principal.xml"
+    },
+    {
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_lista_alquileres.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_lista_alquileres.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_drawer.xml"
+    },
+    {
+        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_categorias.xml",
+        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\menu\\menu_categorias.xml"
     }
 ]
