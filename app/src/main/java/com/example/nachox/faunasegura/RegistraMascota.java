@@ -3,18 +3,14 @@ package com.example.nachox.faunasegura;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Patterns;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.apache.http.HttpResponse;
@@ -37,7 +33,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.regex.Pattern;
 
 public class RegistraMascota extends ActionBarActivity {
 
@@ -49,17 +44,26 @@ public class RegistraMascota extends ActionBarActivity {
 
     protected EditText genero;
    // protected EditText usuario;
-String usuario;
+String nombres;
+String especiee;
+    String razaa;
+    TextView textouser;
+    String edadd;
+    String generoo;
+    String usuaio;
+    String fecha="12/12/12";
 
     public  String Sexofinal="M";
-    private final String serverUrl = "http://104.198.61.117/index.php";
+    private final String serverUrl = "http://104.198.61.117/mascotas/index.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registra_mascota);
         agregarToolbar();
-
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        View headerView = navigationView.getHeaderView(0);
+        textouser = (TextView) headerView.findViewById(R.id.usertex);
         nombre =(EditText)findViewById(R.id.nombres);
         edad =(EditText)findViewById(R.id.edad);
         especie =(EditText)findViewById(R.id.especietext);
@@ -73,28 +77,23 @@ String usuario;
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                enteredUsername = username.getText().toString();
-                enteredPassword = password.getText().toString();
-                vPass= vpassword.getText().toString();
-                enteredEmail = email.getText().toString();
-                nombreS= nombre.getText().toString();
-                edadd =edad.getText().toString();
-                co =vcoreo.getText().toString();
-                direc=direccion.getText().toString();
-
-
-
-
-
-
+                especiee = especie.getText().toString();
+                edadd = edad.getText().toString();
+                generoo= fechanacimiento.getText().toString();
+                razaa = raza.getText().toString();
+                nombres= nombre.getText().toString();
+                 usuaio=textouser.getText().toString();
 
                 // request authentication with remote server4
-                validarDatos();
 
 
 
             }
         });
+
+        AsyncDataClass asyncRequestObject = new AsyncDataClass();
+        asyncRequestObject.execute(serverUrl, especiee, nombres, edadd,razaa,fecha,generoo,usuaio);
+
     }
 
     private class AsyncDataClass extends AsyncTask<String, Void, String> {
@@ -112,13 +111,13 @@ String usuario;
             String jsonResult = "";
             try {
                 List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
-                nameValuePairs.add(new BasicNameValuePair("username", params[1]));
-                nameValuePairs.add(new BasicNameValuePair("password", params[2]));
-                nameValuePairs.add(new BasicNameValuePair("email", params[3]));
-                nameValuePairs.add(new BasicNameValuePair("nombre", params[4]));
-                nameValuePairs.add(new BasicNameValuePair("edad", params[5]));
-                nameValuePairs.add(new BasicNameValuePair("sexo", params[6]));
-                nameValuePairs.add(new BasicNameValuePair("direccion", params[7]));
+                nameValuePairs.add(new BasicNameValuePair("especie", params[1]));
+                nameValuePairs.add(new BasicNameValuePair("nombre", params[2]));
+                nameValuePairs.add(new BasicNameValuePair("edad", params[3]));
+                nameValuePairs.add(new BasicNameValuePair("raza", params[4]));
+                nameValuePairs.add(new BasicNameValuePair("fechanacimiento", params[5]));
+                nameValuePairs.add(new BasicNameValuePair("genero", params[6]));
+                nameValuePairs.add(new BasicNameValuePair("usuario", params[7]));
                 httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
                 HttpResponse response = httpClient.execute(httpPost);
@@ -141,16 +140,16 @@ String usuario;
             super.onPostExecute(result);
             System.out.println("Resulted Value: " + result);
             if(result.equals("") || result == null){
-                Toast.makeText(RegistroPersona.this, "Server connection failed", Toast.LENGTH_LONG).show();
+                Toast.makeText(RegistraMascota.this, "Server connection failed", Toast.LENGTH_LONG).show();
                 return;
             }
             int jsonResult = returnParsedJsonObject(result);
             if(jsonResult == 0){
-                Toast.makeText(RegistroPersona.this, "Invalid username or password or email", Toast.LENGTH_LONG).show();
+                Toast.makeText(RegistraMascota.this, "Invalid username or password or email", Toast.LENGTH_LONG).show();
                 return;
             }
             if(jsonResult == 1){
-                Intent intent = new Intent(RegistroPersona.this, MainActivity.class);
+                Intent intent = new Intent(RegistraMascota.this, MainActivity.class);
                 startActivity(intent);
             }
         }
@@ -198,98 +197,10 @@ String usuario;
             public void onClick(View v) {
                 //regresar...
                 finish();
+
             }
         });
 
-    }
-    private boolean esNombreValido(String nombree) {
-        Pattern patron = Pattern.compile("^[a-zA-Z ]+$");
-        if (!patron.matcher(nombree).matches() || nombree.length() > 30) {
-            nombre.setError("Nombre inválido");
-            return false;
-        } else {
-            nombre.setError(null);
-        }
-
-        return true;
-    }
-    private boolean esPassValido(String nombree) {
-        Pattern patron = Pattern.compile("^[a-zA-Z ]+$");
-        if (!patron.matcher(nombree).matches() || nombree.length() > 30) {
-            password.setError("Contraseña inválido");
-            return false;
-        } else {
-            nombre.setError(null);
-        }
-
-        return true;
-    }
-    private boolean esNic(String nombree) {
-        Pattern patron = Pattern.compile("^[a-zA-Z ]+$");
-        if (!patron.matcher(nombree).matches() || nombree.length() > 30) {
-            username.setError("Nick inválido");
-            return false;
-        } else {
-            nombre.setError(null);
-        }
-
-        return true;
-    }
-    private void validarDatos() {
-
-        boolean a = esNombreValido(nombreS);
-        boolean b = esNic(enteredUsername);
-        boolean c = esCorreoValido(enteredEmail);
-        // boolean d = esvCorreoValido(co,vco);
-        boolean e = esPassValido(enteredPassword);
-        boolean f =escontrarectificada(enteredPassword,vPass);
-        if (a && b && c  && e && f) {
-            AsyncDataClass asyncRequestObject = new AsyncDataClass();
-            asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword, enteredEmail,nombreS,edadd,Sexofinal,direc);
-
-
-        }
-
-    }
-   /* private boolean esTelefonoValido(String telefono) {
-        if (!Patterns.PHONE.matcher(telefono).matches()) {
-            tilTelefono.setError("Teléfono inválido");
-            return false;
-        } else {
-            tilTelefono.setError(null);
-        }
-
-        return true;
-    }*/
-
-    private boolean esCorreoValido(String correoo) {
-        if (!Patterns.EMAIL_ADDRESS.matcher(correoo).matches()) {
-
-
-
-            email.setError("Correo electrónico inválido");
-            return false;
-        } else {
-            email.setError(null);
-
-
-            return true;
-        }
-    }
-    private boolean escontrarectificada(String contraa,String vcon) {
-
-        if(contraa.equals(vcon)){
-
-
-
-
-            return true;
-        } else {
-
-            vpassword.setError("verifique contraceña");
-
-            return false;
-        }
     }
 
 }

@@ -27,9 +27,9 @@ public class ActividadPrincipal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actividad_principal);
-       // Intent intent=getIntent();
-      // Bundle extras =intent.getExtras();
-       // String datoNombre=(String)extras.get("nombre");
+       Intent intent=getIntent();
+       Bundle extras =intent.getExtras();
+        String datoNombre=(String)extras.get("nombre");
         agregarToolbar();
          // textouser= (TextView) findViewById(R.id.usertex);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -37,8 +37,8 @@ public class ActividadPrincipal extends AppCompatActivity {
         refreshLayout = (SwipeRefreshLayout) findViewById(R.id.srlContainer);
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View headerView = navigationView.getHeaderView(0);
-      //  textouser = (TextView) headerView.findViewById(R.id.usertex);
-       // textouser.setText(datoNombre);
+        textouser = (TextView) headerView.findViewById(R.id.usertex);
+       textouser.setText(datoNombre);
 
 
        /* ---------------

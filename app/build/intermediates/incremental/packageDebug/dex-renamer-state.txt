@@ -1,7 +1,7 @@
-#Mon Jul 17 09:42:10 CDT 2017
-base.0=/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_903c2bb788a3b18ef9b9dccf8cc88e19c327399a
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9dbc1e71e0f6b5f5c4057a75e49838c47bb4a3f7/classes.dex
-base.1=/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9dbc1e71e0f6b5f5c4057a75e49838c47bb4a3f7
-file.0=/Users/alejandra/Documents/FaunaSegura/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_903c2bb788a3b18ef9b9dccf8cc88e19c327399a/classes.dex
+#Mon Aug 14 20:56:52 CDT 2017
+base.0=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e93df67227d4a3f3d57d525d33b647cd4cc5c43f
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ac17c7b23bc90753e565d8e554ac96d16acff845\\classes.dex
+base.1=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ac17c7b23bc90753e565d8e554ac96d16acff845
+file.0=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e93df67227d4a3f3d57d525d33b647cd4cc5c43f\\classes.dex
