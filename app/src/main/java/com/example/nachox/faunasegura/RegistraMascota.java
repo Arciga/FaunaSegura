@@ -61,9 +61,8 @@ String especiee;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registra_mascota);
         agregarToolbar();
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        View headerView = navigationView.getHeaderView(0);
-        textouser = (TextView) headerView.findViewById(R.id.usertex);
+
+
         nombre =(EditText)findViewById(R.id.nombres);
         edad =(EditText)findViewById(R.id.edad);
         especie =(EditText)findViewById(R.id.especietext);

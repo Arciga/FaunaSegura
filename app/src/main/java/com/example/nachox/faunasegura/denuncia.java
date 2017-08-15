@@ -11,8 +11,4 @@ public class denuncia extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_denuncia);
-        browser=(WebView)findViewById(R.id.web);
-        browser.setWebViewClient(new WebViewClient() {
-            @Override public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                view.loadUrl(url); return true; } });
-         browser.loadUrl("http://www.semarnatcam.campeche.gob.mx");} }
+       } }
