@@ -1,230 +1,185 @@
 package com.example.nachox.faunasegura;
 
-import android.annotation.TargetApi;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
-import android.content.pm.PackageManager;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.media.MediaScannerConnection;
-import android.net.Uri;
-import android.os.Build;
+import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.Environment;
-import android.provider.MediaStore;
-import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.AlertDialog;
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
+import android.util.Patterns;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import java.io.File;
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
+import org.apache.http.params.HttpParams;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
 
-import static android.Manifest.permission.CAMERA;
-import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
+public class RegistraMascota extends ActionBarActivity {
 
-/**
- * Fragmento para la pestaña "PERFIL" De la sección "Mi Cuenta"
- */
+    protected EditText nombre;
+    protected EditText edad;
+    protected EditText especie;
+    protected EditText raza;
+    protected EditText fechanacimiento;
 
-public class RegistraMascota extends AppCompatActivity {
-    private static String APP_DIRECTORY = "MyPictureApp/";
-    private static String MEDIA_DIRECTORY = APP_DIRECTORY + "PictureApp";
+    protected EditText genero;
+   // protected EditText usuario;
+String usuario;
 
-    private final int MY_PERMISSIONS = 100;
-    private final int PHOTO_CODE = 200;
-    private final int SELECT_PICTURE = 300;
-    private String mPath;
-    private ImageView mSetImage;
-    private Button mOptionButton;
-    private RelativeLayout mRlView;
-
-
+    public  String Sexofinal="M";
+    private final String serverUrl = "http://104.198.61.117/index.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registra_mascota);
         agregarToolbar();
-        mSetImage = (ImageView) findViewById(R.id.imagen);
-        mOptionButton = (Button) findViewById(R.id.foto);
-        mRlView = (RelativeLayout) findViewById(R.id.rl_view);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        if(mayRequestStoragePermission  ())
-            mOptionButton.setEnabled(true);
-        else
-            mOptionButton.setEnabled(false);
 
+        nombre =(EditText)findViewById(R.id.nombres);
+        edad =(EditText)findViewById(R.id.edad);
+        especie =(EditText)findViewById(R.id.especietext);
+        raza =(EditText)findViewById(R.id.razatext);
+        fechanacimiento =(EditText)findViewById(R.id.fechanacimietoo);
 
-        mOptionButton.setOnClickListener(new View.OnClickListener() {
+        genero =(EditText)findViewById(R.id.generotext);
+
+        Button signUpButton = (Button)findViewById(R.id.RegPersona);
+
+        signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                showOptions();
+                enteredUsername = username.getText().toString();
+                enteredPassword = password.getText().toString();
+                vPass= vpassword.getText().toString();
+                enteredEmail = email.getText().toString();
+                nombreS= nombre.getText().toString();
+                edadd =edad.getText().toString();
+                co =vcoreo.getText().toString();
+                direc=direccion.getText().toString();
+
+
+
+
+
+
+
+                // request authentication with remote server4
+                validarDatos();
+
+
+
             }
         });
     }
-    private boolean mayRequestStoragePermission() {
 
-        if(Build.VERSION.SDK_INT < Build.VERSION_CODES.M)
-            return true;
+    private class AsyncDataClass extends AsyncTask<String, Void, String> {
 
-        if((checkSelfPermission(WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) &&
-                (checkSelfPermission(CAMERA) == PackageManager.PERMISSION_GRANTED))
-            return true;
+        @Override
+        protected String doInBackground(String... params) {
 
-        if((shouldShowRequestPermissionRationale(WRITE_EXTERNAL_STORAGE)) || (shouldShowRequestPermissionRationale(CAMERA))){
-            Snackbar.make(mRlView, "Los permisos son necesarios para poder usar la aplicación",
-                    Snackbar.LENGTH_INDEFINITE).setAction(android.R.string.ok, new View.OnClickListener() {
-                @TargetApi(Build.VERSION_CODES.M)
-                @Override
-                public void onClick(View v) {
-                    requestPermissions(new String[]{WRITE_EXTERNAL_STORAGE, CAMERA}, MY_PERMISSIONS);
-                }
-            });
-        }else{
-            requestPermissions(new String[]{WRITE_EXTERNAL_STORAGE, CAMERA}, MY_PERMISSIONS);
-        }
+            HttpParams httpParameters = new BasicHttpParams();
+            HttpConnectionParams.setConnectionTimeout(httpParameters, 5000);
+            HttpConnectionParams.setSoTimeout(httpParameters, 5000);
 
-        return false;
-    }
-    private static final String INDICE_SECCION = "com.restaurantericoparico.FragmentoCategoriasTab.extra.INDICE_SECCION";
+            HttpClient httpClient = new DefaultHttpClient(httpParameters);
+            HttpPost httpPost = new HttpPost(params[0]);
 
+            String jsonResult = "";
+            try {
+                List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
+                nameValuePairs.add(new BasicNameValuePair("username", params[1]));
+                nameValuePairs.add(new BasicNameValuePair("password", params[2]));
+                nameValuePairs.add(new BasicNameValuePair("email", params[3]));
+                nameValuePairs.add(new BasicNameValuePair("nombre", params[4]));
+                nameValuePairs.add(new BasicNameValuePair("edad", params[5]));
+                nameValuePairs.add(new BasicNameValuePair("sexo", params[6]));
+                nameValuePairs.add(new BasicNameValuePair("direccion", params[7]));
+                httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
-    private void showOptions() {
-        final CharSequence[] option = {"Tomar foto", "Elegir de galeria", "Cancelar"};
-        final AlertDialog.Builder builder = new AlertDialog.Builder(RegistraMascota.this);
-        builder.setTitle("Eleige una opción");
-        builder.setItems(option, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                if(option[which] == "Tomar foto"){
-                    openCamera();
-                }else if(option[which] == "Elegir de galeria"){
-                    Intent intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                    intent.setType("image/*");
-                    startActivityForResult(intent.createChooser(intent, "Selecciona app de imagen"), SELECT_PICTURE);
-                }else {
-                    dialog.dismiss();
-                }
+                HttpResponse response = httpClient.execute(httpPost);
+                jsonResult = inputStreamToString(response.getEntity().getContent()).toString();
+                System.out.println("Returned Json object " + jsonResult.toString());
+
+            } catch (ClientProtocolException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
             }
-        });
-
-        builder.show();
-    }
-
-    private void openCamera() {
-        File file = new File(Environment.getExternalStorageDirectory(), MEDIA_DIRECTORY);
-        boolean isDirectoryCreated = file.exists();
-
-        if(!isDirectoryCreated)
-            isDirectoryCreated = file.mkdirs();
-
-        if(isDirectoryCreated){
-            Long timestamp = System.currentTimeMillis() / 1000;
-            String imageName = timestamp.toString() + ".jpg";
-
-            mPath = Environment.getExternalStorageDirectory() + File.separator + MEDIA_DIRECTORY
-                    + File.separator + imageName;
-
-            File newFile = new File(mPath);
-
-            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(newFile));
-            startActivityForResult(intent, PHOTO_CODE);
+            return jsonResult;
         }
-    }
-
-    @Override
-    public void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        outState.putString("file_path", mPath);
-    }
-
-    @Override
-    protected void onRestoreInstanceState(Bundle savedInstanceState) {
-        super.onRestoreInstanceState(savedInstanceState);
-
-        mPath = savedInstanceState.getString("file_path");
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-
-        if(resultCode == RESULT_OK){
-            switch (requestCode){
-                case PHOTO_CODE:
-                    MediaScannerConnection.scanFile(this,
-                            new String[]{mPath}, null,
-                            new MediaScannerConnection.OnScanCompletedListener() {
-                                @Override
-                                public void onScanCompleted(String path, Uri uri) {
-                                    Log.i("ExternalStorage", "Scanned " + path + ":");
-                                    Log.i("ExternalStorage", "-> Uri = " + uri);
-                                }
-                            });
-
-
-                    Bitmap bitmap = BitmapFactory.decodeFile(mPath);
-                    mSetImage.setImageBitmap(bitmap);
-                    break;
-                case SELECT_PICTURE:
-                    Uri path = data.getData();
-                    mSetImage.setImageURI(path);
-                    break;
-
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
+            System.out.println("Resulted Value: " + result);
+            if(result.equals("") || result == null){
+                Toast.makeText(RegistroPersona.this, "Server connection failed", Toast.LENGTH_LONG).show();
+                return;
             }
-        }
-    }
-
-    @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
-        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-
-        if(requestCode == MY_PERMISSIONS){
-            if(grantResults.length == 2 && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED){
-                Toast.makeText(RegistraMascota.this, "Permisos aceptados", Toast.LENGTH_SHORT).show();
-                mOptionButton.setEnabled(true);
+            int jsonResult = returnParsedJsonObject(result);
+            if(jsonResult == 0){
+                Toast.makeText(RegistroPersona.this, "Invalid username or password or email", Toast.LENGTH_LONG).show();
+                return;
             }
-        }else{
-            showExplanation();
-        }
-    }
-
-    private void showExplanation() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(RegistraMascota.this);
-        builder.setTitle("Permisos denegados");
-        builder.setMessage("Para usar las funciones de la app necesitas aceptar los permisos");
-        builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Intent intent = new Intent();
-                intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
-                Uri uri = Uri.fromParts("package", getPackageName(), null);
-                intent.setData(uri);
+            if(jsonResult == 1){
+                Intent intent = new Intent(RegistroPersona.this, MainActivity.class);
                 startActivity(intent);
             }
-        });
-        builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                dialog.dismiss();
-                finish();
+        }
+        private StringBuilder inputStreamToString(InputStream is) {
+            String rLine = "";
+            StringBuilder answer = new StringBuilder();
+            BufferedReader br = new BufferedReader(new InputStreamReader(is));
+            try {
+                while ((rLine = br.readLine()) != null) {
+                    answer.append(rLine);
+                }
+            } catch (IOException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
             }
-        });
+            return answer;
+        }
+    }
+    private int returnParsedJsonObject(String result){
 
-        builder.show();
+        JSONObject resultObject = null;
+        int returnedResult = 0;
+        try {
+            resultObject = new JSONObject(result);
+            returnedResult = resultObject.getInt("success");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return returnedResult;
     }
     private void agregarToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar2);
@@ -234,7 +189,7 @@ public class RegistraMascota extends AppCompatActivity {
             // Poner ícono del drawer toggle
             ab.setHomeAsUpIndicator(R.drawable.ic_action_name);
             ab.setDisplayHomeAsUpEnabled(true);
-            ab.setTitle("Registrar Mascota");
+            ab.setTitle("Soy una Persona");
 
         }
 
@@ -247,4 +202,95 @@ public class RegistraMascota extends AppCompatActivity {
         });
 
     }
+    private boolean esNombreValido(String nombree) {
+        Pattern patron = Pattern.compile("^[a-zA-Z ]+$");
+        if (!patron.matcher(nombree).matches() || nombree.length() > 30) {
+            nombre.setError("Nombre inválido");
+            return false;
+        } else {
+            nombre.setError(null);
+        }
+
+        return true;
+    }
+    private boolean esPassValido(String nombree) {
+        Pattern patron = Pattern.compile("^[a-zA-Z ]+$");
+        if (!patron.matcher(nombree).matches() || nombree.length() > 30) {
+            password.setError("Contraseña inválido");
+            return false;
+        } else {
+            nombre.setError(null);
+        }
+
+        return true;
+    }
+    private boolean esNic(String nombree) {
+        Pattern patron = Pattern.compile("^[a-zA-Z ]+$");
+        if (!patron.matcher(nombree).matches() || nombree.length() > 30) {
+            username.setError("Nick inválido");
+            return false;
+        } else {
+            nombre.setError(null);
+        }
+
+        return true;
+    }
+    private void validarDatos() {
+
+        boolean a = esNombreValido(nombreS);
+        boolean b = esNic(enteredUsername);
+        boolean c = esCorreoValido(enteredEmail);
+        // boolean d = esvCorreoValido(co,vco);
+        boolean e = esPassValido(enteredPassword);
+        boolean f =escontrarectificada(enteredPassword,vPass);
+        if (a && b && c  && e && f) {
+            AsyncDataClass asyncRequestObject = new AsyncDataClass();
+            asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword, enteredEmail,nombreS,edadd,Sexofinal,direc);
+
+
+        }
+
+    }
+   /* private boolean esTelefonoValido(String telefono) {
+        if (!Patterns.PHONE.matcher(telefono).matches()) {
+            tilTelefono.setError("Teléfono inválido");
+            return false;
+        } else {
+            tilTelefono.setError(null);
+        }
+
+        return true;
+    }*/
+
+    private boolean esCorreoValido(String correoo) {
+        if (!Patterns.EMAIL_ADDRESS.matcher(correoo).matches()) {
+
+
+
+            email.setError("Correo electrónico inválido");
+            return false;
+        } else {
+            email.setError(null);
+
+
+            return true;
+        }
+    }
+    private boolean escontrarectificada(String contraa,String vcon) {
+
+        if(contraa.equals(vcon)){
+
+
+
+
+            return true;
+        } else {
+
+            vpassword.setError("verifique contraceña");
+
+            return false;
+        }
+    }
+
 }
+
