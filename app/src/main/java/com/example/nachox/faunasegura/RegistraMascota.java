@@ -78,21 +78,21 @@ String especiee;
             public void onClick(View v) {
                 especiee = especie.getText().toString();
                 edadd = edad.getText().toString();
-                generoo= fechanacimiento.getText().toString();
+                generoo= nombre.getText().toString();
                 razaa = raza.getText().toString();
                 nombres= nombre.getText().toString();
                 // usuaio=textouser.getText().toString();
 
                 // request authentication with remote server4
 
+                AsyncDataClass asyncRequestObject = new AsyncDataClass();
+                asyncRequestObject.execute(serverUrl, especiee,  nombres,edadd,razaa,fecha,generoo,usuaio);
 
-
+                //fonga ionic backbond
             }
         });
         //prueba
 
-        AsyncDataClass asyncRequestObject = new AsyncDataClass();
-        asyncRequestObject.execute(serverUrl, especiee, nombres, edadd,razaa,fecha,generoo,usuaio);
 
     }
 
