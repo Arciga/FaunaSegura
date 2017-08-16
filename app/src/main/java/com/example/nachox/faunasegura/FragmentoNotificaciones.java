@@ -55,7 +55,7 @@ public class FragmentoNotificaciones extends Fragment {
     private GridLayoutManager layoutManager;
     private AdaptadorNotificaciones adaptador;
 
-    String[] arr2={"a","b"} ;
+    String[] arr2={"marco"} ;
     String value1="";
     String[] stringArray = new String[0];
     public FragmentoNotificaciones() {
@@ -132,7 +132,7 @@ System.out.print("email "+stringArray[i]);
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
-                    adaptador = new AdaptadorNotificaciones(stringArray);
+                    adaptador = new AdaptadorNotificaciones(arr2);
                     reciclador.setAdapter(adaptador);
                 }
             }

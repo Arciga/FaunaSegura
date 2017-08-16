@@ -22,13 +22,21 @@ public class AdaptadorNotificaciones extends RecyclerView.Adapter<AdaptadorNotif
 
     public  class MyViewHolder extends RecyclerView.ViewHolder{
         public CardView mCardView;
-        public TextView mTextView;
+        public TextView nombre;
+        public TextView raza;
+
+        public TextView genero;
+        public TextView edad;
+
         private EscuchaEventosClick escucha;
         public ImageView imageView;
 
         public MyViewHolder(View v) {
             super(v); mCardView = (CardView) v.findViewById(R.id.card_view);
-            mTextView = (TextView) v.findViewById(R.id.tv_blah);
+            nombre = (TextView) v.findViewById(R.id.nombrecard);
+            raza = (TextView) v.findViewById(R.id.razacard);
+            genero = (TextView) v.findViewById(R.id.generocard);
+            edad = (TextView) v.findViewById(R.id.edadcard);
             imageView =  (ImageView) v.findViewById(R.id.iv_image);
             //v.setOnClickListener(this);
         }
@@ -46,7 +54,7 @@ public class AdaptadorNotificaciones extends RecyclerView.Adapter<AdaptadorNotif
                                                      int viewType) {
 
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.card_item, parent, false);
+                .inflate(R.layout.item_lista_notificaciones, parent, false);
 
         MyViewHolder vh = new MyViewHolder(v);
         return vh;
@@ -55,9 +63,10 @@ public class AdaptadorNotificaciones extends RecyclerView.Adapter<AdaptadorNotif
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
-        holder.mTextView.setText(mDataset[position]);
-
-
+        holder.nombre.setText(mDataset[position]);
+        holder.raza.setText(mDataset[position]);
+        holder.genero.setText(mDataset[position]);
+        holder.edad.setText(mDataset[position]);
 
     }
 
