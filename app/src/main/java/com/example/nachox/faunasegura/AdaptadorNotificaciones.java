@@ -37,7 +37,7 @@ public class AdaptadorNotificaciones extends RecyclerView.Adapter<AdaptadorNotif
             raza = (TextView) v.findViewById(R.id.razacard);
             genero = (TextView) v.findViewById(R.id.generocard);
             edad = (TextView) v.findViewById(R.id.edadcard);
-            imageView =  (ImageView) v.findViewById(R.id.iv_image);
+           imageView =  (ImageView) v.findViewById(R.id.iv_image);
             //v.setOnClickListener(this);
         }
 
@@ -64,9 +64,9 @@ public class AdaptadorNotificaciones extends RecyclerView.Adapter<AdaptadorNotif
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
         holder.nombre.setText(mDataset[position]);
+
         holder.raza.setText(mDataset[position]);
-        holder.genero.setText(mDataset[position]);
-        holder.edad.setText(mDataset[position]);
+
 
     }
 
