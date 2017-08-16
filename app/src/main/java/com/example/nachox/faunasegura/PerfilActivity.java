@@ -6,7 +6,9 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -40,7 +42,7 @@ TextView email;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragmento_perfil);
-
+        agregarToolbar();
         email = (TextView) findViewById(R.id.texto_email);
         Dbase db = new Dbase( getApplicationContext() );
         String consulta = "http://104.198.61.117/mascotas/consultauser.php?use=";
@@ -49,7 +51,27 @@ TextView email;
        }
 
 
+    private void agregarToolbar() {
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar4);
+        setSupportActionBar(toolbar);
+        final ActionBar ab = getSupportActionBar();
+        if (ab != null) {
+            // Poner ícono del drawer toggle
+            ab.setHomeAsUpIndicator(R.drawable.ic_action_name);
+            ab.setDisplayHomeAsUpEnabled(true);
+            ab.setTitle("Perfil");
 
+        }
+
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //regresar...
+                finish();
+            }
+        });
+
+    }
 
 
     public void EnviarRecibirDatos(String URL){

@@ -892,7 +892,7 @@
     </style>
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -2515,6 +2515,9 @@
         <item name="android:layout_height">wrap_content</item>
 
 
+    </style>
+    <style name="cambio">
+        <item name="android:drawableRight">@drawable/indicador_derecho</item>
     </style>
     <style name="com_facebook_activity_theme" parent="@style/Theme.AppCompat.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
