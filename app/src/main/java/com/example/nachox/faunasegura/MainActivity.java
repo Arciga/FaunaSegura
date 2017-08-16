@@ -185,7 +185,9 @@ public class MainActivity extends AppCompatActivity {
             }
             if(jsonResult == 1){
                 pdLoading.dismiss();
+
                 Dbase db = new Dbase( getApplicationContext() );
+                db.eliminar();
                 db.agregar(enteredUsername);
 
                 Intent intent = new Intent(MainActivity.this, ActividadPrincipal.class);
