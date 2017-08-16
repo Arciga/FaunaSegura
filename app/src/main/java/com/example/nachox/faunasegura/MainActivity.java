@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 String enteredPassword = password.getEditText().getText().toString();
 
                     if(username.getText().toString().trim().equalsIgnoreCase("")){
-                        username.setError("Ingrese un Nick");
+                        username.setError("Ingrese su correo");
                         return;
                     }
 
@@ -93,8 +93,6 @@ public class MainActivity extends AppCompatActivity {
 
                 MainActivity.AsyncDataClass asyncRequestObject = new MainActivity.AsyncDataClass();
                 asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword);
-                Dbase db = new Dbase( getApplicationContext() );
-                db.agregar(enteredUsername);
 
             }
 
@@ -187,8 +185,8 @@ public class MainActivity extends AppCompatActivity {
             }
             if(jsonResult == 1){
                 pdLoading.dismiss();
-
-
+                Dbase db = new Dbase( getApplicationContext() );
+                db.agregar(enteredUsername);
 
                 Intent intent = new Intent(MainActivity.this, ActividadPrincipal.class);
                 intent.putExtra("nombre", enteredUsername);

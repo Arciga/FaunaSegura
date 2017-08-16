@@ -153,16 +153,8 @@ public class BlankFragment extends Fragment {
 
 
     }
-    public String[] jsonArrayToStringArray(JSONArray jsonArray) throws JSONException {
-        int arraySize = jsonArray.length();
-        String[] stringArray = new String[arraySize];
 
-        for(int i=0; i<arraySize; i++) {
-            stringArray[i] = (String) jsonArray.get(i);
-        }
 
-        return stringArray;
-    };
 }
 
 

@@ -81,7 +81,7 @@ String a;
             public void onClick(View v) {
                 especiee = especie.getText().toString();
                 edadd = edad.getText().toString();
-                generoo= nombre.getText().toString();
+                generoo= genero.getText().toString();
                 razaa = raza.getText().toString();
                 nombres= nombre.getText().toString();
                 Dbase db = new Dbase( getApplicationContext() );
