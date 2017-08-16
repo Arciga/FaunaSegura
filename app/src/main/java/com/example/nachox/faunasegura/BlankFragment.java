@@ -82,29 +82,6 @@ public class BlankFragment extends Fragment {
         return view;
     }
 
-    public void onItemClick(MyAdapter.MyViewHolder holder, int posicion) {
-        Intent intent = new Intent(getActivity(), ActividadDetalle.class);
-        intent.putExtra(EXTRA_POSICION, posicion);
-        startActivity(intent);
-    }
-
-
-    public ArrayList<String> obtDatosJSON(String resupesta)
-    {
-        ArrayList<String> listado=new ArrayList<>();
-        try
-        {
-            JSONObject jsonObject= new JSONObject(resupesta);
-            String texto=jsonObject.getString("noticia");
-
-           listado.add(texto);
-
-        }catch (Exception error)
-        {
-
-        }
-        return listado;
-    }
 
     public void EnviarRecibirDatos(String URL){
 
@@ -131,8 +108,8 @@ public class BlankFragment extends Fragment {
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
-                    adaptador = new MyAdapter(stringArray);
-                    reciclador.setAdapter(adaptador);
+                   adaptador = new MyAdapter(stringArray);
+                   reciclador.setAdapter(adaptador);
                 }
             }
         }, new Response.ErrorListener(){
