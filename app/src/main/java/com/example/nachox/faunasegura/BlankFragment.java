@@ -119,8 +119,8 @@ public class BlankFragment extends Fragment {
                 if (response.length()>0) {
                     try {
                         JSONArray ja = new JSONArray(response);
-                        //  stringArray = new String[ja.length()];
-                        Log.i("sizejson", "" + ja.length());
+
+
                         stringArray = new String[ja.length()];
 
                         for (int i = 0; i < ja.length(); i++) {
@@ -153,7 +153,6 @@ public class BlankFragment extends Fragment {
 
 
     }
-
 
 }
 

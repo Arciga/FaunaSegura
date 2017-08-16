@@ -128,8 +128,9 @@ String a;
                 httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
                 HttpResponse response = httpClient.execute(httpPost);
+
                 jsonResult = inputStreamToString(response.getEntity().getContent()).toString();
-                System.out.println("Returned Json object " + jsonResult.toString());
+                //System.out.println("Returned Json object " + jsonResult.toString());
 
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
