@@ -137,7 +137,7 @@ public class ActividadPrincipal extends AppCompatActivity {
                 startActivity(new Intent(this, PerfilActivity.class));
                 break;
             case R.id.cerrar:
-                db.eliminar(1);
+                db.eliminar();
                 startActivity(new Intent(getBaseContext(), ActividadPrincipal.class)
                         .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
 

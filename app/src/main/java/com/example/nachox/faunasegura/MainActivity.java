@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
 
                 MainActivity.AsyncDataClass asyncRequestObject = new MainActivity.AsyncDataClass();
                 asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword);
+                Dbase db = new Dbase( getApplicationContext() );
+                db.agregar(enteredUsername);
 
             }
 
@@ -185,8 +187,8 @@ public class MainActivity extends AppCompatActivity {
             }
             if(jsonResult == 1){
                 pdLoading.dismiss();
-                Dbase db = new Dbase( getApplicationContext() );
-                db.agregar(enteredUsername);
+
+
 
                 Intent intent = new Intent(MainActivity.this, ActividadPrincipal.class);
                 intent.putExtra("nombre", enteredUsername);

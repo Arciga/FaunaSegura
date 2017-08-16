@@ -37,6 +37,8 @@ public class Dbase extends SQLiteOpenHelper {
 
 
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        db.execSQL("DROP TABLE IF EXISTS " + TABLA_NOMBRES);
+        onCreate(db);
     }
     public void agregar(String nombre){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -87,13 +89,13 @@ public class Dbase extends SQLiteOpenHelper {
         db.close();
 
     }
-    public boolean eliminar(int id) {
+    public boolean eliminar() {
         SQLiteDatabase db = this.getWritableDatabase();
         try{
-            db.delete(TABLA_NOMBRES,
-                    " _id = ?",
-                    new String[] { String.valueOf (id ) });
+            db.execSQL("DROP TABLE IF EXISTS " + TABLA_NOMBRES);
+        onCreate(db);
             db.close();
+     System.out.println("tabla "+TABLA_NOMBRES+" Eliminada");
             return true;
 
         }catch(Exception ex){
