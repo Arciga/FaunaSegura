@@ -11,6 +11,7 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -21,6 +22,7 @@ public class ActividadPrincipal extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     TextView textouser;
+    String datoNombre;
     public static final String EXTRA_POSICION = "com.herprogramacion.galerajaponesa.extra.POSICION";
     private SwipeRefreshLayout refreshLayout;
     @Override
@@ -29,7 +31,7 @@ public class ActividadPrincipal extends AppCompatActivity {
         setContentView(R.layout.actividad_principal);
        Intent intent=getIntent();
        Bundle extras =intent.getExtras();
-        String datoNombre=(String)extras.get("nombre");
+         datoNombre=(String)extras.get("nombre");
         agregarToolbar();
          // textouser= (TextView) findViewById(R.id.usertex);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -94,8 +96,9 @@ public class ActividadPrincipal extends AppCompatActivity {
                 });
 
     }
-
     private void seleccionarItem(MenuItem itemDrawer) {
+        Dbase db = new Dbase( getApplicationContext() );
+
         Fragment fragmentoGenerico = null;
         FragmentManager fragmentManager = getSupportFragmentManager();
 
@@ -114,6 +117,12 @@ public class ActividadPrincipal extends AppCompatActivity {
                 startActivity(new Intent(this, Denuncias.class));
                 break;
             case R.id.registra:
+
+
+              //  System.out.println(id);
+                System.out.print("hola "+db.obtener(1));
+
+                Toast.makeText(ActividadPrincipal.this, "No Disponible :c", Toast.LENGTH_LONG).show();
                 startActivity(new Intent(this, RegistraMascota.class));
                 break;
             case R.id.adopta:
@@ -128,9 +137,13 @@ public class ActividadPrincipal extends AppCompatActivity {
                 startActivity(new Intent(this, PerfilActivity.class));
                 break;
             case R.id.cerrar:
+                db.eliminar(1);
                 startActivity(new Intent(getBaseContext(), ActividadPrincipal.class)
                         .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
+
                 finish();
+
+
                 break;
         }
         if (fragmentoGenerico != null) {

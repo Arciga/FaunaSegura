@@ -7,6 +7,7 @@ import android.support.design.widget.NavigationView;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -52,23 +53,25 @@ String especiee;
     String generoo;
     String usuaio="nacho";
     String fecha="12/12/12";
-
+TextView u;
+    TextView textouser;
     public  String Sexofinal="M";
     private final String serverUrl = "http://104.198.61.117/mascotas/index.php";
-
+String a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registra_mascota);
         agregarToolbar();
 
-
         nombre =(EditText)findViewById(R.id.non);
         edad =(EditText)findViewById(R.id.ed);
         especie =(EditText)findViewById(R.id.especietext);
         raza =(EditText)findViewById(R.id.razatext);
-        fechanacimiento =(EditText)findViewById(R.id.fechanacimietoo);
+       // textouser = (TextView) headerView.findViewById(R.id.usertex);
 
+        fechanacimiento =(EditText)findViewById(R.id.fechanacimietoo);
+          u=(TextView)findViewById(R.id.usertex);
         genero =(EditText)findViewById(R.id.generotext);
 
         Button signUpButton = (Button)findViewById(R.id.Guardarmascota);
@@ -81,9 +84,13 @@ String especiee;
                 generoo= nombre.getText().toString();
                 razaa = raza.getText().toString();
                 nombres= nombre.getText().toString();
-                // usuaio=textouser.getText().toString();
+                Dbase db = new Dbase( getApplicationContext() );
+                usuaio=db.obtener(1);
 
                 // request authentication with remote server4
+                Intent intent=getIntent();
+                Bundle extras =intent.getExtras();
+
 
                 AsyncDataClass asyncRequestObject = new AsyncDataClass();
                 asyncRequestObject.execute(serverUrl, especiee,  nombres,edadd,razaa,fecha,generoo,usuaio);

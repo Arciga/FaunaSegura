@@ -185,10 +185,13 @@ public class MainActivity extends AppCompatActivity {
             }
             if(jsonResult == 1){
                 pdLoading.dismiss();
+                Dbase db = new Dbase( getApplicationContext() );
+                db.agregar(enteredUsername);
 
                 Intent intent = new Intent(MainActivity.this, ActividadPrincipal.class);
                 intent.putExtra("nombre", enteredUsername);
                 startActivity(intent);
+
             }
         }
         private StringBuilder inputStreamToString(InputStream is) {

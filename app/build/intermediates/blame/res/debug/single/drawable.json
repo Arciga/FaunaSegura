@@ -1,683 +1,11 @@
 [
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tarjeta_credito.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tarjeta_credito.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\panda.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\panda.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jaguar.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\jaguar.png"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pajaro_carpinter.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\pajaro_carpinter.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\camera.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\empresa.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\empresa.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logoo.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\logoo.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pato.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\pato.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gato.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\gato.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\perro.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\perro.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticias.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\noticias.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\casa.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\casa.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\riniceronte.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\riniceronte.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notifauna.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\notifauna.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_regbackground.xml",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_regbackground.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\button_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guacamayaroja.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\guacamayaroja.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticia.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\noticia.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_regbackground.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_regbackground.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guacamayaroja.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\guacamayaroja.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tips.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tips.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prevencion_rabia.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\prevencion_rabia.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_button_like_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticias.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\noticias.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guacamaya.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\guacamaya.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_like_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guardianes_fauna.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\guardianes_fauna.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_icon.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cabra.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\cabra.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tigre_blanco.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tigre_blanco.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proximamente.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\proximamente.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\user.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\logo2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\like2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notifauna.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\notifauna.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tarjeta_credito.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tarjeta_credito.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_background.xml",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\root\\.android\\build-cache\\9f25dfcd4a4366f48d9d75b8ee15a4448510942e\\output\\res\\drawable\\design_password_eye.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\9f25dfcd4a4366f48d9d75b8ee15a4448510942e\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mono_aullador.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\mono_aullador.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\likeback.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\likeback.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adopta.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\adopta.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\9f25dfcd4a4366f48d9d75b8ee15a4448510942e\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vaca.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\vaca.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticia2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\noticia2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tips.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\tips.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\logo2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\semana_antirabica.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\semana_antirabica.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linea_divisoria.xml",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\linea_divisoria.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tuercas.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\tuercas.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\edittext_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_login_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\images.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\images.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progr.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\progr.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linea_divisoria.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\linea_divisoria.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\like.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logoo.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\logoo.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.jpeg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\logo.jpeg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tucan_amarillo.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tucan_amarillo.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tucan_amarillo.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tucan_amarillo.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prevencion_rabia.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\prevencion_rabia.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proximamente.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\proximamente.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_regvarios.xml",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_regvarios.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tortuga.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\tortuga.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gallinas.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\gallinas.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adopta2.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\adopta2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_send_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guacamaya.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\guacamaya.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\casa.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\casa.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linea_divisoria.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\linea_divisoria.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adopta2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\adopta2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticia.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\noticia.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\like2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guacamayaroja.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\guacamayaroja.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pajaro_carpinter.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\pajaro_carpinter.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\user.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mono_aullador.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\mono_aullador.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guardianes_fauna.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\guardianes_fauna.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_like_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tortuga.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tortuga.jpg"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prox2.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\prox2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lap.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\lap.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\camera.png"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cabra.jpg",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\cabra.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tigre_blanco.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tigre_blanco.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\navigation_empty_icon.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_icon.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_dialog_material_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prevencion_rabia.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\prevencion_rabia.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lap.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\lap.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_button_send_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\like.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticias.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\noticias.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\user.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lap.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\lap.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
@@ -688,124 +16,72 @@
         "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guardianes_fauna.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\guardianes_fauna.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pato.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\pato.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\perro.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\perro.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notivias.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\notivias.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticias.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\noticias.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\riniceronte.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\riniceronte.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\casa.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\casa.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\riniceronte.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\riniceronte.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notivias.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\notivias.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_regbackground.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_regbackground.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guacamayaroja.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\guacamayaroja.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticia.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\noticia.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prox2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\prox2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_button_background.xml"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\images.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\images.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logoo.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\logoo.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\like.png"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tips.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tips.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
@@ -816,16 +92,12 @@
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\logo2.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gato.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\gato.jpg"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
@@ -836,64 +108,60 @@
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guacamaya.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\guacamaya.jpg"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pajaro_carpinter.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\pajaro_carpinter.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_icon.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tigre_blanco.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tigre_blanco.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\perro.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\perro.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gallinas.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\gallinas.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proximamente.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\proximamente.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\perro.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\perro.jpg"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notivias.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\notivias.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\images.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\images.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tarjeta_credito.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tarjeta_credito.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\empresa.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\empresa.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cabra.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\cabra.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_background.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mono_aullador.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\mono_aullador.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\camera.png",
@@ -908,24 +176,12 @@
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\likeback.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notifauna.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\notifauna.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
@@ -936,10 +192,6 @@
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\gallinas.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mono_aullador.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\mono_aullador.png"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_snackbar_background.xml"
     },
@@ -948,104 +200,100 @@
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tuercas.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\panda.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\panda.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tuercas.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tuercas.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tigre.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\tigre.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\casa.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\casa.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tigre.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tigre.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\linea_divisoria.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\linea_divisoria.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
     },
     {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\empresa.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\empresa.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progr.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\progr.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ratingbar_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tortuga.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tortuga.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\guacamaya.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\guacamaya.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\semana_antirabica.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\semana_antirabica.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo22.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\logo22.png"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\like.png"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.jpeg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\logo.jpeg"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adopta.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\adopta.jpg"
     },
     {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tucan_amarillo.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tucan_amarillo.jpg"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticia2.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\noticia2.png"
     },
     {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prevencion_rabia.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\prevencion_rabia.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_regvarios.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_regvarios.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo22.png",
@@ -1056,28 +304,20 @@
         "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\root\\.android\\build-cache\\9f25dfcd4a4366f48d9d75b8ee15a4448510942e\\output\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adopta2.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\adopta2.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_bg.xml"
     },
     {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_send_background.xml"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\panda.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\panda.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adopta2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\adopta2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
@@ -1088,32 +328,12 @@
         "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticia2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\noticia2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\likeback.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\likeback.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gato.jpg",
@@ -1124,120 +344,76 @@
         "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_login_background.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pato.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\pato.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prox2.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\prox2.png"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tigre.jpg",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tigre.jpg"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\denuncia.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\denuncia.png"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_regvarios.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\button_regvarios.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_regbackground.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\button_regbackground.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tips.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tips.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\noticia.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\noticia.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\9f25dfcd4a4366f48d9d75b8ee15a4448510942e\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo22.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\logo22.png"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\semana_antirabica.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\semana_antirabica.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_like_background.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tortuga.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\tortuga.jpg"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prox2.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\prox2.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progr.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\progr.jpg"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.jpeg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\logo.jpeg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\edittext_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vaca.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\vaca.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_button_login_background.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\denuncia.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\denuncia.png"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lap.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\lap.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vaca.jpg",
@@ -1248,87 +424,23 @@
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.jpeg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\logo.jpeg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cabra.jpg",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\cabra.jpg"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_background.xml",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\edittext_background.xml"
     },
     {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progr.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\progr.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\design_password_eye.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\proximamente.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\proximamente.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tigre_blanco.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\tigre_blanco.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pato.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\pato.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tarjeta_credito.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\tarjeta_credito.png"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\like2.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\like2.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adopta.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\adopta.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_regvarios.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\button_regvarios.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\root\\.android\\build-cache\\ee7875b7c14be39082d49fa55c712360642c6006\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\drawable\\com_facebook_button_send_background.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tucan_amarillo.jpg",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\tucan_amarillo.jpg"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
-        "source": "C:\\root\\.android\\build-cache\\aebab36ef46a05d75a898b6bcdbb54a6bfd97223\\output\\res\\drawable\\com_facebook_button_icon.xml"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jaguar.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\jaguar.png"
-    },
-    {
-        "merged": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\denuncia.png",
-        "source": "C:\\root\\AndroidStudioProjects\\FaunaSegura3\\app\\src\\main\\res\\drawable\\denuncia.png"
     }
 ]

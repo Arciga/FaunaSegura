@@ -1,4 +1,4 @@
-#Mon Aug 14 20:56:50 CDT 2017
+#Tue Aug 15 17:56:25 CDT 2017
 file.9=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_5e80e2930fa58a6f7efa67aab95d3c809e8c4ffb\\classes.dex
 base.10=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_4b2a8c446aff5101ede0b9cd80d0786ee79ec5a4
 file.8=C\:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_c95d5b38dc411fd1b9c1b10ee1fc62af1c55a1b8\\classes.dex
