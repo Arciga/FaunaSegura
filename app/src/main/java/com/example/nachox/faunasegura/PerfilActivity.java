@@ -24,6 +24,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.util.Hashtable;
@@ -31,6 +34,7 @@ import java.util.Map;
 
 public class PerfilActivity extends AppCompatActivity {
 TextView email;
+    String[] stringArray = new String[0];
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,5 +43,60 @@ TextView email;
 
         email = (TextView) findViewById(R.id.texto_email);
         Dbase db = new Dbase( getApplicationContext() );
-       email.setText(db.obtener(1));
-       }}
+        String consulta = "http://104.198.61.117/mascotas/consultauser.php?use=";
+        EnviarRecibirDatos(consulta+db.obtener(1));
+
+       }
+
+
+
+
+
+    public void EnviarRecibirDatos(String URL){
+
+
+
+        RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+                response = response.replace("][",",");
+                if (response.length()>0) {
+                    try {
+                        JSONArray ja = new JSONArray(response);
+
+
+                        stringArray = new String[ja.length()];
+
+                        for (int i = 0; i < ja.length(); i++) {
+                            stringArray[i] = ja.getJSONObject(i).getString("email");
+                            System.out.print("email "+stringArray);
+                            email.setText(stringArray[i]);
+                        }
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }, new Response.ErrorListener(){
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+        queue.add(stringRequest);
+
+
+
+
+
+
+
+
+
+    }
+
+}

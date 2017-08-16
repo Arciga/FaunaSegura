@@ -53,7 +53,7 @@ public class FragmentoNotificaciones extends Fragment {
     private static final String INDICE_SECCION = "INDICE_SECCION";
     private RecyclerView reciclador;
     private GridLayoutManager layoutManager;
-    private MyAdapter adaptador;
+    private AdaptadorNotificaciones adaptador;
 
     String[] arr2={"a","b"} ;
     String value1="";
@@ -83,14 +83,16 @@ public class FragmentoNotificaciones extends Fragment {
         reciclador.setLayoutManager(layoutManager);
 
         int indiceSeccion = getArguments().getInt(INDICE_SECCION);
-        String consulta = "http://104.198.61.117/mascotas/consultauser.php";
+        String consulta = "http://104.198.61.117/mascotas/consultauser.php?use=";
         FragmentoNotificaciones.AsyncDataClass asyncRequestObject = new FragmentoNotificaciones.AsyncDataClass();
         Dbase db = new Dbase( getActivity() );
 
-        asyncRequestObject.execute(consulta,db.obtener(1) );
+        EnviarRecibirDatos(consulta+db.obtener(1));
+
+       // asyncRequestObject.execute(consulta,db.obtener(1) );
 
 
-        adaptador = new MyAdapter(stringArray);
+        adaptador = new AdaptadorNotificaciones(stringArray);
 
         reciclador.setAdapter(adaptador);
 
@@ -104,6 +106,54 @@ public class FragmentoNotificaciones extends Fragment {
     }
 
 
+
+    public void EnviarRecibirDatos(String URL){
+
+
+
+        RequestQueue queue = Volley.newRequestQueue(getActivity());
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+                response = response.replace("][",",");
+                if (response.length()>0) {
+                    try {
+                        JSONArray ja = new JSONArray(response);
+
+
+                        stringArray = new String[ja.length()];
+
+                        for (int i = 0; i < ja.length(); i++) {
+                            stringArray[i] = ja.getJSONObject(i).getString("email");
+System.out.print("email "+stringArray[i]);
+                        }
+
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                    adaptador = new AdaptadorNotificaciones(stringArray);
+                    reciclador.setAdapter(adaptador);
+                }
+            }
+        }, new Response.ErrorListener(){
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+
+        queue.add(stringRequest);
+
+
+
+
+
+
+
+
+
+    }
 
 
 
@@ -133,7 +183,7 @@ public class FragmentoNotificaciones extends Fragment {
                 HttpResponse response = httpClient.execute(httpPost);
                 jsonResult = inputStreamToString(response.getEntity().getContent()).toString();
 
-                response = response.replace("][",",");
+
                     try {
                         JSONArray ja = new JSONArray(response);
 
@@ -163,6 +213,8 @@ System.out.println("salida"+jsonResult);
             }
             return jsonResult;
         }
+
+
 
 
 

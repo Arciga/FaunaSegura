@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\content_main.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout-land\\content_main.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\actividad_denuncias.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout-land\\actividad_denuncias.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\item.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout-land\\item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\content_main.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout-land\\content_main.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\actividad_denuncias.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout-land\\actividad_denuncias.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\item.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout-land\\item.xml"
     }
 ]

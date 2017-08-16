@@ -3813,6 +3813,7 @@ containing a value of this type.
         public static final int imageView4=0x7f0f00f2;
         public static final int imageView5=0x7f0f00f1;
         public static final int imageView6=0x7f0f00f3;
+        public static final int imageView7=0x7f0f010f;
         public static final int imageView8=0x7f0f008e;
         public static final int imagen=0x7f0f009f;
         public static final int imagen_no_tarjeta=0x7f0f0115;
@@ -3925,7 +3926,6 @@ containing a value of this type.
         public static final int status_bar_latest_event_content=0x7f0f0134;
         public static final int submenuarrow=0x7f0f0075;
         public static final int submit_area=0x7f0f0086;
-        public static final int switch1=0x7f0f010f;
         public static final int tabMode=0x7f0f001a;
         public static final int text=0x7f0f0121;
         public static final int text2=0x7f0f0142;
@@ -3945,7 +3945,6 @@ containing a value of this type.
         public static final int textView2=0x7f0f009d;
         public static final int textView20=0x7f0f00a3;
         public static final int textView21=0x7f0f00f7;
-        public static final int textView22=0x7f0f0110;
         public static final int textView23=0x7f0f00a0;
         public static final int textView24=0x7f0f00f9;
         public static final int textView25=0x7f0f00a1;
@@ -3962,6 +3961,7 @@ containing a value of this type.
         public static final int textView8=0x7f0f00b1;
         public static final int textView9=0x7f0f00b2;
         public static final int text_input_password_toggle=0x7f0f0106;
+        public static final int textdireccion=0x7f0f0110;
         public static final int textinput_counter=0x7f0f0009;
         public static final int textinput_error=0x7f0f000a;
         public static final int texto_ciudad=0x7f0f011f;

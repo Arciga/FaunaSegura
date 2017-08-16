@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\FaunaSegura\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\nachox\\.android\\build-cache\\ad18d3b3e368f35e64393e9e0c52abbbea762ce2\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\nacho\\.android\\build-cache\\229f0da0e3dd6051d46ed127475bb3d2263bc7dc\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

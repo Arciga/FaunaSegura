@@ -1,394 +1,394 @@
 [
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registro_persona.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_registro_persona.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_alquiler.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_alquiler.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\messenger_button_send_blue_round.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_paginado.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_paginado.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_principal.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_principal.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_tarjetas.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_tarjetas.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_denuncias.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_denuncias.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\messenger_button_send_white_large.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_detalle.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_detalle.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_guardianes_dela_fauna.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\content_guardianes_dela_fauna.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_inicio.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_inicio.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_inicio.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_inicio.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\consultardenuncia.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\consultardenuncia.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenido_principal.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\contenido_principal.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\messenger_button_send_white_small.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recyclerview_activity.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\recyclerview_activity.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\denunciaciudadana.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\denunciaciudadana.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_item.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\card_item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registra_mascota.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\registra_mascota.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\messenger_button_send_white_small.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenido_principal.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\contenido_principal.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\com_facebook_login_fragment.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_configuracion.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_configuracion.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_registro.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\menu_registro.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_notificaciones.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_notificaciones.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\denunciaciudadana.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\denunciaciudadana.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guardianes_dela_fauna.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_guardianes_dela_fauna.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_guardianes_dela_fauna.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\content_guardianes_dela_fauna.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guardianes_dela_fauna.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_guardianes_dela_fauna.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recyclerview_activity.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\recyclerview_activity.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_paginado.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_paginado.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\com_facebook_activity_layout.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_principal.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_principal.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\menu_registro.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\menu_registro.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registro_institucion.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_registro_institucion.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_grupo_items.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_grupo_items.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\notification_action.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_perfil.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_perfil.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\messenger_button_send_blue_small.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cabecera_drawer.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\cabecera_drawer.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_configuracion.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_configuracion.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blank.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\fragment_blank.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_inicio.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_inicio.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\card_item.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\card_item.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_bottom_navigation_item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_detalle.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_detalle.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenido_dramascota.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\contenido_dramascota.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_denuncias.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_denuncias.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_regmascota.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_regmascota.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_categorias.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_categorias.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_grupo_items.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_grupo_items.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\consultardenuncia.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\consultardenuncia.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\contenido_dramascota.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\contenido_dramascota.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registro_persona.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_registro_persona.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_notificaciones.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_notificaciones.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_action.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_registro_institucion.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_registro_institucion.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_direccion.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_direccion.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_activity.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\cardview_activity.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\com_facebook_activity_layout.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_tarjetas.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_tarjetas.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cabecera_drawer.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\cabecera_drawer.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_dramascota.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_dramascota.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_dramascota.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_dramascota.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\messenger_button_send_white_round.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\registra_mascota.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\registra_mascota.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_login_fragment.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\com_facebook_login_fragment.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_blank.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\fragment_blank.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_round.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\messenger_button_send_blue_round.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\messenger_button_send_white_round.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_direccion.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_direccion.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_alquiler.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_alquiler.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_white_large.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\messenger_button_send_white_large.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_inicio.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_inicio.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_noticias.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_noticias.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_noticias.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_noticias.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d3038e5cf8d0f39763341b12f105fff0f1438ea3\\output\\res\\layout\\design_navigation_item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\8b62337474cefa6108c5cd0bb784efb69a61b38a\\output\\res\\layout\\messenger_button_send_blue_large.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\95a3b09469d090f4ef851c99c16710dc6edf7a46\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_categorias.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\item_lista_categorias.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_perfil.xml",
-        "source": "C:\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_perfil.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\actividad_regmascota.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\actividad_regmascota.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\messenger_button_send_blue_small.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\cardview_activity.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\cardview_activity.xml"
     },
     {
-        "merged": "C:\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
-        "source": "C:\\Users\\nachox\\.android\\build-cache\\d18c6fa74d9e4db7dabe60b7a18acb98af806dde\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_bottom_navigation_item.xml"
     }
 ]

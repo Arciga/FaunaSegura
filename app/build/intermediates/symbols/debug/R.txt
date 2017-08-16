@@ -1108,6 +1108,7 @@ int id imageView3 0x7f0f00d3
 int id imageView4 0x7f0f00f2
 int id imageView5 0x7f0f00f1
 int id imageView6 0x7f0f00f3
+int id imageView7 0x7f0f010f
 int id imageView8 0x7f0f008e
 int id imagen 0x7f0f009f
 int id imagen_no_tarjeta 0x7f0f0115
@@ -1220,7 +1221,6 @@ int id start 0x7f0f0036
 int id status_bar_latest_event_content 0x7f0f0134
 int id submenuarrow 0x7f0f0075
 int id submit_area 0x7f0f0086
-int id switch1 0x7f0f010f
 int id tabMode 0x7f0f001a
 int id text 0x7f0f0121
 int id text2 0x7f0f0142
@@ -1240,7 +1240,6 @@ int id textView19 0x7f0f00d2
 int id textView2 0x7f0f009d
 int id textView20 0x7f0f00a3
 int id textView21 0x7f0f00f7
-int id textView22 0x7f0f0110
 int id textView23 0x7f0f00a0
 int id textView24 0x7f0f00f9
 int id textView25 0x7f0f00a1
@@ -1257,6 +1256,7 @@ int id textView7 0x7f0f012c
 int id textView8 0x7f0f00b1
 int id textView9 0x7f0f00b2
 int id text_input_password_toggle 0x7f0f0106
+int id textdireccion 0x7f0f0110
 int id textinput_counter 0x7f0f0009
 int id textinput_error 0x7f0f000a
 int id texto_ciudad 0x7f0f011f
