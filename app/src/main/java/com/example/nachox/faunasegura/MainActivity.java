@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private SmallBang mSmallBang;
 
     public static int MILISEGUNDOS_ESPERA = 5000;
-    private final String serverUrl = "http://104.198.61.117/index.php";
+    private final String serverUrl = "http://104.198.61.117/inde.php";
 
 
 
