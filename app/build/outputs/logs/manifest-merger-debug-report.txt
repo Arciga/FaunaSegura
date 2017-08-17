@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:2:1-77:12
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
 		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
@@ -26,7 +26,8 @@ ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManif
 	android:name
 		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:9:5-75:19
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:9:5-77:19
+MERGED from [FaunaSegura:jplot1.0:unspecified] C:\Users\nacho\.android\build-cache\9e0b8bf4b6eb8c133a1d07eee9bc55be6c69dc30\output\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nacho\.android\build-cache\204d8213724efb08b7e0250564a927eace465c93\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] C:\Users\nacho\.android\build-cache\843f8ab3ff511d64038d0bd0adb82190a1343762\output\AndroidManifest.xml:26:5-20
@@ -150,23 +151,28 @@ ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManif
 	android:name
 		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:57:19-52
 provider#com.facebook.FacebookContentProvider
-ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:58:9-61:39
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:59:9-62:39
 	android:authorities
-		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:60:13-91
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:61:13-91
 	android:exported
-		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:61:13-36
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:62:13-36
 	android:name
-		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:59:13-64
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:60:13-64
 activity#com.example.nachox.faunasegura.GuardianesDelaFauna
-ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:71:9-74:68
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:72:9-75:59
 	android:label
-		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:73:13-73
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:74:13-73
 	android:theme
-		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:74:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:75:13-56
 	android:name
-		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:72:13-48
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:73:13-48
+activity#com.example.nachox.faunasegura.Main2Activity
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:76:9-60
+	android:name
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:76:19-48
 uses-sdk
 INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [FaunaSegura:jplot1.0:unspecified] C:\Users\nacho\.android\build-cache\9e0b8bf4b6eb8c133a1d07eee9bc55be6c69dc30\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nacho\.android\build-cache\204d8213724efb08b7e0250564a927eace465c93\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:transition:25.3.1] C:\Users\nacho\.android\build-cache\843f8ab3ff511d64038d0bd0adb82190a1343762\output\AndroidManifest.xml:20:5-44

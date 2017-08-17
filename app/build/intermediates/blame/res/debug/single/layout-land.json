@@ -4,6 +4,10 @@
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout-land\\actividad_denuncias.xml"
     },
     {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\activity_main2.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout-land\\activity_main2.xml"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\content_main.xml",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout-land\\content_main.xml"
     },

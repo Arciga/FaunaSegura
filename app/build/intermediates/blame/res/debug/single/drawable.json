@@ -168,12 +168,12 @@
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\camera.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\likeback.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\likeback.png"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\jaguar.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\jaguar.png"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\likeback.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\likeback.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notifauna.png",
@@ -304,12 +304,12 @@
         "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\adopta2.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable\\adopta2.png"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",

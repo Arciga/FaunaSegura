@@ -37,7 +37,7 @@ import java.util.Map;
 public class PerfilActivity extends AppCompatActivity {
 TextView email;
     String[] stringArray = new String[0];
-
+    private Button inicia;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +48,16 @@ TextView email;
         String consulta = "http://104.198.61.117/mascotas/consultauser.php?use=";
         EnviarRecibirDatos(consulta+db.obtener(1));
 
+        inicia=(Button)findViewById(R.id.button5) ;
+        inicia.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                Intent intent = new Intent(PerfilActivity.this, Main2Activity.class);
+                startActivity(intent);
+            }
+        });
        }
 
 

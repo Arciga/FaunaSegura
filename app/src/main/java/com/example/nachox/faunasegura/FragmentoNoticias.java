@@ -133,7 +133,7 @@ public class FragmentoNoticias extends Fragment {
                         stringnombre = new String[ja.length()];
                         stringsedad = new String[ja.length()];
                         stringenro = new String[ja.length()];
-stringraza= new String[ja.length()];
+                        stringraza= new String[ja.length()];
                         for (int i = 0; i < ja.length(); i++) {
                             stringnombre[i] = ja.getJSONObject(i).getString("nombre");
                             stringsedad[i] = ja.getJSONObject(i).getString("edad");

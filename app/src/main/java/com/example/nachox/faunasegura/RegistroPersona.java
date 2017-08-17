@@ -11,10 +11,12 @@ import android.util.Patterns;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import org.apache.http.HttpResponse;
@@ -60,7 +62,7 @@ public class RegistroPersona extends ActionBarActivity {
     protected String co;
     protected String vco;
     protected String direc;
-
+    private Spinner spinner ;
     public  String Sexofinal="M";
     private final String serverUrl = "http://104.198.61.117/index.php";
 
@@ -79,7 +81,15 @@ public class RegistroPersona extends ActionBarActivity {
         radio =(RadioGroup) findViewById(R.id.gruop);
         direccion =(EditText)findViewById(R.id.direccion);
         nombre =(EditText)findViewById(R.id.nombres);
+        String colors[] = {"Hombre","Mujer"};
 
+// Selection of the spinner
+        spinner = (Spinner) findViewById(R.id.spinner3);
+
+// Application of the Array to the Spinner
+        ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this,   android.R.layout.simple_spinner_item, colors);
+        spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
+        spinner.setAdapter(spinnerArrayAdapter);
         Button signUpButton = (Button)findViewById(R.id.RegPersona);
 
         signUpButton.setOnClickListener(new View.OnClickListener() {
@@ -163,6 +173,7 @@ public class RegistroPersona extends ActionBarActivity {
             }
             if(jsonResult == 1){
                 Intent intent = new Intent(RegistroPersona.this, MainActivity.class);
+                finish();
                 startActivity(intent);
             }
         }
@@ -257,7 +268,7 @@ public class RegistroPersona extends ActionBarActivity {
          boolean f =escontrarectificada(enteredPassword,vPass);
         if (a && b && c  && e && f) {
             AsyncDataClass asyncRequestObject = new AsyncDataClass();
-            asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword, enteredEmail,nombreS,edadd,Sexofinal,direc);
+            asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword, enteredEmail,nombreS,edadd,spinner.getSelectedItem().toString(),direc);
 
 
         }

@@ -55,6 +55,7 @@
         <activity android:name=".Denuncias" />
         <activity android:name=".consultardenuncia" />
         <activity android:name=".denunciaciudadana" />
+
         <provider
             android:name="com.facebook.FacebookContentProvider"
             android:authorities="com.facebook.app.FacebookContentProvider1761090100584889"
@@ -71,7 +72,8 @@
         <activity
             android:name=".GuardianesDelaFauna"
             android:label="@string/title_activity_guardianes_dela_fauna"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>

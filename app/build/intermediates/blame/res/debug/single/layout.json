@@ -160,16 +160,16 @@
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_registro_institucion.xml"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\nacho\\.android\\build-cache\\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_perfil.xml",
@@ -258,6 +258,10 @@
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmento_grupo_items.xml",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\fragmento_grupo_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\layout\\activity_main2.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
