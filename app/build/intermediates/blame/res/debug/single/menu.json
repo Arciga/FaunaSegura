@@ -4,8 +4,20 @@
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_categorias.xml"
     },
     {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_principal.xml",
+        "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
+        "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_drawer.xml"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_principal.xml",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_principal.xml"
+    },
+    {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_categorias.xml",
+        "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_categorias.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_lista_alquileres.xml",
@@ -14,5 +26,9 @@
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_actividad_lista_alquileres.xml",
+        "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\menu\\menu_actividad_lista_alquileres.xml"
     }
 ]

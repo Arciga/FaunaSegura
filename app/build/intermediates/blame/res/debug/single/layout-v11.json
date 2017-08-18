@@ -1,11 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\ivette\\.android\\build-cache\\5701b51e0ba463ab0e1af5317d50b675b1aca852\\output\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\ivette\\.android\\build-cache\\5701b51e0ba463ab0e1af5317d50b675b1aca852\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\ivette\\.android\\build-cache\\5701b51e0ba463ab0e1af5317d50b675b1aca852\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\ivette\\.android\\build-cache\\5701b51e0ba463ab0e1af5317d50b675b1aca852\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
@@ -16,11 +32,19 @@
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\ivette\\.android\\build-cache\\5701b51e0ba463ab0e1af5317d50b675b1aca852\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
         "source": "C:\\Users\\nacho\\.android\\build-cache\\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\ivette\\.android\\build-cache\\5701b51e0ba463ab0e1af5317d50b675b1aca852\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     }
 ]

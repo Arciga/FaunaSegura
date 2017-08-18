@@ -14,6 +14,8 @@ public class denunciaciudadana extends AppCompatActivity {
         setContentView(R.layout.denunciaciudadana);
 
         browser=(WebView)findViewById(R.id.webView);
+        browser.getSettings().setJavaScriptEnabled(true);
+        browser.getSettings().setBuiltInZoomControls(true);
         browser.setWebViewClient(new WebViewClient() {
             @Override public boolean shouldOverrideUrlLoading(WebView view, String url) {
                 view.loadUrl(url); return true; } });
