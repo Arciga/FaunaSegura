@@ -166,26 +166,13 @@ String a;
         FloatingActionButton signUpButton = (FloatingActionButton)findViewById(R.id.floatingActionButton3);
         new GetCategories().execute();
         spinnerFood.setOnItemSelectedListener(this);
-
-
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
-
-
-
         String colors[] = {"Hembra","Macho","No lo se"};
-
-// Selection of the spinner
          spinner = (Spinner) findViewById(R.id.spinnerGenero);
-
-// Application of the Array to the Spinner
         ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this,   android.R.layout.simple_spinner_item, colors);
         spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
         spinner.setAdapter(spinnerArrayAdapter);
-
-
-
-
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -199,8 +186,11 @@ String a;
                  url = ph;
                 // request authentication with remote server4
 
-                validarDatos();
+
                 uploadMultipart();
+
+
+
 
                 //fonga ionic backbond
             }
@@ -209,8 +199,6 @@ String a;
 
 
     }
-
-
     private boolean mayRequestStoragePermission() {
 
         if(Build.VERSION.SDK_INT < Build.VERSION_CODES.M)
@@ -440,8 +428,8 @@ String a;
         // boolean d = esvCorreoValido(co,vco);
 
         if (a && b && c  ) {
-            AsyncDataClass asyncRequestObject = new AsyncDataClass();
-            asyncRequestObject.execute(serverUrl, spinnerFood.getSelectedItem().toString(),  nombres,edadd,razaa,fecha,spinner.getSelectedItem().toString(),usuaio,url);
+            //AsyncDataClass asyncRequestObject = new AsyncDataClass();
+            //asyncRequestObject.execute(serverUrl, spinnerFood.getSelectedItem().toString(),  nombres,edadd,razaa,fecha,spinner.getSelectedItem().toString(),usuaio,url);
 
         }
 
@@ -515,7 +503,7 @@ String a;
 
         //getting the actual path of the image
         String path = getPath(uriphat);
-
+        Dbase db = new Dbase( getApplicationContext() );
         //Uploading code
         try {
             String uploadId = UUID.randomUUID().toString();
@@ -524,6 +512,18 @@ String a;
             new MultipartUploadRequest(this, uploadId, Constants.UPLOAD_URL)
                     .addFileToUpload(path, "image") //Adding file
                     .addParameter("name", name) //Adding text parameter to the request
+                  //  .addParameter("nombre", name)
+                    .addParameter("especie", spinnerFood.getSelectedItem().toString())
+                    .addParameter("edad", edadd)
+                    .addParameter("raza", razaa)
+
+                    .addParameter("fechanacimiento", fecha)
+
+                    .addParameter("genero", spinner.getSelectedItem().toString())
+
+                    .addParameter("usuario", db.obtener(1))
+
+
                     .setNotificationConfig(new UploadNotificationConfig())
                     .setMaxRetries(2)
                     .startUpload(); //Starting the upload
@@ -532,14 +532,11 @@ String a;
             Toast.makeText(this, exc.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
-
-
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putString("file_path", mPath);
     }
-
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
@@ -581,7 +578,6 @@ String a;
             }
         }
     }
-
     public String getPath(Uri uri) {
         Cursor cursor = getContentResolver().query(uri, null, null, null, null);
         cursor.moveToFirst();
@@ -598,8 +594,6 @@ String a;
 
         return path;
     }
-
-
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -613,7 +607,6 @@ String a;
             showExplanation();
         }
     }
-
     private void showExplanation() {
         AlertDialog.Builder builder = new AlertDialog.Builder(RegistraMascota.this);
         builder.setTitle("Permisos denegados");

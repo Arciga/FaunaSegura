@@ -16,7 +16,7 @@ public class AdaptadorMisMascotas extends RecyclerView.Adapter<AdaptadorMisMasco
     private String[] nombree;
     private String[] edadd;
     private String[] razaa;
-    private String[] urll;
+    private String[] urll={""};
     private String[] generoo;
     private EscuchaEventosClick escucha;
 

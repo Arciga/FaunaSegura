@@ -132,7 +132,7 @@ public class FragmentoMisMascotas extends Fragment {
                         stringenro = new String[ja.length()];
                         stringraza= new String[ja.length()];
                         for (int i = 0; i < ja.length(); i++) {
-                            stringnombre[i] = ja.getJSONObject(i).getString("nombre");
+                            stringnombre[i] = ja.getJSONObject(i).getString("name");
                             stringsedad[i] = ja.getJSONObject(i).getString("edad");
                             stringenro[i] = ja.getJSONObject(i).getString("genero");
                             stringraza[i] = ja.getJSONObject(i).getString("raza");
