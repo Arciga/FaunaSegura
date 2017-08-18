@@ -1,4 +1,5 @@
 package com.example.nachox.faunasegura;
+import android.content.Context;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,10 +8,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.signature.StringSignature;
+import com.squareup.picasso.Picasso;
+
 public class AdaptadorMisMascotas extends RecyclerView.Adapter<AdaptadorMisMascotas.MyViewHolder> {
     private String[] nombree;
     private String[] edadd;
     private String[] razaa;
+    private String[] urll;
     private String[] generoo;
     private EscuchaEventosClick escucha;
 
@@ -36,18 +42,19 @@ public class AdaptadorMisMascotas extends RecyclerView.Adapter<AdaptadorMisMasco
             razad = (TextView) v.findViewById(R.id.razacard);
             generod = (TextView) v.findViewById(R.id.generocard);
             edadd = (TextView) v.findViewById(R.id.edadcard);
-            imageView =  (ImageView) v.findViewById(R.id.iv_image);
+            imageView =  (ImageView) v.findViewById(R.id.imagenmascota);
             //v.setOnClickListener(this);
         }
 
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public AdaptadorMisMascotas(String[] nombre, String[] edad, String[] raza, String[] genero) {
+    public AdaptadorMisMascotas(String[] nombre, String[] edad, String[] raza, String[] genero,String[] url) {
         nombree = nombre;
    edadd=edad;
         razaa=raza;
         generoo=genero;
+        urll=url;
     }
 
     // Create new views (invoked by the layout manager)
@@ -56,7 +63,7 @@ public class AdaptadorMisMascotas extends RecyclerView.Adapter<AdaptadorMisMasco
                                                                 int viewType) {
 
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_lista_notificaciones, parent, false);
+                .inflate(R.layout.fragmento_mis_mascotas, parent, false);
 
         MyViewHolder vh = new MyViewHolder(v);
         return vh;
@@ -69,6 +76,15 @@ public class AdaptadorMisMascotas extends RecyclerView.Adapter<AdaptadorMisMasco
         holder.edadd.setText(edadd[position]);
         holder.razad.setText(razaa[position]);
         holder.generod.setText(generoo[position]);
+
+        Picasso.with(holder.imageView.getContext()).load(urll[position]).into(holder.imageView);
+        //  viewHolder.imageView.setImageResource(mResIds[position]);
+
+
+        //Glide.with(holder.imageView.getContext()).load(urll[position]).placeholder(R.drawable.adopta).crossFade().signature(new StringSignature(String.valueOf(System.currentTimeMillis()))).error(R.drawable.busqueda).into(holder.imageView);
+    // Glide.with( holder.itemView.getContext()).load(urll[position]).centerCrop().into(holder.imageView);
+
+
 
 
 

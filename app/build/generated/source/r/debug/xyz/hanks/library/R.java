@@ -523,7 +523,7 @@ public final class R {
         public static final int status_bar_latest_event_content = 0x7f0f013c;
         public static final int submit_area = 0x7f0f0086;
         public static final int tabMode = 0x7f0f001a;
-        public static final int text = 0x7f0f0123;
+        public static final int text = 0x7f0f0129;
         public static final int text2 = 0x7f0f014a;
         public static final int textSpacerNoButtons = 0x7f0f0069;
         public static final int time = 0x7f0f0142;

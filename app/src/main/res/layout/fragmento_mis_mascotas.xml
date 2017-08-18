@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        card_view:elevation="22dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="202dp"
+                android:layout_height="199dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="69dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="11dp"
+                            android:layout_toEndOf="@+id/iv_image"
+                            android:text="Nombre:"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/nombrecard"
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="11dp"
+                            android:layout_toEndOf="@+id/iv_image"
+                            android:padding="5dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="69dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="11dp"
+                            android:layout_toEndOf="@+id/iv_image"
+                            android:text="Edad:"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/edadcard"
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="11dp"
+                            android:layout_toEndOf="@+id/iv_image"
+                            android:padding="5dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="69dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="11dp"
+                            android:layout_toEndOf="@+id/iv_image"
+                            android:text="Raza:"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/razacard"
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="11dp"
+                            android:layout_toEndOf="@+id/iv_image"
+                            android:padding="5dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="199dp"
+                        android:layout_height="45dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="69dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="11dp"
+                            android:layout_toEndOf="@+id/iv_image"
+                            android:text="Genero"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/generocard"
+                            android:layout_width="97dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="13dp"
+                            android:layout_marginTop="11dp"
+                            android:layout_toEndOf="@+id/iv_image"
+                            android:padding="5dp"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imagenmascota"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.04"
+                android:src="@drawable/noticia2" />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

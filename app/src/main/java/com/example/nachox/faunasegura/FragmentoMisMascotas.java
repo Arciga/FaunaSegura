@@ -35,7 +35,7 @@ public class FragmentoMisMascotas extends Fragment {
     String[] gen={"H","M"} ;
     String value1="";
     String[] stringnombre = new String[0];
-
+    String[] stringurl = new String[0];
     String[] stringsedad = new String[0];
     String[] stringraza = new String[0];
     String[] stringenro = new String[0];
@@ -76,8 +76,8 @@ public class FragmentoMisMascotas extends Fragment {
         switch (indiceSeccion) {
             case 0:
 
-
-                adaptador = new AdaptadorMisMascotas(nomb,ed,ra,gen);
+                adaptador = new AdaptadorMisMascotas(stringnombre,stringsedad,stringraza,stringenro, stringurl);
+                //adaptador = new AdaptadorMisMascotas(nomb,ed,ra,gen, stringurl);
                 break;
 
         }
@@ -127,6 +127,7 @@ public class FragmentoMisMascotas extends Fragment {
 
 
                         stringnombre = new String[ja.length()];
+                        stringurl = new String[ja.length()];
                         stringsedad = new String[ja.length()];
                         stringenro = new String[ja.length()];
                         stringraza= new String[ja.length()];
@@ -135,13 +136,13 @@ public class FragmentoMisMascotas extends Fragment {
                             stringsedad[i] = ja.getJSONObject(i).getString("edad");
                             stringenro[i] = ja.getJSONObject(i).getString("genero");
                             stringraza[i] = ja.getJSONObject(i).getString("raza");
-
+                            stringurl[i] = ja.getJSONObject(i).getString("url");
                         }
 
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
-                    adaptador = new AdaptadorMisMascotas(stringnombre,stringsedad,stringraza,stringenro);
+                    adaptador = new AdaptadorMisMascotas(stringnombre,stringsedad,stringraza,stringenro, stringurl);
                     reciclador.setAdapter(adaptador);
                 }
             }
