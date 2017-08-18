@@ -4,11 +4,9 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
@@ -26,7 +24,7 @@ public class ActividadDetalle extends AppCompatActivity {
 
         anadirToolbar();
 
-        int posicion = getIntent().getIntExtra(BlankFragment.EXTRA_POSICION, -1);
+        int posicion = getIntent().getIntExtra(FragmentoNoticias.EXTRA_POSICION, -1);
 
         Animales itemSeleccionado = Animales.ANIMALES_EN_PELIGRO.get(posicion);
 

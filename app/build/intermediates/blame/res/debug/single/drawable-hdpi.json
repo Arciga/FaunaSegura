@@ -52,12 +52,12 @@
         "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\drawable-hdpi\\email.png"
     },
     {
-        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicador_derecho.png",
-        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-hdpi\\indicador_derecho.png"
-    },
-    {
         "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicador_derecho.png",
         "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\drawable-hdpi\\indicador_derecho.png"
+    },
+    {
+        "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicador_derecho.png",
+        "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-hdpi\\indicador_derecho.png"
     },
     {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\drawer_toggle.png",

@@ -7,15 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.bumptech.glide.Glide;
-
-import java.util.List;
-
 public class AdaptadorNoticias extends RecyclerView.Adapter<AdaptadorNoticias.MyViewHolder> {
-    private String[] nombree;
-    private String[] edadd;
-    private String[] razaa;
-    private String[] generoo;
+    private String[] mDataset;
     private EscuchaEventosClick escucha;
 
     interface EscuchaEventosClick {
@@ -25,10 +18,7 @@ public class AdaptadorNoticias extends RecyclerView.Adapter<AdaptadorNoticias.My
 
     public  class MyViewHolder extends RecyclerView.ViewHolder{
         public CardView mCardView;
-        public TextView nombred;
-        public TextView razad;
-        public TextView generod;
-        public TextView edadd;
+        public TextView mTextView;
         private EscuchaEventosClick escucha;
         public ImageView imageView;
 
@@ -36,10 +26,7 @@ public class AdaptadorNoticias extends RecyclerView.Adapter<AdaptadorNoticias.My
             super(v);
 
             mCardView = (CardView) v.findViewById(R.id.card_view);
-            nombred = (TextView) v.findViewById(R.id.nombrecard);
-            razad = (TextView) v.findViewById(R.id.razacard);
-            generod = (TextView) v.findViewById(R.id.generocard);
-            edadd = (TextView) v.findViewById(R.id.edadcard);
+            mTextView = (TextView) v.findViewById(R.id.tv_blah);
             imageView =  (ImageView) v.findViewById(R.id.iv_image);
             //v.setOnClickListener(this);
         }
@@ -47,20 +34,17 @@ public class AdaptadorNoticias extends RecyclerView.Adapter<AdaptadorNoticias.My
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public AdaptadorNoticias(String[] nombre,String[] edad,String[] raza,String[] genero) {
-        nombree = nombre;
-   edadd=edad;
-        razaa=raza;
-        generoo=genero;
+    public AdaptadorNoticias(String[] myDataset) {
+        mDataset = myDataset;
     }
 
     // Create new views (invoked by the layout manager)
     @Override
     public AdaptadorNoticias.MyViewHolder onCreateViewHolder(ViewGroup parent,
-                                                     int viewType) {
+                                                             int viewType) {
 
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.item_lista_notificaciones, parent, false);
+                .inflate(R.layout.card_item, parent, false);
 
         MyViewHolder vh = new MyViewHolder(v);
         return vh;
@@ -69,17 +53,17 @@ public class AdaptadorNoticias extends RecyclerView.Adapter<AdaptadorNoticias.My
     @Override
     public void onBindViewHolder(MyViewHolder holder, int position) {
 
-        holder.nombred.setText(nombree[position]);
-        holder.edadd.setText(edadd[position]);
-        holder.razad.setText(razaa[position]);
-        holder.generod.setText(generoo[position]);
+        holder.mTextView.setText(mDataset[position]);
 
 
 
     }
 
-
+    public AdaptadorNoticias(EscuchaEventosClick escucha) {
+        this.escucha = escucha;
+    }
+    @Override
     public int getItemCount() {
-        return nombree.length;
+        return mDataset.length;
     }
 }

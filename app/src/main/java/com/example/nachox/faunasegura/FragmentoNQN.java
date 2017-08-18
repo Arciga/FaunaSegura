@@ -59,8 +59,8 @@ public class FragmentoNQN extends Fragment {
     private void poblarViewPager(ViewPager viewPager) {
         AdaptadorSecciones adapter = new AdaptadorSecciones(getFragmentManager());
         adapter.addFragment( FragmentoInicio.nuevaInstancia(0),getString(R.string.titulo_tab_QUINES));
-        adapter.addFragment(FragmentoNoticias.nuevaInstancia(0), getString(R.string.titulo_tab_notiFICA));
-        adapter.addFragment(   BlankFragment.nuevaInstancia(0),   getString(R.string.titulo_tab_noticas));
+        adapter.addFragment(FragmentoMisMascotas.nuevaInstancia(0), getString(R.string.titulo_tab_notiFICA));
+        adapter.addFragment(   FragmentoNoticias.nuevaInstancia(0),   getString(R.string.titulo_tab_noticas));
 
         viewPager.setAdapter(adapter);
     }

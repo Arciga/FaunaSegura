@@ -64,7 +64,7 @@ public class RegistroPersona extends ActionBarActivity {
     protected String direc;
     private Spinner spinner ;
     public  String Sexofinal="M";
-    private final String serverUrl = "http://104.198.61.117/inde.php";
+    private final String serverUrl = "http://104.198.61.117/FaunaSeguraProyect/RegistratUsuaios/index.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

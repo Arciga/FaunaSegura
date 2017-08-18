@@ -36,12 +36,12 @@
         "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\usuario.png"
     },
     {
-        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\busqueda.png",
-        "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\busqueda.png"
-    },
-    {
         "merged": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_salir.png",
         "source": "C:\\Users\\nacho\\Documents\\GitHub\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\ic_salir.png"
+    },
+    {
+        "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\busqueda.png",
+        "source": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\src\\main\\res\\drawable-xhdpi\\busqueda.png"
     },
     {
         "merged": "C:\\Users\\ivette\\AndroidStudioProjects\\FaunaSegura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_camara.png",

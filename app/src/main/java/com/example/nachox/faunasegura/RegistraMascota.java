@@ -88,9 +88,9 @@ TextView u;
     ProgressDialog pDialog;
     String[] stringnombre = new String[0];
     public  String Sexofinal="M";
-    private String URL_CATEGORIES = "http://104.198.61.117/listar/consultaespecies.php";
+    private String URL_CATEGORIES = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
     private Spinner spinnerfruta;
-    private final String serverUrl = "http://104.198.61.117/mascotas/index.php";
+    private final String serverUrl = "http://104.198.61.117/FaunaSeguraProyect/RegistrarMascotas/index.php";
 String a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

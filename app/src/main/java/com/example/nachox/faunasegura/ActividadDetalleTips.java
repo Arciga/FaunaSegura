@@ -24,7 +24,7 @@ public class ActividadDetalleTips extends AppCompatActivity {
 
         anadirToolbar();
 
-        int posicion = getIntent().getIntExtra(BlankFragment.EXTRA_POSICION, -1);
+        int posicion = getIntent().getIntExtra(FragmentoNoticias.EXTRA_POSICION, -1);
 
         Tips itemSeleccionado = Tips.TIPS.get(posicion);
 

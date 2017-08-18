@@ -45,7 +45,7 @@ TextView email;
         agregarToolbar();
         email = (TextView) findViewById(R.id.texto_email);
         Dbase db = new Dbase( getApplicationContext() );
-        String consulta = "http://104.198.61.117/mascotas/consultauser.php?use=";
+        String consulta = "http://104.198.61.117/FaunaSeguraProyect/RegistrarUsuarios/consultauser.php?use=";
         EnviarRecibirDatos(consulta+db.obtener(1));
 
         inicia=(Button)findViewById(R.id.button5) ;
@@ -54,7 +54,7 @@ TextView email;
             @Override
             public void onClick(View view)
             {
-                Intent intent = new Intent(PerfilActivity.this, Main2Activity.class);
+                Intent intent = new Intent(PerfilActivity.this, SubirFoto.class);
                 startActivity(intent);
             }
         });

@@ -24,7 +24,7 @@ public class ActividadDetalleExtinta extends AppCompatActivity {
 
         anadirToolbar();
 
-        int posicion = getIntent().getIntExtra(BlankFragment.EXTRA_POSICION, -1);
+        int posicion = getIntent().getIntExtra(FragmentoNoticias.EXTRA_POSICION, -1);
 
         Animales itemSeleccionado = Animales.ANIMALES.get(posicion);
 

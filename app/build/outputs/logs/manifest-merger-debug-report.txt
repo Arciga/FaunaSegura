@@ -1,242 +1,267 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:2:1-81:12
 	package
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:3:5-45
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:6:5-65
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:6:5-65
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:6:22-62
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:6:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:9:22-77
 application
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:9:5-77:19
-MERGED from [FaunaSegura:jplot1.0:unspecified] C:\Users\ivette\.android\build-cache\d87c283ffd28539f348f9e2187c72d40fdde32fc\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ivette\.android\build-cache\5ebe247a69c414aeed49a7f76afc43ec8ae057e8\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\ivette\.android\build-cache\20528ed5c787d7de1866c3f9b1f6b0bfe7a2c14a\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\ivette\.android\build-cache\8953e21c619bf43f5cb25c18b228c722a49167b6\output\AndroidManifest.xml:26:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:28:5-48:19
-MERGED from [com.android.support:customtabs:25.3.1] C:\Users\ivette\.android\build-cache\024be62e49a03ca6f26344fb0034cf88891d8d03\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\ivette\.android\build-cache\981bc964d8ab61a2a46bc5bb6dda0ce08c4d5fa4\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.volley:volley:1.0.0] C:\Users\ivette\.android\build-cache\b4a0825c5f459a20378e8348b3b2075903b71787\output\AndroidManifest.xml:9:5-20
-MERGED from [hanks.xyz:smallbang-library:0.1.2] C:\Users\ivette\.android\build-cache\b04223ab8c07e3bac9ac1e61c33b22fd1e905a7d\output\AndroidManifest.xml:11:5-15:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ivette\.android\build-cache\5701b51e0ba463ab0e1af5317d50b675b1aca852\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ivette\.android\build-cache\1014a580bbb209aa115a28eaf34e2dcb86c76901\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ivette\.android\build-cache\3889818c5fce56dd5d3e88c6fcc5d6728ebcebb0\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ivette\.android\build-cache\644610176422aec32ae5c989bc6d9875f26a797f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ivette\.android\build-cache\b44205ce49039c028c4ef8eeb67a417ff48f314e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ivette\.android\build-cache\ee5eeb68681ce0ccee275b5686f72aeae3043271\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ivette\.android\build-cache\2cdc4e500ca27c6078cd8e1423f86dc3c043e2c3\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:gridlayout-v7:25.3.1] C:\Users\ivette\.android\build-cache\701ca6c17ac244018043e90e069e3de1ff893dd2\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ivette\.android\build-cache\37b9708988820e48be57e4b4d228a89a9aded81b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ivette\.android\build-cache\bc6094f9a07fe09334f8c2216191938e0b427610\output\AndroidManifest.xml:29:5-20
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:10:5-79:19
+MERGED from [FaunaSegura:jplot1.0:unspecified] C:\Users\nacho\.android\build-cache\9e0b8bf4b6eb8c133a1d07eee9bc55be6c69dc30\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nacho\.android\build-cache\204d8213724efb08b7e0250564a927eace465c93\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nacho\.android\build-cache\843f8ab3ff511d64038d0bd0adb82190a1343762\output\AndroidManifest.xml:26:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:28:5-48:19
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\nacho\.android\build-cache\6c790de8917ad40ebad8be67bf2915ce20d162af\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nacho\.android\build-cache\6f1e33051cb7dda7d5011e95618600e6c56e6bfd\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\nacho\.android\build-cache\69a0e59ba9422194469e31ac9ef7a0b66d9106fe\output\AndroidManifest.xml:9:5-20
+MERGED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:16:5-22:19
+MERGED from [hanks.xyz:smallbang-library:0.1.2] C:\Users\nacho\.android\build-cache\8908f17ebbc1bc10523062963718a17629bd34f2\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nacho\.android\build-cache\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nacho\.android\build-cache\5964ccefcef909472bdf54defb603e1eb8ca511b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nacho\.android\build-cache\37f07a44fae0e933a3473ac74b70517bf7edaa12\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nacho\.android\build-cache\a4c2f8f93c640c9a501ae4dfe03bd2f4ac281575\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nacho\.android\build-cache\1a4db6d5ce9738c2eed6c878bb459a7355cdf066\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nacho\.android\build-cache\4789f5138f038ea660181699b6a9f0369ff4ea82\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nacho\.android\build-cache\36ca0a2fba56377419e573dac9c2e728dcf2fddf\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:gridlayout-v7:25.3.1] C:\Users\nacho\.android\build-cache\c77d914d6388a988c96b63b0ca7774057d40e021\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nacho\.android\build-cache\bca361120964636f8b8564b6aca62d6942c38b22\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nacho\.android\build-cache\3e87c05e1cbb1e6c29fd44eca86df2283e9fcf79\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:15:9-35
 	android:roundIcon
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:14:9-54
 	android:allowBackup
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:12:9-43
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:15:9-52
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:16:9-52
 activity#com.example.nachox.faunasegura.MainActivity
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:16:9-25:20
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:17:9-26:20
 	android:label
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:19:13-45
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:19:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:18:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:21:17-69
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:23:17-77
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.example.nachox.faunasegura.RegistraMascota
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:26:9-53
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:27:9-53
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:26:19-50
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:27:19-50
 activity#com.example.nachox.faunasegura.PerfilActivity
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:27:9-52
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:28:9-52
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:27:19-49
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:28:19-49
 activity#com.example.nachox.faunasegura.ActividadPrincipal
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:28:9-30:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:29:9-31:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:30:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:29:13-47
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:30:13-47
 activity#com.example.nachox.faunasegura.MenuRegistro
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:31:9-33:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:32:9-34:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:33:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:34:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:32:13-41
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:33:13-41
 activity#com.example.nachox.faunasegura.RegistroInstitucion
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:34:9-36:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:35:9-37:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:36:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:35:13-48
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:36:13-48
 activity#com.example.nachox.faunasegura.ActividadDetalle
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:37:9-39:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:38:9-40:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:38:13-45
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:39:13-45
 activity#com.example.nachox.faunasegura.ActividadDetalleDomestica
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:40:9-42:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:41:9-43:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:42:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:41:13-54
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:42:13-54
 activity#com.example.nachox.faunasegura.ActividadDetalleExtinta
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:43:9-45:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:44:9-46:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:45:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:44:13-52
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:45:13-52
 activity#com.example.nachox.faunasegura.ActividadDetallePeligro
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:46:9-48:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:47:9-49:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:48:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:47:13-52
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:48:13-52
 activity#com.example.nachox.faunasegura.ActividadDetalleTips
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:49:9-51:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:50:9-52:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:51:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:52:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:50:13-49
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:51:13-49
 activity#com.example.nachox.faunasegura.RegistroPersona
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:52:9-54:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:53:9-55:59
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:54:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:53:13-44
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:54:13-44
 activity#com.example.nachox.faunasegura.Denuncias
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:55:9-47
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:56:9-47
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:55:19-44
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:56:19-44
 activity#com.example.nachox.faunasegura.consultardenuncia
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:56:9-55
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:57:9-55
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:56:19-52
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:57:19-52
 activity#com.example.nachox.faunasegura.denunciaciudadana
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:57:9-55
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:58:9-55
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:57:19-52
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:58:19-52
 provider#com.facebook.FacebookContentProvider
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:59:9-62:39
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:60:9-63:39
 	android:authorities
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:61:13-91
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:62:13-91
 	android:exported
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:62:13-36
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:63:13-36
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:60:13-64
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:61:13-64
 activity#com.example.nachox.faunasegura.GuardianesDelaFauna
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:72:9-75:59
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:73:9-76:59
 	android:label
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:74:13-73
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:75:13-73
 	android:theme
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:75:13-56
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:73:13-48
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:74:13-48
 activity#com.example.nachox.faunasegura.Main2Activity
-ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:76:9-60
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:77:9-51
 	android:name
-		ADDED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml:76:19-48
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:77:19-48
+activity#com.example.nachox.faunasegura.SubirFoto
+ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:78:9-56
+	android:name
+		ADDED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml:78:19-44
 uses-sdk
-INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [FaunaSegura:jplot1.0:unspecified] C:\Users\ivette\.android\build-cache\d87c283ffd28539f348f9e2187c72d40fdde32fc\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ivette\.android\build-cache\5ebe247a69c414aeed49a7f76afc43ec8ae057e8\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\ivette\.android\build-cache\20528ed5c787d7de1866c3f9b1f6b0bfe7a2c14a\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] C:\Users\ivette\.android\build-cache\8953e21c619bf43f5cb25c18b228c722a49167b6\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ivette\.android\build-cache\9d147495ab834b210b9bf3143db3a2997a71e03f\output\AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:customtabs:25.3.1] C:\Users\ivette\.android\build-cache\024be62e49a03ca6f26344fb0034cf88891d8d03\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\ivette\.android\build-cache\981bc964d8ab61a2a46bc5bb6dda0ce08c4d5fa4\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.volley:volley:1.0.0] C:\Users\ivette\.android\build-cache\b4a0825c5f459a20378e8348b3b2075903b71787\output\AndroidManifest.xml:7:5-43
-MERGED from [hanks.xyz:smallbang-library:0.1.2] C:\Users\ivette\.android\build-cache\b04223ab8c07e3bac9ac1e61c33b22fd1e905a7d\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ivette\.android\build-cache\5701b51e0ba463ab0e1af5317d50b675b1aca852\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ivette\.android\build-cache\1014a580bbb209aa115a28eaf34e2dcb86c76901\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ivette\.android\build-cache\3889818c5fce56dd5d3e88c6fcc5d6728ebcebb0\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ivette\.android\build-cache\644610176422aec32ae5c989bc6d9875f26a797f\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ivette\.android\build-cache\b44205ce49039c028c4ef8eeb67a417ff48f314e\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ivette\.android\build-cache\ee5eeb68681ce0ccee275b5686f72aeae3043271\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ivette\.android\build-cache\2cdc4e500ca27c6078cd8e1423f86dc3c043e2c3\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:gridlayout-v7:25.3.1] C:\Users\ivette\.android\build-cache\701ca6c17ac244018043e90e069e3de1ff893dd2\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ivette\.android\build-cache\37b9708988820e48be57e4b4d228a89a9aded81b\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ivette\.android\build-cache\bc6094f9a07fe09334f8c2216191938e0b427610\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [FaunaSegura:jplot1.0:unspecified] C:\Users\nacho\.android\build-cache\9e0b8bf4b6eb8c133a1d07eee9bc55be6c69dc30\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\nacho\.android\build-cache\204d8213724efb08b7e0250564a927eace465c93\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nacho\.android\build-cache\843f8ab3ff511d64038d0bd0adb82190a1343762\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\nacho\.android\build-cache\aa7e4e243075a270d41ef32c5dbfd6b8bb2ff6b9\output\AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\nacho\.android\build-cache\6c790de8917ad40ebad8be67bf2915ce20d162af\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nacho\.android\build-cache\6f1e33051cb7dda7d5011e95618600e6c56e6bfd\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\nacho\.android\build-cache\69a0e59ba9422194469e31ac9ef7a0b66d9106fe\output\AndroidManifest.xml:7:5-43
+MERGED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:7:5-9:41
+MERGED from [hanks.xyz:smallbang-library:0.1.2] C:\Users\nacho\.android\build-cache\8908f17ebbc1bc10523062963718a17629bd34f2\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nacho\.android\build-cache\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nacho\.android\build-cache\5964ccefcef909472bdf54defb603e1eb8ca511b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nacho\.android\build-cache\37f07a44fae0e933a3473ac74b70517bf7edaa12\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nacho\.android\build-cache\a4c2f8f93c640c9a501ae4dfe03bd2f4ac281575\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nacho\.android\build-cache\1a4db6d5ce9738c2eed6c878bb459a7355cdf066\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nacho\.android\build-cache\4789f5138f038ea660181699b6a9f0369ff4ea82\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nacho\.android\build-cache\36ca0a2fba56377419e573dac9c2e728dcf2fddf\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:gridlayout-v7:25.3.1] C:\Users\nacho\.android\build-cache\c77d914d6388a988c96b63b0ca7774057d40e021\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nacho\.android\build-cache\bca361120964636f8b8564b6aca62d6942c38b22\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nacho\.android\build-cache\3e87c05e1cbb1e6c29fd44eca86df2283e9fcf79\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\ivette\.android\build-cache\20528ed5c787d7de1866c3f9b1f6b0bfe7a2c14a\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\ivette\AndroidStudioProjects\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\nacho\Documents\GitHub\FaunaSegura\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\ivette\.android\build-cache\20528ed5c787d7de1866c3f9b1f6b0bfe7a2c14a\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\ivette\.android\build-cache\8953e21c619bf43f5cb25c18b228c722a49167b6\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\ivette\.android\build-cache\9d147495ab834b210b9bf3143db3a2997a71e03f\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:customtabs:25.3.1] C:\Users\ivette\.android\build-cache\024be62e49a03ca6f26344fb0034cf88891d8d03\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\ivette\.android\build-cache\981bc964d8ab61a2a46bc5bb6dda0ce08c4d5fa4\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\ivette\.android\build-cache\5701b51e0ba463ab0e1af5317d50b675b1aca852\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\ivette\.android\build-cache\1014a580bbb209aa115a28eaf34e2dcb86c76901\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\ivette\.android\build-cache\3889818c5fce56dd5d3e88c6fcc5d6728ebcebb0\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\ivette\.android\build-cache\644610176422aec32ae5c989bc6d9875f26a797f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\ivette\.android\build-cache\b44205ce49039c028c4ef8eeb67a417ff48f314e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\ivette\.android\build-cache\ee5eeb68681ce0ccee275b5686f72aeae3043271\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\ivette\.android\build-cache\2cdc4e500ca27c6078cd8e1423f86dc3c043e2c3\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:gridlayout-v7:25.3.1] C:\Users\ivette\.android\build-cache\701ca6c17ac244018043e90e069e3de1ff893dd2\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\ivette\.android\build-cache\37b9708988820e48be57e4b4d228a89a9aded81b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\ivette\.android\build-cache\bc6094f9a07fe09334f8c2216191938e0b427610\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\nacho\.android\build-cache\843f8ab3ff511d64038d0bd0adb82190a1343762\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\nacho\.android\build-cache\aa7e4e243075a270d41ef32c5dbfd6b8bb2ff6b9\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\nacho\.android\build-cache\6c790de8917ad40ebad8be67bf2915ce20d162af\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\nacho\.android\build-cache\6f1e33051cb7dda7d5011e95618600e6c56e6bfd\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\nacho\.android\build-cache\cec7c0b3e6473bea0f18f3d74f802742b11e6c52\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\nacho\.android\build-cache\5964ccefcef909472bdf54defb603e1eb8ca511b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\nacho\.android\build-cache\37f07a44fae0e933a3473ac74b70517bf7edaa12\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\nacho\.android\build-cache\a4c2f8f93c640c9a501ae4dfe03bd2f4ac281575\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\nacho\.android\build-cache\1a4db6d5ce9738c2eed6c878bb459a7355cdf066\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\nacho\.android\build-cache\4789f5138f038ea660181699b6a9f0369ff4ea82\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\nacho\.android\build-cache\36ca0a2fba56377419e573dac9c2e728dcf2fddf\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:gridlayout-v7:25.3.1] C:\Users\nacho\.android\build-cache\c77d914d6388a988c96b63b0ca7774057d40e021\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\nacho\.android\build-cache\bca361120964636f8b8564b6aca62d6942c38b22\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\nacho\.android\build-cache\3e87c05e1cbb1e6c29fd44eca86df2283e9fcf79\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\ivette\.android\build-cache\20528ed5c787d7de1866c3f9b1f6b0bfe7a2c14a\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\ivette\.android\build-cache\20528ed5c787d7de1866c3f9b1f6b0bfe7a2c14a\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\nacho\.android\build-cache\ca3bbd96e97feacbdeda8db1d30021624ec6c44f\output\AndroidManifest.xml:26:9-47
 activity#com.facebook.FacebookActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:29:9-32:66
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:29:9-32:66
 	android:configChanges
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:31:13-96
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:31:13-96
 	android:theme
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:32:13-63
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:32:13-63
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:30:13-57
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:30:13-57
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:33:9-71
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:33:19-68
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:33:19-68
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:44:9-47:40
+ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:44:9-47:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:46:13-72
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:46:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:47:13-37
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\ivette\.android\build-cache\9fe8f26823808aac9cf6ef2514ba885bc605b20d\output\AndroidManifest.xml:45:13-70
+		ADDED from [com.facebook.android:facebook-android-sdk:4.23.0] C:\Users\nacho\.android\build-cache\8b62337474cefa6108c5cd0bb784efb69a61b38a\output\AndroidManifest.xml:45:13-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:14:22-65
+service#net.gotev.uploadservice.UploadService
+ADDED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:17:9-21:19
+	android:enabled
+		ADDED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from [net.gotev:uploadservice:3.3] C:\Users\nacho\.android\build-cache\44dacac93f3c5e1a8427c50bd08d4368e9aa4f45\output\AndroidManifest.xml:18:13-65
