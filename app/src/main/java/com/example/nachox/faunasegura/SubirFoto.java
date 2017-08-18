@@ -173,9 +173,7 @@ public class SubirFoto extends AppCompatActivity implements View.OnClickListener
 
     @Override
     public void onClick(View v) {
-        if (v == buttonChoose) {
-            showFileChooser();
-        }
+
         if (v == buttonUpload) {
             uploadMultipart();
         }

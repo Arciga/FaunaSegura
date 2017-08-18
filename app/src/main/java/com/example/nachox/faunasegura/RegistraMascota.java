@@ -1,14 +1,33 @@
 package com.example.nachox.faunasegura;
 
+import android.Manifest;
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
+import android.content.pm.PackageManager;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.media.MediaScannerConnection;
+import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.os.StrictMode;
+import android.provider.MediaStore;
+import android.provider.Settings;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
@@ -16,6 +35,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -26,6 +47,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+
+import net.gotev.uploadservice.MultipartUploadRequest;
+import net.gotev.uploadservice.UploadNotificationConfig;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -43,14 +67,16 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 import java.util.regex.Pattern;
 
-public class RegistraMascota extends ActionBarActivity implements AdapterView.OnItemSelectedListener {
+public class RegistraMascota extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -64,7 +90,18 @@ public class RegistraMascota extends ActionBarActivity implements AdapterView.On
     public void onNothingSelected(AdapterView<?> parent) {
 
     }
+    private static String APP_DIRECTORY = "MyPictureApp/";
+    private static String MEDIA_DIRECTORY = APP_DIRECTORY + "PictureApp";
 
+    private final int MY_PERMISSIONS = 100;
+    private final int PHOTO_CODE = 200;
+    private final int SELECT_PICTURE = 300;
+
+    private ImageView mSetImage;
+    private Button mOptionButton;
+    private RelativeLayout mRlView;
+    private Button buttonUpload;
+    private String mPath;
     protected EditText nombre;
     protected EditText edad;
     protected EditText especie;
@@ -73,11 +110,12 @@ public class RegistraMascota extends ActionBarActivity implements AdapterView.On
    // protected EditText genero;
    // protected EditText usuario;
 String nombres;
+    String ph;
 String especiee;
     String razaa;
     //TextView textouser;
     String edadd;
-    String generoo;
+    String url;
     String usuaio="nacho";
     String fecha="12/12/12";
 TextView u;
@@ -88,15 +126,32 @@ TextView u;
     ProgressDialog pDialog;
     String[] stringnombre = new String[0];
     public  String Sexofinal="M";
-    private String URL_CATEGORIES = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
+    private String URL_CATEGORIES = "http://104.198.61.117/listar/consultaespecies.php";
     private Spinner spinnerfruta;
-    private final String serverUrl = "http://104.198.61.117/FaunaSeguraProyect/RegistrarMascotas/index.php";
+    private final String serverUrl = "http://104.198.61.117/mascotas/index.php";
 String a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registra_mascota);
        agregarToolbar();
+        mSetImage = (ImageView) findViewById(R.id.imagen);
+        mOptionButton = (Button) findViewById(R.id.foto);
+        mRlView = (RelativeLayout) findViewById(R.id.rl_view);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+        if(mayRequestStoragePermission  ())
+            mOptionButton.setEnabled(true);
+        else
+            mOptionButton.setEnabled(false);
+
+
+        mOptionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showOptions();
+            }
+        });
         //spinnerfruta = (Spinner) findViewById(R.id.spinner4);
         nombre =(EditText)findViewById(R.id.non);
         edad =(EditText)findViewById(R.id.ed);
@@ -113,7 +168,8 @@ String a;
         spinnerFood.setOnItemSelectedListener(this);
 
 
-
+        StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+        StrictMode.setVmPolicy(builder.build());
 
 
 
@@ -140,11 +196,11 @@ String a;
                 nombres= nombre.getText().toString();
                 Dbase db = new Dbase( getApplicationContext() );
                 usuaio=db.obtener(1);
-
+                 url = ph;
                 // request authentication with remote server4
 
                 validarDatos();
-
+                uploadMultipart();
 
                 //fonga ionic backbond
             }
@@ -154,6 +210,31 @@ String a;
 
     }
 
+
+    private boolean mayRequestStoragePermission() {
+
+        if(Build.VERSION.SDK_INT < Build.VERSION_CODES.M)
+            return true;
+
+        if((checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED) &&
+                (checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED))
+            return true;
+
+        if((shouldShowRequestPermissionRationale(Manifest.permission.WRITE_EXTERNAL_STORAGE)) || (shouldShowRequestPermissionRationale(Manifest.permission.CAMERA))){
+            Snackbar.make(mRlView, "Los permisos son necesarios para poder usar la aplicación",
+                    Snackbar.LENGTH_INDEFINITE).setAction(android.R.string.ok, new View.OnClickListener() {
+                @TargetApi(Build.VERSION_CODES.M)
+                @Override
+                public void onClick(View v) {
+                    requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA}, MY_PERMISSIONS);
+                }
+            });
+        }else{
+            requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.CAMERA}, MY_PERMISSIONS);
+        }
+
+        return false;
+    }
     private class AsyncDataClass extends AsyncTask<String, Void, String> {
 
         @Override
@@ -176,6 +257,7 @@ String a;
                 nameValuePairs.add(new BasicNameValuePair("fechanacimiento", params[5]));
                 nameValuePairs.add(new BasicNameValuePair("genero", params[6]));
                 nameValuePairs.add(new BasicNameValuePair("usuario", params[7]));
+                nameValuePairs.add(new BasicNameValuePair("url", params[8]));
                 httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
                 HttpResponse response = httpClient.execute(httpPost);
@@ -239,7 +321,6 @@ String a;
         }
         return returnedResult;
     }
-
     private class GetCategories extends AsyncTask<Void, Void, Void> {
 
         @Override
@@ -360,7 +441,7 @@ String a;
 
         if (a && b && c  ) {
             AsyncDataClass asyncRequestObject = new AsyncDataClass();
-            asyncRequestObject.execute(serverUrl, spinnerFood.getSelectedItem().toString(),  nombres,edadd,razaa,fecha,spinner.getSelectedItem().toString(),usuaio);
+            asyncRequestObject.execute(serverUrl, spinnerFood.getSelectedItem().toString(),  nombres,edadd,razaa,fecha,spinner.getSelectedItem().toString(),usuaio,url);
 
         }
 
@@ -385,5 +466,179 @@ String a;
             }
         });
 
-    }}
+    }
+    private void showOptions() {
+        final CharSequence[] option = {"Tomar foto", "Elegir de galeria", "Cancelar"};
+        final AlertDialog.Builder builder = new AlertDialog.Builder(RegistraMascota.this);
+        builder.setTitle("Eleige una opción");
+        builder.setItems(option, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                if(option[which] == "Tomar foto"){
+                    openCamera();
+                }else if(option[which] == "Elegir de galeria"){
+                    Intent intent = new Intent(Intent.ACTION_PICK, android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                    intent.setType("image/*");
+                    startActivityForResult(intent.createChooser(intent, "Selecciona app de imagen"), SELECT_PICTURE);
+                }else {
+                    dialog.dismiss();
+                }
+            }
+        });
+
+        builder.show();
+    }
+    private void openCamera() {
+        File file = new File(Environment.getExternalStorageDirectory(), MEDIA_DIRECTORY);
+        boolean isDirectoryCreated = file.exists();
+
+        if(!isDirectoryCreated)
+            isDirectoryCreated = file.mkdirs();
+
+        if(isDirectoryCreated){
+            Long timestamp = System.currentTimeMillis() / 1000;
+            String imageName = timestamp.toString() + ".jpg";
+
+            mPath = Environment.getExternalStorageDirectory() + File.separator + MEDIA_DIRECTORY
+                    + File.separator + imageName;
+
+            File newFile = new File(mPath);
+
+            Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            intent.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(newFile));
+            startActivityForResult(intent, PHOTO_CODE);
+        }
+    }
+    public void uploadMultipart() {
+        //getting name for the image
+        String name = nombre.getText().toString().trim();
+
+        //getting the actual path of the image
+        String path = getPath(uriphat);
+
+        //Uploading code
+        try {
+            String uploadId = UUID.randomUUID().toString();
+
+            //Creating a multi part request
+            new MultipartUploadRequest(this, uploadId, Constants.UPLOAD_URL)
+                    .addFileToUpload(path, "image") //Adding file
+                    .addParameter("name", name) //Adding text parameter to the request
+                    .setNotificationConfig(new UploadNotificationConfig())
+                    .setMaxRetries(2)
+                    .startUpload(); //Starting the upload
+
+        } catch (Exception exc) {
+            Toast.makeText(this, exc.getMessage(), Toast.LENGTH_SHORT).show();
+        }
+    }
+
+
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("file_path", mPath);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        mPath = savedInstanceState.getString("file_path");
+    }
+    Uri uriphat ;
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(resultCode == RESULT_OK){
+            switch (requestCode){
+                case PHOTO_CODE:
+                    MediaScannerConnection.scanFile(this,
+                            new String[]{mPath}, null,
+                            new MediaScannerConnection.OnScanCompletedListener() {
+                                @Override
+                                public void onScanCompleted(String path, Uri urii) {
+
+                                    uriphat=urii;
+                                    Log.i("ExternalStorage", "Scanned " + path + ":");
+                                    Log.i("ExternalStorage", "-> Uri = " + urii);
+                                }
+                            });
+
+
+                    Bitmap bitmap = BitmapFactory.decodeFile(mPath);
+                    mSetImage.setImageBitmap(bitmap);
+
+                    break;
+                case SELECT_PICTURE:
+                    Uri uri = data.getData();
+                    uriphat=uri;
+                    mSetImage.setImageURI(uri);
+
+                    break;
+
+            }
+        }
+    }
+
+    public String getPath(Uri uri) {
+        Cursor cursor = getContentResolver().query(uri, null, null, null, null);
+        cursor.moveToFirst();
+        String document_id = cursor.getString(0);
+        document_id = document_id.substring(document_id.lastIndexOf(":") + 1);
+        cursor.close();
+
+        cursor = getContentResolver().query(
+                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
+                null, MediaStore.Images.Media._ID + " = ? ", new String[]{document_id}, null);
+        cursor.moveToFirst();
+        String path = cursor.getString(cursor.getColumnIndex(MediaStore.Images.Media.DATA));
+        cursor.close();
+
+        return path;
+    }
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+
+        if(requestCode == MY_PERMISSIONS){
+            if(grantResults.length == 2 && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED){
+                Toast.makeText(RegistraMascota.this, "Permisos aceptados", Toast.LENGTH_SHORT).show();
+                mOptionButton.setEnabled(true);
+            }
+        }else{
+            showExplanation();
+        }
+    }
+
+    private void showExplanation() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(RegistraMascota.this);
+        builder.setTitle("Permisos denegados");
+        builder.setMessage("Para usar las funciones de la app necesitas aceptar los permisos");
+        builder.setPositiveButton("Aceptar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Intent intent = new Intent();
+                intent.setAction(Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                Uri uri = Uri.fromParts("package", getPackageName(), null);
+                intent.setData(uri);
+                startActivity(intent);
+            }
+        });
+        builder.setNegativeButton("Cancelar", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+                finish();
+            }
+        });
+
+        builder.show();
+    }
+}
+
+
 
