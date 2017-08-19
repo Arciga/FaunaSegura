@@ -121,7 +121,25 @@
                     android:text="Verificar Contraseña:" />
 
                 <TextView
-                    android:id="@+id/textView16"
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Estado:" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dp"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="8dp"
+                    android:text="Municipio:" />
+
+                <TextView
+                    android:id="@+id/textView30"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="7dp"
@@ -213,8 +231,20 @@
                     android:inputType="textPersonName"
                     android:padding="5dp" />
 
+                <Spinner
+                    android:id="@+id/estadospiner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.13" />
+
+                <Spinner
+                    android:id="@+id/municipiospiner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.13" />
+
                 <EditText
-                    android:id="@+id/direccion"
+                    android:id="@+id/editText4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
@@ -225,7 +255,7 @@
                     android:id="@+id/textView18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.38" />
+                    android:layout_weight="0.29" />
 
                 <Button
                     android:id="@+id/RegPersona"

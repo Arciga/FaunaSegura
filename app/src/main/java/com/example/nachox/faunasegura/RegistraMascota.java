@@ -110,25 +110,18 @@ public class RegistraMascota extends AppCompatActivity implements AdapterView.On
    // protected EditText genero;
    // protected EditText usuario;
 String nombres;
-    String ph;
-String especiee;
     String razaa;
-    //TextView textouser;
     String edadd;
-    String url;
+    String url="http://104.198.61.117/FaunaSeguraProyect/Uploads/Mascotas/uploads/6.jpg";
     String usuaio="nacho";
     String fecha="12/12/12";
 TextView u;
-    TextView textouser;
-    private Spinner spinnerFood;
-   private Spinner spinner ;
+    private Spinner spinnergenero;
+   private Spinner especiespiner ;
     private ArrayList<Categories> categoriesList;
     ProgressDialog pDialog;
-    String[] stringnombre = new String[0];
-    public  String Sexofinal="M";
-    private String URL_CATEGORIES = "http://104.198.61.117/listar/consultaespecies.php";
-    private Spinner spinnerfruta;
-    private final String serverUrl = "http://104.198.61.117/mascotas/index.php";
+    private String URL_CATEGORIES = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
+    private final String serverUrl = "http://104.198.61.117/FaunaSeguraProyect/RegistrarMascotas/index.php";
 String a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -152,50 +145,42 @@ String a;
                 showOptions();
             }
         });
-        //spinnerfruta = (Spinner) findViewById(R.id.spinner4);
+
         nombre =(EditText)findViewById(R.id.non);
         edad =(EditText)findViewById(R.id.ed);
-       // especie =(EditText)findViewById(R.id.especietext);
         raza =(EditText)findViewById(R.id.razatext);
-       // textouser = (TextView) headerView.findViewById(R.id.usertex);
-        spinnerFood = (Spinner) findViewById(R.id.spinner4);
+        especiespiner = (Spinner) findViewById(R.id.spinner4);
         fechanacimiento =(EditText)findViewById(R.id.fechanacimietoo);
           u=(TextView)findViewById(R.id.usertex);
-        //genero =(EditText)findViewById(R.id.generotext);
         categoriesList = new ArrayList<Categories>();
         FloatingActionButton signUpButton = (FloatingActionButton)findViewById(R.id.floatingActionButton3);
         new GetCategories().execute();
-        spinnerFood.setOnItemSelectedListener(this);
         StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
         StrictMode.setVmPolicy(builder.build());
+
         String colors[] = {"Hembra","Macho","No lo se"};
-         spinner = (Spinner) findViewById(R.id.spinnerGenero);
+         spinnergenero = (Spinner) findViewById(R.id.spinnerGenero);
         ArrayAdapter<String> spinnerArrayAdapter = new ArrayAdapter<String>(this,   android.R.layout.simple_spinner_item, colors);
         spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
-        spinner.setAdapter(spinnerArrayAdapter);
+        spinnergenero.setAdapter(spinnerArrayAdapter);
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-             //   especiee = especie.getText().toString();
+                Dbase db = new Dbase( getApplicationContext() );
+
                 edadd = edad.getText().toString();
-//                generoo= genero.getText().toString();
                 razaa = raza.getText().toString();
                 nombres= nombre.getText().toString();
-                Dbase db = new Dbase( getApplicationContext() );
                 usuaio=db.obtener(1);
-                 url = ph;
-                // request authentication with remote server4
-
-
-                uploadMultipart();
-
+                AsyncDataClass asyncRequestObject = new AsyncDataClass();
+                asyncRequestObject.execute(serverUrl,url,nombres, especiespiner.getSelectedItem().toString(),edadd,razaa,fecha,spinnergenero.getSelectedItem().toString(),usuaio);
+                finish();
+                //uploadMultipart();
 
 
 
-                //fonga ionic backbond
             }
         });
-        //prueba
 
 
     }
@@ -251,7 +236,7 @@ String a;
                 HttpResponse response = httpClient.execute(httpPost);
 
                 jsonResult = inputStreamToString(response.getEntity().getContent()).toString();
-                //System.out.println("Returned Json object " + jsonResult.toString());
+                System.out.println("Returned Json object " + jsonResult.toString());
 
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
@@ -385,7 +370,7 @@ String a;
                 .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 
         // attaching data adapter to spinner
-        spinnerFood.setAdapter(spinnerAdapter);
+        especiespiner.setAdapter(spinnerAdapter);
     }
     private boolean esNombreValido(String nombree) {
         Pattern patron = Pattern.compile("^[a-zA-Z ]+$");
@@ -498,37 +483,46 @@ String a;
         }
     }
     public void uploadMultipart() {
+        Dbase db = new Dbase( getApplicationContext() );
+
         //getting name for the image
         String name = nombre.getText().toString().trim();
 
         //getting the actual path of the image
         String path = getPath(uriphat);
-        Dbase db = new Dbase( getApplicationContext() );
         //Uploading code
         try {
-            String uploadId = UUID.randomUUID().toString();
 
-            //Creating a multi part request
-            new MultipartUploadRequest(this, uploadId, Constants.UPLOAD_URL)
-                    .addFileToUpload(path, "image") //Adding file
-                    .addParameter("name", name) //Adding text parameter to the request
-                  //  .addParameter("nombre", name)
-                    .addParameter("especie", spinnerFood.getSelectedItem().toString())
-                    .addParameter("edad", edadd)
-                    .addParameter("raza", razaa)
+            if(path != null){
+                String uploadId = UUID.randomUUID().toString();
 
-                    .addParameter("fechanacimiento", fecha)
+                //Creating a multi part request
+                new MultipartUploadRequest(this, uploadId, Constants.UPLOAD_URL)
+                        .addFileToUpload(path, "image") //Adding file
+                        .addParameter("name", name) //Adding text parameter to the request
+                        //  .addParameter("nombre", name)
+                        .addParameter("especie", especiespiner.getSelectedItem().toString())
+                        .addParameter("edad", edadd)
+                        .addParameter("raza", razaa)
 
-                    .addParameter("genero", spinner.getSelectedItem().toString())
+                        .addParameter("fechanacimiento", fecha)
 
-                    .addParameter("usuario", db.obtener(1))
+                        .addParameter("genero", spinnergenero.getSelectedItem().toString())
+
+                        .addParameter("usuario", db.obtener(1))
 
 
-                    .setNotificationConfig(new UploadNotificationConfig())
-                    .setMaxRetries(2)
-                    .startUpload(); //Starting the upload
+                        .setNotificationConfig(new UploadNotificationConfig())
+                        .setMaxRetries(2)
+                        .startUpload(); //Starting the upload
+
+                finish();
+            }else{
+
+            }
 
         } catch (Exception exc) {
+
             Toast.makeText(this, exc.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
@@ -579,20 +573,27 @@ String a;
         }
     }
     public String getPath(Uri uri) {
-        Cursor cursor = getContentResolver().query(uri, null, null, null, null);
-        cursor.moveToFirst();
-        String document_id = cursor.getString(0);
-        document_id = document_id.substring(document_id.lastIndexOf(":") + 1);
-        cursor.close();
 
-        cursor = getContentResolver().query(
-                android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
-                null, MediaStore.Images.Media._ID + " = ? ", new String[]{document_id}, null);
-        cursor.moveToFirst();
-        String path = cursor.getString(cursor.getColumnIndex(MediaStore.Images.Media.DATA));
-        cursor.close();
+        if(uri!=null){
+            Cursor cursor = getContentResolver().query(uri, null, null, null, null);
+            cursor.moveToFirst();
+            String document_id = cursor.getString(0);
+            document_id = document_id.substring(document_id.lastIndexOf(":") + 1);
+            cursor.close();
 
-        return path;
+            cursor = getContentResolver().query(
+                    android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
+                    null, MediaStore.Images.Media._ID + " = ? ", new String[]{document_id}, null);
+            cursor.moveToFirst();
+            String path = cursor.getString(cursor.getColumnIndex(MediaStore.Images.Media.DATA));
+            cursor.close();
+
+            return path;
+
+        }else{
+            return null;
+        }
+
     }
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {

@@ -1,5 +1,6 @@
 package com.example.nachox.faunasegura;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -7,6 +8,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -30,6 +32,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.params.BasicHttpParams;
 import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.params.HttpParams;
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -53,7 +56,8 @@ public class RegistroPersona extends ActionBarActivity {
     private RadioGroup radio;
     private EditText direccion;
     protected String enteredUsername;
-
+    private ArrayList<Categories> estadosLIST;
+    private ArrayList<Categories> municipiolist;
     protected String enteredPassword;
     protected String vPass;
     protected String enteredEmail;
@@ -61,16 +65,23 @@ public class RegistroPersona extends ActionBarActivity {
     protected String edadd;
     protected String co;
     protected String vco;
+    ProgressDialog pDialog;
+    private Spinner estadospiner ;
+    private Spinner municipiospiner ;
     protected String direc;
     private Spinner spinner ;
     public  String Sexofinal="M";
     private final String serverUrl = "http://104.198.61.117/FaunaSeguraProyect/RegistratUsuaios/index.php";
 
+    private String URL_ESTADOS = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
+
+    private String URL_MUNICIPIO = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro_persona);
         agregarToolbar();
+
         username = (EditText)findViewById(R.id.nick);
         password = (EditText)findViewById(R.id.contracen);
         vpassword = (EditText)findViewById(R.id.vcontracen);
@@ -79,9 +90,11 @@ public class RegistroPersona extends ActionBarActivity {
         nombre =(EditText)findViewById(R.id.nombres);
         edad =(EditText)findViewById(R.id.edad);
         radio =(RadioGroup) findViewById(R.id.gruop);
-        direccion =(EditText)findViewById(R.id.direccion);
+        //direccion =(EditText)findViewById(R.id.direccion);
         nombre =(EditText)findViewById(R.id.nombres);
         String colors[] = {"Hombre","Mujer"};
+        estadospiner = (Spinner) findViewById(R.id.estadospiner);
+        municipiospiner = (Spinner) findViewById(R.id.municipiospiner);
 
 // Selection of the spinner
         spinner = (Spinner) findViewById(R.id.spinner3);
@@ -91,7 +104,8 @@ public class RegistroPersona extends ActionBarActivity {
         spinnerArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item); // The drop down view
         spinner.setAdapter(spinnerArrayAdapter);
         Button signUpButton = (Button)findViewById(R.id.RegPersona);
-
+        estadosLIST = new ArrayList<Categories>();
+        municipiolist = new ArrayList<Categories>();
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -314,8 +328,159 @@ public class RegistroPersona extends ActionBarActivity {
             return false;
         }
     }
+    private void llenarestado() {
+        List<String> lables = new ArrayList<String>();
+
+
+
+        for (int i = 0; i < estadosLIST.size(); i++) {
+            lables.add(estadosLIST.get(i).getName());
+        }
+
+        // Creating adapter for spinner
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item, lables);
+
+        // Drop down layout style - list view with radio button
+        spinnerAdapter
+                .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // attaching data adapter to spinner
+        estadospiner.setAdapter(spinnerAdapter);
+    }
+    private void llenarmunicipio() {
+        List<String> lables = new ArrayList<String>();
+
+
+
+        for (int i = 0; i < municipiolist.size(); i++) {
+            lables.add(municipiolist.get(i).getName());
+        }
+
+        // Creating adapter for spinner
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item, lables);
+
+        // Drop down layout style - list view with radio button
+        spinnerAdapter
+                .setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // attaching data adapter to spinner
+        municipiospiner.setAdapter(spinnerAdapter);
+    }
+    private class GetEstados extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            pDialog = new ProgressDialog(RegistroPersona.this);
+            pDialog.setMessage("Obteniendo Estados ");
+            pDialog.setCancelable(false);
+            pDialog.show();
+
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            ServiceHandler jsonParser = new ServiceHandler();
+            String json = jsonParser.makeServiceCall(URL_ESTADOS, ServiceHandler.GET);
+
+
+            if (json != null) {
+                try {
+
+                    JSONArray ja = new JSONArray(json);
+                    if (ja != null) {
+
+
+                        for (int i = 0; i < ja.length(); i++) {
+                            JSONObject catObj = (JSONObject) ja.get(i);
+                            Categories cat = new Categories(ja.getJSONObject(i).getString("estado"));
+                            estadosLIST.add(cat);
+                        }
+                    }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            } else {
+                if (pDialog.isShowing())
+                    pDialog.dismiss();
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
+            if (pDialog.isShowing())
+                pDialog.dismiss();
+            llenarestado();
+        }
 
     }
+    private class GetMunicipio extends AsyncTask<Void, Void, Void> {
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            pDialog = new ProgressDialog(RegistroPersona.this);
+            pDialog.setMessage("Obteniendo Municipios ");
+            pDialog.setCancelable(false);
+            pDialog.show();
+
+        }
+
+        @Override
+        protected Void doInBackground(Void... arg0) {
+            ServiceHandler jsonParser = new ServiceHandler();
+            String json = jsonParser.makeServiceCall(URL_MUNICIPIO, ServiceHandler.GET);
+
+            Log.e("Response: ", "> " + json);
+
+            if (json != null) {
+                try {
+
+                    //JSONObject jsonObj = new JSONObject(json);
+                    JSONArray ja = new JSONArray(json);
+                    if (ja != null) {
+
+                        // JSONArray categories = jsonObj.getJSONArray("especiesdome");
+
+
+                        for (int i = 0; i < ja.length(); i++) {
+                            JSONObject catObj = (JSONObject) ja.get(i);
+                            Categories cat = new Categories(ja.getJSONObject(i).getString("municipio"));
+                            municipiolist.add(cat);
+                        }
+                    }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            } else {
+                Log.e("JSON Data", "Didn't receive any data from server!");
+                if (pDialog.isShowing())
+                    pDialog.dismiss();
+            }
+
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Void result) {
+            super.onPostExecute(result);
+            if (pDialog.isShowing())
+                pDialog.dismiss();
+            llenarmunicipio();
+        }
+
+    }
+
+}
 
 
 
