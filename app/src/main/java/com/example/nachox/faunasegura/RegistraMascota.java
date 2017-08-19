@@ -112,7 +112,7 @@ public class RegistraMascota extends AppCompatActivity implements AdapterView.On
 String nombres;
     String razaa;
     String edadd;
-    String url="http://104.198.61.117/FaunaSeguraProyect/Uploads/Mascotas/uploads/6.jpg";
+    String url="http://35.193.221.19/FaunaSeguraProyect/Uploads/Mascotas/uploads/6.jpg";
     String usuaio="nacho";
     String fecha="12/12/12";
 TextView u;
@@ -120,8 +120,8 @@ TextView u;
    private Spinner especiespiner ;
     private ArrayList<Categories> categoriesList;
     ProgressDialog pDialog;
-    private String URL_CATEGORIES = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
-    private final String serverUrl = "http://104.198.61.117/FaunaSeguraProyect/RegistrarMascotas/index.php";
+    private String URL_CATEGORIES = "http://35.193.221.19/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
+    private final String serverUrl = "http://35.193.221.19/FaunaSeguraProyect/RegistrarMascotas/index.php";
 String a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

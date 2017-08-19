@@ -58,7 +58,7 @@ public class FragmentoNoticias extends Fragment {
                 "https://www.facebook.com/FacebookDevelopers",
                 LikeView.ObjectType.PAGE);*/
         int indiceSeccion = getArguments().getInt(INDICE_SECCION);
-        String consulta = "http://104.198.61.117/FaunaSeguraProyect/Noticias/consultanoticias.php";
+        String consulta = "http://35.193.221.19/FaunaSeguraProyect/Noticias/consultanoticias.php";
 
         EnviarRecibirDatos(consulta);
 
