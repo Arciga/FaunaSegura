@@ -66,6 +66,7 @@ public class RegistroPersona extends ActionBarActivity {
     protected String co;
     protected String vco;
     ProgressDialog pDialog;
+    ProgressDialog pDialog2;
     private Spinner estadospiner ;
     private Spinner municipiospiner ;
     protected String direc;
@@ -73,9 +74,9 @@ public class RegistroPersona extends ActionBarActivity {
     public  String Sexofinal="M";
     private final String serverUrl = "http://104.198.61.117/FaunaSeguraProyect/RegistratUsuaios/index.php";
 
-    private String URL_ESTADOS = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
+    private String URL_ESTADOS = "http://104.198.61.117/FaunaSeguraProyect/Estados/consultaestados.php";
 
-    private String URL_MUNICIPIO = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
+    private String URL_MUNICIPIO = "http://104.198.61.117/FaunaSeguraProyect/Estados/Municipios/cosultamunicipios.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -90,12 +91,13 @@ public class RegistroPersona extends ActionBarActivity {
         nombre =(EditText)findViewById(R.id.nombres);
         edad =(EditText)findViewById(R.id.edad);
         radio =(RadioGroup) findViewById(R.id.gruop);
-        //direccion =(EditText)findViewById(R.id.direccion);
+        direccion =(EditText)findViewById(R.id.direcion);
         nombre =(EditText)findViewById(R.id.nombres);
         String colors[] = {"Hombre","Mujer"};
         estadospiner = (Spinner) findViewById(R.id.estadospiner);
         municipiospiner = (Spinner) findViewById(R.id.municipiospiner);
-
+        new GetEstados().execute();
+        new GetMunicipio().execute();
 // Selection of the spinner
         spinner = (Spinner) findViewById(R.id.spinner3);
 
@@ -373,10 +375,10 @@ public class RegistroPersona extends ActionBarActivity {
         @Override
         protected void onPreExecute() {
             super.onPreExecute();
-            pDialog = new ProgressDialog(RegistroPersona.this);
-            pDialog.setMessage("Obteniendo Estados ");
-            pDialog.setCancelable(false);
-            pDialog.show();
+            pDialog2 = new ProgressDialog(RegistroPersona.this);
+            pDialog2.setMessage("Obteniendo Estados ");
+            pDialog2.setCancelable(false);
+            pDialog2.show();
 
         }
 
@@ -405,8 +407,8 @@ public class RegistroPersona extends ActionBarActivity {
                 }
 
             } else {
-                if (pDialog.isShowing())
-                    pDialog.dismiss();
+                if (pDialog2.isShowing())
+                    pDialog2.dismiss();
             }
 
             return null;
@@ -415,8 +417,8 @@ public class RegistroPersona extends ActionBarActivity {
         @Override
         protected void onPostExecute(Void result) {
             super.onPostExecute(result);
-            if (pDialog.isShowing())
-                pDialog.dismiss();
+            if (pDialog2.isShowing())
+                pDialog2.dismiss();
             llenarestado();
         }
 

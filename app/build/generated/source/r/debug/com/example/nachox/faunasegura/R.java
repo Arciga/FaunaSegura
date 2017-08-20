@@ -3766,6 +3766,7 @@ containing a value of this type.
         public static final int design_menu_item_action_area_stub=0x7f0f010e;
         public static final int design_menu_item_text=0x7f0f010d;
         public static final int design_navigation_view=0x7f0f010c;
+        public static final int direcion=0x7f0f00d7;
         public static final int disableHome=0x7f0f001b;
         public static final int display_always=0x7f0f0054;
         public static final int drawer_layout=0x7f0f0098;
@@ -3779,7 +3780,6 @@ containing a value of this type.
         public static final int editText13=0x7f0f00c2;
         public static final int editText14=0x7f0f00c0;
         public static final int editText2=0x7f0f00c1;
-        public static final int editText4=0x7f0f00d7;
         public static final int editText5=0x7f0f00bf;
         public static final int editText6=0x7f0f00be;
         public static final int editText9=0x7f0f00c6;

@@ -70,7 +70,7 @@ public class FragmentoMisMascotas extends Fragment {
                 LikeView.ObjectType.PAGE);*/
         int indiceSeccion = getArguments().getInt(INDICE_SECCION);
         Dbase db = new Dbase( getActivity() );
-        String consulta = "http://35.193.221.19/FaunaSeguraProyect/RegistrarMascotas/consultamascotas.php?use=";
+        String consulta = "http://104.198.61.117/FaunaSeguraProyect/RegistrarMascotas/consultamascotas.php?use=";
         EnviarRecibirDatos(consulta+db.obtener(1));
 
         switch (indiceSeccion) {

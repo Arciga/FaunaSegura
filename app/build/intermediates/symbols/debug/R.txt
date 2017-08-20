@@ -1061,6 +1061,7 @@ int id design_menu_item_action_area 0x7f0f010f
 int id design_menu_item_action_area_stub 0x7f0f010e
 int id design_menu_item_text 0x7f0f010d
 int id design_navigation_view 0x7f0f010c
+int id direcion 0x7f0f00d7
 int id disableHome 0x7f0f001b
 int id display_always 0x7f0f0054
 int id drawer_layout 0x7f0f0098
@@ -1074,7 +1075,6 @@ int id editText12 0x7f0f00c3
 int id editText13 0x7f0f00c2
 int id editText14 0x7f0f00c0
 int id editText2 0x7f0f00c1
-int id editText4 0x7f0f00d7
 int id editText5 0x7f0f00bf
 int id editText6 0x7f0f00be
 int id editText9 0x7f0f00c6

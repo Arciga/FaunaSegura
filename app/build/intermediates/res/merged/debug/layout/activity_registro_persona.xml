@@ -244,7 +244,7 @@
                     android:layout_weight="0.13" />
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/direcion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
