@@ -120,8 +120,8 @@ TextView u;
    private Spinner especiespiner ;
     private ArrayList<Categories> categoriesList;
     ProgressDialog pDialog;
-    private String URL_CATEGORIES = "http://104.198.61.117/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
-    private final String serverUrl = "http://104.198.61.117/inde.php";
+    private String URL_CATEGORIES = "http://35.193.54.105/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
+    private final String serverUrl = "http://35.193.54.105//FaunaSeguraProyect/RegistrarMascotas/index.php";
 String a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -175,7 +175,7 @@ String a;
                 AsyncDataClass asyncRequestObject = new AsyncDataClass();
                 asyncRequestObject.execute(serverUrl,url,nombres, especiespiner.getSelectedItem().toString(),edadd,razaa,fecha,spinnergenero.getSelectedItem().toString(),usuaio);
                 finish();
-                uploadMultipart();
+               // uploadMultipart();
 
 
 

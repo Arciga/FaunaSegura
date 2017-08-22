@@ -72,11 +72,11 @@ public class RegistroPersona extends ActionBarActivity {
     protected String direc;
     private Spinner spinner ;
     public  String Sexofinal="M";
-    private final String serverUrl = "http://104.198.61.117/FaunaSeguraProyect/RegistratUsuaios/index.php";
+    private final String serverUrl = "http://35.193.54.105/FaunaSeguraProyect/RegistrarUsuarios/Registra.php";
 
-    private String URL_ESTADOS = "http://104.198.61.117/FaunaSeguraProyect/Estados/consultaestados.php";
+    private String URL_ESTADOS = "http://35.193.54.105/FaunaSeguraProyect/Estados/consultaestados.php";
 
-    private String URL_MUNICIPIO = "http://104.198.61.117/FaunaSeguraProyect/Estados/Municipios/cosultamunicipios.php";
+    private String URL_MUNICIPIO = "http://35.193.54.105/FaunaSeguraProyect/Estados/Municipios/cosultamunicipios.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -111,14 +111,7 @@ public class RegistroPersona extends ActionBarActivity {
         signUpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                enteredUsername = username.getText().toString();
-                 enteredPassword = password.getText().toString();
-                 vPass= vpassword.getText().toString();
-                 enteredEmail = email.getText().toString();
-                 nombreS= nombre.getText().toString();
-                 edadd =edad.getText().toString();
-                 co =vcoreo.getText().toString();
-                 direc=direccion.getText().toString();
+
 
 
 
@@ -157,6 +150,8 @@ public class RegistroPersona extends ActionBarActivity {
                 nameValuePairs.add(new BasicNameValuePair("edad", params[5]));
                 nameValuePairs.add(new BasicNameValuePair("sexo", params[6]));
                 nameValuePairs.add(new BasicNameValuePair("direccion", params[7]));
+
+                nameValuePairs.add(new BasicNameValuePair("municipio", params[8]));
                 httpPost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 
                 HttpResponse response = httpClient.execute(httpPost);
@@ -180,6 +175,7 @@ public class RegistroPersona extends ActionBarActivity {
             System.out.println("Resulted Value: " + result);
             if(result.equals("") || result == null){
                 Toast.makeText(RegistroPersona.this, "Server connection failed", Toast.LENGTH_LONG).show();
+
                 return;
             }
             int jsonResult = returnParsedJsonObject(result);
@@ -189,8 +185,9 @@ public class RegistroPersona extends ActionBarActivity {
             }
             if(jsonResult == 1){
                 Intent intent = new Intent(RegistroPersona.this, MainActivity.class);
-                finish();
+
                 startActivity(intent);
+                finish();
             }
         }
         private StringBuilder inputStreamToString(InputStream is) {
@@ -275,7 +272,14 @@ public class RegistroPersona extends ActionBarActivity {
         return true;
     }
     private void validarDatos() {
-
+        enteredUsername = username.getText().toString();
+        enteredPassword = password.getText().toString();
+        vPass= vpassword.getText().toString();
+        enteredEmail = email.getText().toString();
+        nombreS= nombre.getText().toString();
+        edadd =edad.getText().toString();
+        co =vcoreo.getText().toString();
+        direc=direccion.getText().toString();
         boolean a = esNombreValido(nombreS);
         boolean b = esNic(enteredUsername);
         boolean c = esCorreoValido(enteredEmail);
@@ -283,24 +287,17 @@ public class RegistroPersona extends ActionBarActivity {
           boolean e = esPassValido(enteredPassword);
          boolean f =escontrarectificada(enteredPassword,vPass);
         if (a && b && c  && e && f) {
+String sexo=spinner.getSelectedItem().toString();
+            System.out.println(enteredUsername+"," +enteredPassword+","+enteredEmail+","+nombreS+","+edadd+","+sexo+","+direc);
+
             AsyncDataClass asyncRequestObject = new AsyncDataClass();
-            asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword, enteredEmail,nombreS,edadd,spinner.getSelectedItem().toString(),direc);
+            asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword, enteredEmail,nombreS,edadd,sexo,direc,"1");
+
 
 
         }
 
     }
-   /* private boolean esTelefonoValido(String telefono) {
-        if (!Patterns.PHONE.matcher(telefono).matches()) {
-            tilTelefono.setError("Teléfono inválido");
-            return false;
-        } else {
-            tilTelefono.setError(null);
-        }
-
-        return true;
-    }*/
-
     private boolean esCorreoValido(String correoo) {
         if (!Patterns.EMAIL_ADDRESS.matcher(correoo).matches()) {
 

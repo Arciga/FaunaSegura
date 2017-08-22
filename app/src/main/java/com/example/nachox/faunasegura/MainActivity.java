@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private SmallBang mSmallBang;
 
     public static int MILISEGUNDOS_ESPERA = 5000;
-    private final String serverUrl = "http://104.198.61.117/inde.php";
+    private final String serverUrl = "http://35.193.54.105/FaunaSeguraProyect/RegistrarUsuarios/indio.php";
 
 
 
@@ -172,14 +172,14 @@ public class MainActivity extends AppCompatActivity {
             if(result.equals("") || result == null){
                 pdLoading.dismiss();
 
-                Toast.makeText(MainActivity.this, "Falla de conecxion cono al Servidor", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Falla de conecxion al Servidor", Toast.LENGTH_LONG).show();
                 return;
             }
             int jsonResult = returnParsedJsonObject(result);
             if(jsonResult == 0){
                 pdLoading.dismiss();
 
-                Toast.makeText(MainActivity.this, "Usuario o Contraseña Incorrecta", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this, "Usuario y/o Contraseña Incorrecta", Toast.LENGTH_LONG).show();
                 return;
 
             }

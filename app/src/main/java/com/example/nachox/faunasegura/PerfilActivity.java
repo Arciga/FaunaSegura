@@ -45,7 +45,7 @@ TextView email;
         agregarToolbar();
         email = (TextView) findViewById(R.id.texto_email);
         Dbase db = new Dbase( getApplicationContext() );
-        String consulta = "http://104.198.61.117/FaunaSeguraProyect/RegistrarUsuarios/consultauser.php?use=";
+        String consulta = "http://35.193.54.105/FaunaSeguraProyect/RegistrarUsuarios/consultauser.php?use=";
         EnviarRecibirDatos(consulta+db.obtener(1));
 
         inicia=(Button)findViewById(R.id.button5) ;
