@@ -96,9 +96,11 @@
         <item name="android:drawableLeft">@drawable/com_facebook_button_icon</item>
         <item name="android:text">@string/com_facebook_share_button_text</item>
     </style>
-    <style name="cambio" >
+
+    <style name="cambio">
         <item name="android:drawableRight">@drawable/indicador_derecho</item>
     </style>
+
     <style name="like" parent="com_facebook_button">
         <item name="android:drawableLeft">@drawable/like2</item>
         <item name="android:text">@string/com_facebook_share_button_text</item>

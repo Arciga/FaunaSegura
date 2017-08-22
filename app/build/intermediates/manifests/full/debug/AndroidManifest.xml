@@ -89,6 +89,22 @@
         <activity android:name="com.example.nachox.faunasegura.Main2Activity" />
         <activity android:name="com.example.nachox.faunasegura.SubirFoto" />
         <activity
+            android:name="com.example.nachox.faunasegura.GraficasEstados"
+            android:label="@string/title_activity_graficas_estados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.GraficasMunicipios"
+            android:label="@string/title_activity_graficas_municipios"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.GraficasAnimales"
+            android:label="@string/title_activity_graficas_animales"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.nachox.faunasegura.Graficas"
+            android:label="@string/title_activity_graficas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name="com.facebook.FacebookActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@style/com_facebook_activity_theme" />

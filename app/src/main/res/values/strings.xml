@@ -35,5 +35,9 @@
     <string name="etiqueta_info_usuario">Información del usuario</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_guardianes_dela_fauna">Guardianes De la Fauna</string>
+    <string name="title_activity_graficas_estados">GraficasEstados</string>
+    <string name="title_activity_graficas_municipios">GraficasMunicipios</string>
+    <string name="title_activity_graficas_animales">GraficasAnimales</string>
+    <string name="title_activity_graficas">Graficas</string>
 
 </resources>
