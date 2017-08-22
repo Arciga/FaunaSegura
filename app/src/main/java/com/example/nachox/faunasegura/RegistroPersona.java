@@ -156,7 +156,7 @@ public class RegistroPersona extends ActionBarActivity {
 
                 HttpResponse response = httpClient.execute(httpPost);
                 jsonResult = inputStreamToString(response.getEntity().getContent()).toString();
-                System.out.println("Returned Json object " + jsonResult.toString());
+                System.out.println("Json: " + jsonResult.toString());
 
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
@@ -172,7 +172,7 @@ public class RegistroPersona extends ActionBarActivity {
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
-            System.out.println("Resulted Value: " + result);
+            System.out.println("Respuesta del servidor : " + result);
             if(result.equals("") || result == null){
                 Toast.makeText(RegistroPersona.this, "Server connection failed", Toast.LENGTH_LONG).show();
 
@@ -288,7 +288,7 @@ public class RegistroPersona extends ActionBarActivity {
          boolean f =escontrarectificada(enteredPassword,vPass);
         if (a && b && c  && e && f) {
 String sexo=spinner.getSelectedItem().toString();
-            System.out.println(enteredUsername+"," +enteredPassword+","+enteredEmail+","+nombreS+","+edadd+","+sexo+","+direc);
+            System.out.println(enteredUsername+"," +enteredPassword+","+enteredEmail+","+nombreS+","+edadd+","+sexo+","+direc+"1");
 
             AsyncDataClass asyncRequestObject = new AsyncDataClass();
             asyncRequestObject.execute(serverUrl, enteredUsername, enteredPassword, enteredEmail,nombreS,edadd,sexo,direc,"1");

@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
     private SmallBang mSmallBang;
 
     public static int MILISEGUNDOS_ESPERA = 5000;
-    private final String serverUrl = "http://35.193.54.105/FaunaSeguraProyect/RegistrarUsuarios/indio.php";
+    private final String serverUrl = "http://35.193.54.105/FaunaSeguraProyect/RegistrarUsuarios/Registra.php";
 
 
 
