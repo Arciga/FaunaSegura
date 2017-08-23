@@ -72,7 +72,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 import java.util.regex.Pattern;
 
@@ -112,7 +114,7 @@ public class RegistraMascota extends AppCompatActivity implements AdapterView.On
 String nombres;
     String razaa;
     String edadd;
-    String url="http://104.198.61.117/FaunaSeguraProyect/Uploads/Mascotas/uploads/6.jpg";
+    String url="http://35.193.54.105/FaunaSeguraProyect/Uploads/Mascotas/uploads/6.jpg";
     String usuaio="nacho";
     String fecha="12/12/12";
 TextView u;
@@ -121,8 +123,9 @@ TextView u;
     private ArrayList<Categories> categoriesList;
     ProgressDialog pDialog;
     private String URL_CATEGORIES = "http://35.193.54.105/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
-    private final String serverUrl = "http://35.193.54.105//FaunaSeguraProyect/RegistrarMascotas/index.php";
-String a;
+    private final String REGMAS_URL = "http://35.193.54.105/FaunaSeguraProyect/RegistrarMascotas/Regmascota2.php";
+
+    String a;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -172,12 +175,12 @@ String a;
                 razaa = raza.getText().toString();
                 nombres= nombre.getText().toString();
                 usuaio=db.obtener(1);
-                AsyncDataClass asyncRequestObject = new AsyncDataClass();
-                asyncRequestObject.execute(serverUrl,url,nombres, especiespiner.getSelectedItem().toString(),edadd,razaa,fecha,spinnergenero.getSelectedItem().toString(),usuaio);
+              //  AsyncDataClass asyncRequestObject = new AsyncDataClass();
+                //asyncRequestObject.execute(serverUrl,url,nombres, especiespiner.getSelectedItem().toString(),edadd,razaa,fecha,spinnergenero.getSelectedItem().toString(),usuaio);
+
+                uploadMultipart();
+             // registratMascota();
                 finish();
-               // uploadMultipart();
-
-
 
             }
         });
@@ -236,7 +239,9 @@ String a;
                 HttpResponse response = httpClient.execute(httpPost);
 
                 jsonResult = inputStreamToString(response.getEntity().getContent()).toString();
-                System.out.println("Returned Json object " + jsonResult.toString());
+                System.out.println("Insercion : "+nombres+","+edadd+","+razaa+","+usuaio);
+
+                System.out.println("Respuesta del server : " + jsonResult.toString());
 
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
@@ -263,8 +268,9 @@ String a;
                 return;
             }
             if(jsonResult == 1){
+                Toast.makeText(RegistraMascota.this, "exelente", Toast.LENGTH_LONG).show();
 
-                finish();
+
             }
         }
         private StringBuilder inputStreamToString(InputStream is) {
@@ -281,6 +287,45 @@ String a;
             }
             return answer;
         }
+    }
+    private void registerMascota(){
+
+
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, REGMAS_URL,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(RegistraMascota.this,response,Toast.LENGTH_LONG).show();
+                    }
+                },
+                new Response.ErrorListener() {
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(RegistraMascota.this,error.toString(),Toast.LENGTH_LONG).show();
+                    }
+                }){
+            @Override
+            protected Map<String,String> getParams(){
+                Map<String,String> params = new HashMap<String, String>();
+                Dbase db = new Dbase( getApplicationContext() );
+                        params.put( "nombre",nombres);
+                        params.put("especie", especiespiner.getSelectedItem().toString());
+                        params.put("edad", edadd);
+                        params.put("raza", razaa);
+                         params.put("url", url);
+
+                        params.put("fechanacimiento", fecha);
+
+                        params.put("genero", spinnergenero.getSelectedItem().toString());
+
+                        params.put("usuario", db.obtener(1));
+                return params;
+            }
+
+        };
+
+        RequestQueue requestQueue = Volley.newRequestQueue(this);
+        requestQueue.add(stringRequest);
     }
     private int returnParsedJsonObject(String result){
 
@@ -518,7 +563,7 @@ String a;
 
                 finish();
             }else{
-
+                registerMascota();
             }
 
         } catch (Exception exc) {
