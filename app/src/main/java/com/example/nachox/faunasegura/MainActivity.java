@@ -1,12 +1,15 @@
 package com.example.nachox.faunasegura;
 
+import android.annotation.TargetApi;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.transition.Explode;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -63,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         mSmallBang = SmallBang.attach2Window(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        setupWindowAnimations();
         username = (EditText)findViewById(R.id.editTextusuario);
         password = (TextInputLayout)findViewById(R.id.paord);
         Button loginButton = (Button)findViewById(R.id.boton_inicio);
@@ -210,6 +214,11 @@ public class MainActivity extends AppCompatActivity {
             }
             return answer;
         }
+    }
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+    private void setupWindowAnimations() {
+        getWindow().setReenterTransition(new Explode());
+        getWindow().setExitTransition(new Explode().setDuration(500));
     }
     private int returnParsedJsonObject(String result){
 

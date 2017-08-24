@@ -123,7 +123,7 @@ TextView u;
     private ArrayList<Categories> categoriesList;
     ProgressDialog pDialog;
     private String URL_CATEGORIES = "http://35.193.54.105/FaunaSeguraProyect/Especies/Domesticas/consultaespecies.php";
-    private final String REGMAS_URL = "http://35.193.54.105/FaunaSeguraProyect/RegistrarMascotas/Regmascota2.php";
+    private final String REGMAS_URL = "http://35.193.54.105/FaunaSeguraProyect/RegistrarMascotas/Regmascota.php";
 
     String a;
     @Override

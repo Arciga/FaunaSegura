@@ -4,13 +4,14 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+
         <item name="colorAccent">@color/colorAccent</item>
 
     </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
-
+        <item name="android:windowContentTransitions">true</item>
         <item name="windowNoTitle">true</item>
     </style>
 
@@ -99,6 +100,9 @@
 
     <style name="cambio">
         <item name="android:drawableRight">@drawable/indicador_derecho</item>
+    </style>
+    <style name="vacuna">
+        <item name="android:drawableRight">@drawable/vacuna</item>
     </style>
 
     <style name="like" parent="com_facebook_button">

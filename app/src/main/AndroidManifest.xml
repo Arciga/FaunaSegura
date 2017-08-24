@@ -48,6 +48,9 @@
             android:name=".ActividadDetallePeligro"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".ActividadDetalleMisMascotas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".ActividadDetalleTips"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
