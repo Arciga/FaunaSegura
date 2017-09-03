@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
     <android.support.design.widget.AppBarLayout
-        android:id="@+id/appbarpersona"
+        android:id="@+id/appbarmascota"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar2"
+
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark"
-            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary" />
 
     </android.support.design.widget.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@+id/appbarpersona"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="29dp">
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appbarmascota"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
 
         <android.support.v7.widget.CardView
             android:id="@+id/card_view"
@@ -177,46 +176,118 @@
                     android:id="@+id/imagenmascota"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1.04"
-                    android:src="@drawable/noticia2" />
+                    android:layout_weight="1.04" />
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
 
-        <RelativeLayout
+        <AbsoluteLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button9"
+            <LinearLayout
+                android:id="@+id/linearLayout4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginStart="45dp"
-                android:text="Actualizar" />
+                android:layout_marginEnd="53dp"
+                android:layout_toStartOf="@+id/linearLayout3"
+                android:layout_x="44dp"
+                android:layout_y="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
 
-            <Button
-                android:id="@+id/button8"
-                style="@style/vacuna"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/button9"
-                android:layout_below="@+id/button9"
-                android:layout_marginTop="47dp"
-                android:text="Agregar Vacuna" />
+                <Button
+                    android:id="@+id/button8"
+                    style="@style/vacuna"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/button9"
+                    android:layout_toEndOf="@+id/button9"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/actualizarmascota"
+                    android:scaleType="fitCenter" />
 
-            <Button
-                android:id="@+id/eliminarmascota"
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Actualizar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginEnd="75dp"
-                android:text="Eliminar" />
+                android:layout_marginEnd="63dp"
+                android:layout_x="219dp"
+                android:layout_y="21dp"
+                android:gravity="center"
+                android:orientation="vertical">
 
-        </RelativeLayout>
+                <Button
+                    android:id="@+id/eliminarmascota"
+                    style="@style/vacuna"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/button9"
+                    android:layout_toEndOf="@+id/button9"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/eliminarmascota"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Eliminar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/linearLayout3"
+                android:layout_below="@+id/linearLayout3"
+                android:layout_marginEnd="67dp"
+                android:layout_marginTop="14dp"
+                android:layout_x="138dp"
+                android:layout_y="157dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button8"
+                    style="@style/vacuna"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_below="@+id/button9"
+                    android:layout_toEndOf="@+id/button9"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/avacuna"
+                    android:scaleType="fitCenter" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="registrat Vacuna" />
+
+            </LinearLayout>
+
+        </AbsoluteLayout>
 
     </LinearLayout>
 

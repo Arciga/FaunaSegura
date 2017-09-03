@@ -8,20 +8,61 @@
 
 
     <LinearLayout
-        android:id="@+id/pantalla"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="0.34"
-        android:orientation="horizontal"
-        android:padding="10dp">
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="     Grafica por Estados" />
+
+            <Button
+                android:id="@+id/butPastel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Grafica por Municipios" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="    Grafica por Animales" />
+
+            <Button
+                android:id="@+id/butPastel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Grafica por Animales Populares" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pantalla"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.34"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+        </LinearLayout>
 
     </LinearLayout>
-
-    <Button
-        android:id="@+id/butPastel"
-        android:layout_width="match_parent"
-        android:layout_height="33dp"
-        android:text="grafica de Pastelito" />
 
 </RelativeLayout>
 

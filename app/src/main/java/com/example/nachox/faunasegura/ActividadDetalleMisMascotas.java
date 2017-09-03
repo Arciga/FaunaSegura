@@ -23,7 +23,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.bumptech.glide.Glide;
+import com.squareup.picasso.Picasso;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,16 +37,18 @@ public class ActividadDetalleMisMascotas extends AppCompatActivity {
     String datoGenero;
     String datoRaza;
     String DatoEdad;
+
+    private ActividadPrincipal cx= new ActividadPrincipal();
+
+
     private final String REGMAS_URL = "http://35.193.54.105/FaunaSeguraProyect/RegistrarMascotas/Dardebaja.php";
     String datourl;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actividad_detallemismascotas);
-        getWindow().getDecorView().setSystemUiVisibility(
-                View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
 
-
+        cx.fa.finish();
         Intent intent=getIntent();
         Bundle extras =intent.getExtras();
 
@@ -70,6 +72,11 @@ public class ActividadDetalleMisMascotas extends AppCompatActivity {
         edadtext.setText(DatoEdad);
         generotext.setText(datoGenero);
         razaterzt.setText(datoRaza);
+
+        Picasso
+                .with(getApplicationContext())
+                .load(datourl)
+                .into(imagen);
         //imagen.setImageURI();
 setupWindowAnimations();
         final AlertDialog.Builder dialogo1 = new AlertDialog.Builder(this);
@@ -101,12 +108,14 @@ setupWindowAnimations();
 
     public void aceptar() {
        dardebaja();
+        startActivity(new Intent(getBaseContext(), ActividadPrincipal.class)
+                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
 
         super.finish();
     }
 
     public void cancelar() {
-        finish();
+
     }
 
 

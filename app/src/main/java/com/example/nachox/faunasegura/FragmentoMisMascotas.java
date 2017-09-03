@@ -3,6 +3,7 @@ package com.example.nachox.faunasegura;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.GridLayoutManager;
@@ -11,7 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-;import com.android.volley.Request;
+import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -20,9 +21,10 @@ import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.ArrayList;
+
+;
 
 public class FragmentoMisMascotas extends Fragment implements AdaptadorMisMascotas.EscuchaEventosClick,SwipeRefreshLayout.OnRefreshListener {
     public static final String EXTRA_POSICION = "com.herprogramacion.galerajaponesa.extra.POSICION";
@@ -36,6 +38,7 @@ SwipeRefreshLayout swipeContainer;
     String[] ed={"4","5"} ;
     String[] gen={"H","M"} ;
     String value1="";
+    NavigationView navigationView;
     String[] stringnombre = new String[0];
     String[] stringurl = new String[0];
     String[] stringsedad = new String[0];
@@ -47,6 +50,7 @@ SwipeRefreshLayout swipeContainer;
     public FragmentoMisMascotas() {
         // Required empty public constructor
     }
+
     ArrayList<String> lista = new ArrayList<>();
     public static FragmentoMisMascotas nuevaInstancia(int indiceSeccion) {
         FragmentoMisMascotas fragment = new FragmentoMisMascotas();
@@ -64,6 +68,7 @@ SwipeRefreshLayout swipeContainer;
         View view = inflater.inflate(R.layout.fragmento_grupo_items, container, false);
         Dbase db = new Dbase( getActivity() );
         db.eliminartablamascotas();
+         navigationView = (NavigationView) view.findViewById(R.id.nav_view);
         reciclador = (RecyclerView) view.findViewById(R.id.reciclador);
         layoutManager = new GridLayoutManager(getActivity(), 1);
         // final LinearLayoutManager mLayoutManager= new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, true);
@@ -100,15 +105,9 @@ SwipeRefreshLayout swipeContainer;
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Update data in ListView
 
-adaptador.notifyDataSetChanged();
+                View headerView = navigationView.getHeaderView(0);
 
-                EnviarRecibirDatos(consulta);
-              //  adaptador = new AdaptadorMisMascotas(stringnombre,stringsedad,stringraza,stringenro, stringurl,stringid,getContext());
-                //reciclador.setAdapter(adaptador);
-                // Remove widget from screen.
-                swipeContainer.setRefreshing(false);
             }
         }, 3000);
     }
@@ -170,12 +169,8 @@ adaptador.notifyDataSetChanged();
     @Override
     public void onItemClick(RecyclerView.ViewHolder holder, int posicion) {
 
-            Intent intent = new Intent(getActivity(), ActividadDetalleMisMascotas.class);
-            intent.putExtra(EXTRA_POSICION, posicion);
-        //reciclador.invalidate();
-
-            startActivity(intent);
-
+        startActivity(new Intent(getContext(), ActividadDetalleMisMascotas.class)
+                .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
     }
 }
 

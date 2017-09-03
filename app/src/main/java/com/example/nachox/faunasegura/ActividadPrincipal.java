@@ -1,5 +1,6 @@
 package com.example.nachox.faunasegura;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -11,7 +12,6 @@ import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -22,6 +22,7 @@ public class ActividadPrincipal extends AppCompatActivity {
 
     private DrawerLayout drawerLayout;
     TextView textouser;
+    public static Activity fa;
    // String datoNombre;
     public static final String EXTRA_POSICION = "com.herprogramacion.galerajaponesa.extra.POSICION";
     private SwipeRefreshLayout refreshLayout;
@@ -33,6 +34,7 @@ public class ActividadPrincipal extends AppCompatActivity {
        Bundle extras =intent.getExtras();
          //datoNombre=(String)extras.get("nombre");
         agregarToolbar();
+        fa=this;
          // textouser= (TextView) findViewById(R.id.usertex);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 

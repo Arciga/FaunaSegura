@@ -2,7 +2,6 @@ package com.example.nachox.faunasegura;
 
 import android.Manifest;
 import android.annotation.TargetApi;
-import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -22,10 +21,8 @@ import android.provider.MediaStore;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -105,6 +102,7 @@ public class RegistraMascota extends AppCompatActivity implements AdapterView.On
     private Button buttonUpload;
     private String mPath;
     protected EditText nombre;
+    private ActividadPrincipal cx= new ActividadPrincipal();
     protected EditText edad;
     protected EditText especie;
     protected EditText raza;
@@ -132,6 +130,8 @@ TextView u;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registra_mascota);
        agregarToolbar();
+
+        cx.fa.finish();
         mSetImage = (ImageView) findViewById(R.id.imagen);
         mOptionButton = (Button) findViewById(R.id.foto);
         mRlView = (RelativeLayout) findViewById(R.id.rl_view);
@@ -177,8 +177,17 @@ TextView u;
                 usuaio=db.obtener(1);
               //  AsyncDataClass asyncRequestObject = new AsyncDataClass();
                 //asyncRequestObject.execute(serverUrl,url,nombres, especiespiner.getSelectedItem().toString(),edadd,razaa,fecha,spinnergenero.getSelectedItem().toString(),usuaio);
+try {
+    uploadMultipart();
 
-                uploadMultipart();
+    startActivity(new Intent(getBaseContext(), ActividadPrincipal.class)
+            .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
+
+}catch(Exception s){
+
+
+
+}
              // registratMascota();
                 finish();
 
@@ -480,6 +489,8 @@ TextView u;
             @Override
             public void onClick(View v) {
                 //regresar...
+                startActivity(new Intent(getBaseContext(), ActividadPrincipal.class)
+                        .addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_SINGLE_TOP));
                 finish();
             }
         });
@@ -561,7 +572,6 @@ TextView u;
                         .setMaxRetries(2)
                         .startUpload(); //Starting the upload
 
-                finish();
             }else{
                 registerMascota();
             }

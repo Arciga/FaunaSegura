@@ -102,7 +102,8 @@
         <item name="android:drawableRight">@drawable/indicador_derecho</item>
     </style>
     <style name="vacuna">
-        <item name="android:drawableRight">@drawable/vacuna</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:adjustViewBounds">true</item>
     </style>
 
     <style name="like" parent="com_facebook_button">
